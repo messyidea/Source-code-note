@@ -1,0 +1,1559 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCEPT_ENCODING	.\packages\urllib3\util\request.py	/^ACCEPT_ENCODING = 'gzip,deflate'$/;"	v
+ACO	.\packages\chardet\latin1prober.py	/^ACO = 5  # accent capital other$/;"	v
+ACV	.\packages\chardet\latin1prober.py	/^ACV = 4  # accent capital vowel$/;"	v
+ASC	.\packages\chardet\latin1prober.py	/^ASC = 2  # ascii capital letter$/;"	v
+ASO	.\packages\chardet\latin1prober.py	/^ASO = 7  # accent small other$/;"	v
+ASS	.\packages\chardet\latin1prober.py	/^ASS = 3  # ascii small letter$/;"	v
+ASV	.\packages\chardet\latin1prober.py	/^ASV = 6  # accent small vowel$/;"	v
+AppEngineManager	.\packages\urllib3\contrib\appengine.py	/^class AppEngineManager(RequestMethods):$/;"	c
+AppEnginePlatformError	.\packages\urllib3\contrib\appengine.py	/^class AppEnginePlatformError(HTTPError):$/;"	c
+AppEnginePlatformWarning	.\packages\urllib3\contrib\appengine.py	/^class AppEnginePlatformWarning(HTTPWarning):$/;"	c
+AuthBase	.\auth.py	/^class AuthBase(object):$/;"	c
+BACKOFF_MAX	.\packages\urllib3\util\retry.py	/^    BACKOFF_MAX = 120$/;"	v	class:Retry
+BIG5_TABLE_SIZE	.\packages\chardet\big5freq.py	/^BIG5_TABLE_SIZE = 5376$/;"	v
+BIG5_TABLE_SIZE	.\packages\chardet\chardistribution.py	/^from .big5freq import (Big5CharToFreqOrder, BIG5_TABLE_SIZE,$/;"	i
+BIG5_TYPICAL_DISTRIBUTION_RATIO	.\packages\chardet\big5freq.py	/^BIG5_TYPICAL_DISTRIBUTION_RATIO = 0.75$/;"	v
+BIG5_cls	.\packages\chardet\mbcssm.py	/^BIG5_cls = ($/;"	v
+BIG5_st	.\packages\chardet\mbcssm.py	/^BIG5_st = ($/;"	v
+BaseAdapter	.\adapters.py	/^class BaseAdapter(object):$/;"	c
+BaseHTTPError	.\exceptions.py	/^from .packages.urllib3.exceptions import HTTPError as BaseHTTPError$/;"	i
+BaseSSLError	.\packages\urllib3\connection.py	/^    BaseSSLError = ssl.SSLError$/;"	v	class:DummyConnection
+BaseSSLError	.\packages\urllib3\connection.py	/^    class BaseSSLError(BaseException):$/;"	c
+BaseSSLError	.\packages\urllib3\response.py	/^from .connection import HTTPException, BaseSSLError$/;"	i
+BaseSubjectAltName	.\packages\urllib3\contrib\pyopenssl.py	/^    from ndg.httpsclient.subj_alt_name import SubjectAltName as BaseSubjectAltName$/;"	i
+Big5CharLenTable	.\packages\chardet\mbcssm.py	/^Big5CharLenTable = (0, 1, 1, 2, 0)$/;"	v
+Big5CharToFreqOrder	.\packages\chardet\big5freq.py	/^Big5CharToFreqOrder = ($/;"	v
+Big5CharToFreqOrder	.\packages\chardet\chardistribution.py	/^from .big5freq import (Big5CharToFreqOrder, BIG5_TABLE_SIZE,$/;"	i
+Big5DistributionAnalysis	.\packages\chardet\big5prober.py	/^from .chardistribution import Big5DistributionAnalysis$/;"	i
+Big5DistributionAnalysis	.\packages\chardet\chardistribution.py	/^class Big5DistributionAnalysis(CharDistributionAnalysis):$/;"	c
+Big5Prober	.\packages\chardet\big5prober.py	/^class Big5Prober(MultiByteCharSetProber):$/;"	c
+Big5Prober	.\packages\chardet\mbcsgroupprober.py	/^from .big5prober import Big5Prober$/;"	i
+Big5SMModel	.\packages\chardet\big5prober.py	/^from .mbcssm import Big5SMModel$/;"	i
+Big5SMModel	.\packages\chardet\mbcssm.py	/^Big5SMModel = {'classTable': BIG5_cls,$/;"	v
+BulgarianLangModel	.\packages\chardet\langbulgarianmodel.py	/^BulgarianLangModel = ($/;"	v
+BytesIO	.\models.py	/^from io import BytesIO, UnsupportedOperation$/;"	i
+BytesIO	.\packages\urllib3\contrib\appengine.py	/^from ..packages.six import BytesIO$/;"	i
+BytesIO	.\packages\urllib3\filepost.py	/^from io import BytesIO$/;"	i
+CERT_NONE	.\packages\urllib3\util\ssl_.py	/^    from ssl import wrap_socket, CERT_NONE, PROTOCOL_SSLv23$/;"	i
+CLASS_NUM	.\packages\chardet\latin1prober.py	/^CLASS_NUM = 8  # total classes$/;"	v
+CONTENT_CHUNK_SIZE	.\models.py	/^CONTENT_CHUNK_SIZE = 10 * 1024$/;"	v
+CONTENT_DECODERS	.\packages\urllib3\response.py	/^    CONTENT_DECODERS = ['gzip', 'deflate']$/;"	v	class:HTTPResponse
+CONTENT_TYPE_FORM_URLENCODED	.\auth.py	/^CONTENT_TYPE_FORM_URLENCODED = 'application\/x-www-form-urlencoded'$/;"	v
+CONTENT_TYPE_MULTI_PART	.\auth.py	/^CONTENT_TYPE_MULTI_PART = 'multipart\/form-data'$/;"	v
+CP949CharLenTable	.\packages\chardet\mbcssm.py	/^CP949CharLenTable = (0, 1, 2, 0, 1, 1, 2, 2, 0, 2)$/;"	v
+CP949Prober	.\packages\chardet\cp949prober.py	/^class CP949Prober(MultiByteCharSetProber):$/;"	c
+CP949Prober	.\packages\chardet\mbcsgroupprober.py	/^from .cp949prober import CP949Prober$/;"	i
+CP949SMModel	.\packages\chardet\cp949prober.py	/^from .mbcssm import CP949SMModel$/;"	i
+CP949SMModel	.\packages\chardet\mbcssm.py	/^CP949SMModel = {'classTable': CP949_cls,$/;"	v
+CP949_cls	.\packages\chardet\mbcssm.py	/^CP949_cls  = ($/;"	v
+CP949_st	.\packages\chardet\mbcssm.py	/^CP949_st = ($/;"	v
+CaseInsensitiveDict	.\adapters.py	/^from .structures import CaseInsensitiveDict$/;"	i
+CaseInsensitiveDict	.\models.py	/^from .structures import CaseInsensitiveDict$/;"	i
+CaseInsensitiveDict	.\sessions.py	/^from .structures import CaseInsensitiveDict$/;"	i
+CaseInsensitiveDict	.\structures.py	/^class CaseInsensitiveDict(collections.MutableMapping):$/;"	c
+CaseInsensitiveDict	.\utils.py	/^from .structures import CaseInsensitiveDict$/;"	i
+CertificateError	.\packages\urllib3\connectionpool.py	/^from .packages.ssl_match_hostname import CertificateError$/;"	i
+CertificateError	.\packages\urllib3\packages\ssl_match_hostname\__init__.py	/^        from ._implementation import CertificateError, match_hostname$/;"	i
+CertificateError	.\packages\urllib3\packages\ssl_match_hostname\__init__.py	/^        from backports.ssl_match_hostname import CertificateError, match_hostname$/;"	i
+CertificateError	.\packages\urllib3\packages\ssl_match_hostname\__init__.py	/^    from ssl import CertificateError, match_hostname$/;"	i
+CertificateError	.\packages\urllib3\packages\ssl_match_hostname\_implementation.py	/^class CertificateError(ValueError):$/;"	c
+CharDistributionAnalysis	.\packages\chardet\chardistribution.py	/^class CharDistributionAnalysis:$/;"	c
+CharSetGroupProber	.\packages\chardet\charsetgroupprober.py	/^class CharSetGroupProber(CharSetProber):$/;"	c
+CharSetGroupProber	.\packages\chardet\mbcsgroupprober.py	/^from .charsetgroupprober import CharSetGroupProber$/;"	i
+CharSetGroupProber	.\packages\chardet\sbcsgroupprober.py	/^from .charsetgroupprober import CharSetGroupProber$/;"	i
+CharSetProber	.\packages\chardet\charsetgroupprober.py	/^from .charsetprober import CharSetProber$/;"	i
+CharSetProber	.\packages\chardet\charsetprober.py	/^class CharSetProber:$/;"	c
+CharSetProber	.\packages\chardet\escprober.py	/^from .charsetprober import CharSetProber$/;"	i
+CharSetProber	.\packages\chardet\hebrewprober.py	/^from .charsetprober import CharSetProber$/;"	i
+CharSetProber	.\packages\chardet\latin1prober.py	/^from .charsetprober import CharSetProber$/;"	i
+CharSetProber	.\packages\chardet\mbcharsetprober.py	/^from .charsetprober import CharSetProber$/;"	i
+CharSetProber	.\packages\chardet\sbcharsetprober.py	/^from .charsetprober import CharSetProber$/;"	i
+CharSetProber	.\packages\chardet\utf8prober.py	/^from .charsetprober import CharSetProber$/;"	i
+ChunkedEncodingError	.\exceptions.py	/^class ChunkedEncodingError(RequestException):$/;"	c
+ClosedPoolError	.\adapters.py	/^from .packages.urllib3.exceptions import ClosedPoolError$/;"	i
+ClosedPoolError	.\packages\urllib3\exceptions.py	/^class ClosedPoolError(PoolError):$/;"	c
+CodingStateMachine	.\packages\chardet\big5prober.py	/^from .codingstatemachine import CodingStateMachine$/;"	i
+CodingStateMachine	.\packages\chardet\codingstatemachine.py	/^class CodingStateMachine:$/;"	c
+CodingStateMachine	.\packages\chardet\cp949prober.py	/^from .codingstatemachine import CodingStateMachine$/;"	i
+CodingStateMachine	.\packages\chardet\escprober.py	/^from .codingstatemachine import CodingStateMachine$/;"	i
+CodingStateMachine	.\packages\chardet\eucjpprober.py	/^from .codingstatemachine import CodingStateMachine$/;"	i
+CodingStateMachine	.\packages\chardet\euckrprober.py	/^from .codingstatemachine import CodingStateMachine$/;"	i
+CodingStateMachine	.\packages\chardet\euctwprober.py	/^from .codingstatemachine import CodingStateMachine$/;"	i
+CodingStateMachine	.\packages\chardet\gb2312prober.py	/^from .codingstatemachine import CodingStateMachine$/;"	i
+CodingStateMachine	.\packages\chardet\sjisprober.py	/^from .codingstatemachine import CodingStateMachine$/;"	i
+CodingStateMachine	.\packages\chardet\utf8prober.py	/^from .codingstatemachine import CodingStateMachine$/;"	i
+ConnectTimeout	.\adapters.py	/^from .exceptions import (ConnectionError, ConnectTimeout, ReadTimeout, SSLError,$/;"	i
+ConnectTimeout	.\exceptions.py	/^class ConnectTimeout(ConnectionError, Timeout):$/;"	c
+ConnectTimeoutError	.\adapters.py	/^from .packages.urllib3.exceptions import ConnectTimeoutError$/;"	i
+ConnectTimeoutError	.\packages\urllib3\exceptions.py	/^class ConnectTimeoutError(TimeoutError):$/;"	c
+ConnectionCls	.\packages\urllib3\connectionpool.py	/^    ConnectionCls = HTTPConnection$/;"	v	class:HTTPConnectionPool
+ConnectionCls	.\packages\urllib3\connectionpool.py	/^    ConnectionCls = HTTPSConnection$/;"	v	class:HTTPSConnectionPool
+ConnectionError	.\adapters.py	/^from .exceptions import (ConnectionError, ConnectTimeout, ReadTimeout, SSLError,$/;"	i
+ConnectionError	.\exceptions.py	/^class ConnectionError(RequestException):$/;"	c
+ConnectionError	.\packages\urllib3\connection.py	/^    ConnectionError = ConnectionError$/;"	v
+ConnectionError	.\packages\urllib3\connection.py	/^    class ConnectionError(Exception):$/;"	c
+ConnectionError	.\packages\urllib3\exceptions.py	/^ConnectionError = ProtocolError$/;"	v
+ConnectionPool	.\packages\urllib3\connectionpool.py	/^class ConnectionPool(object):$/;"	c
+ContainerCls	.\packages\urllib3\_collections.py	/^    ContainerCls = OrderedDict$/;"	v	class:RecentlyUsedContainer
+ContentDecodingError	.\exceptions.py	/^class ContentDecodingError(RequestException, BaseHTTPError):$/;"	c
+CookieConflictError	.\cookies.py	/^class CookieConflictError(RuntimeError):$/;"	c
+DEFAULT_CA_BUNDLE_PATH	.\adapters.py	/^from .utils import (DEFAULT_CA_BUNDLE_PATH, get_encoding_from_headers,$/;"	i
+DEFAULT_CA_BUNDLE_PATH	.\utils.py	/^DEFAULT_CA_BUNDLE_PATH = certs.where()$/;"	v
+DEFAULT_CIPHERS	.\packages\urllib3\util\ssl_.py	/^DEFAULT_CIPHERS = ($/;"	v
+DEFAULT_METHOD_WHITELIST	.\packages\urllib3\util\retry.py	/^    DEFAULT_METHOD_WHITELIST = frozenset([$/;"	v	class:Retry
+DEFAULT_POOLBLOCK	.\adapters.py	/^DEFAULT_POOLBLOCK = False$/;"	v
+DEFAULT_POOLSIZE	.\adapters.py	/^DEFAULT_POOLSIZE = 10$/;"	v
+DEFAULT_POOL_TIMEOUT	.\adapters.py	/^DEFAULT_POOL_TIMEOUT = None$/;"	v
+DEFAULT_REDIRECT_LIMIT	.\models.py	/^DEFAULT_REDIRECT_LIMIT = 30$/;"	v
+DEFAULT_REDIRECT_LIMIT	.\sessions.py	/^from .models import Request, PreparedRequest, DEFAULT_REDIRECT_LIMIT$/;"	i
+DEFAULT_RETRIES	.\adapters.py	/^DEFAULT_RETRIES = 0$/;"	v
+DEFAULT_SSL_CIPHER_LIST	.\packages\urllib3\contrib\pyopenssl.py	/^DEFAULT_SSL_CIPHER_LIST = util.ssl_.DEFAULT_CIPHERS$/;"	v
+DEFAULT_TIMEOUT	.\packages\urllib3\util\timeout.py	/^    DEFAULT_TIMEOUT = _GLOBAL_DEFAULT_TIMEOUT$/;"	v	class:Timeout
+DONT_KNOW	.\packages\chardet\jpcntx.py	/^DONT_KNOW = -1$/;"	v
+DecodeError	.\packages\urllib3\exceptions.py	/^class DecodeError(HTTPError):$/;"	c
+DeflateDecoder	.\packages\urllib3\response.py	/^class DeflateDecoder(object):$/;"	c
+DummyConnection	.\packages\urllib3\connection.py	/^class DummyConnection(object):$/;"	c
+ENOUGH_DATA_THRESHOLD	.\packages\chardet\chardistribution.py	/^ENOUGH_DATA_THRESHOLD = 1024$/;"	v
+ENOUGH_REL_THRESHOLD	.\packages\chardet\jpcntx.py	/^ENOUGH_REL_THRESHOLD = 100$/;"	v
+EUCJPCharLenTable	.\packages\chardet\mbcssm.py	/^EUCJPCharLenTable = (2, 2, 2, 3, 1, 0)$/;"	v
+EUCJPContextAnalysis	.\packages\chardet\eucjpprober.py	/^from .jpcntx import EUCJPContextAnalysis$/;"	i
+EUCJPContextAnalysis	.\packages\chardet\jpcntx.py	/^class EUCJPContextAnalysis(JapaneseContextAnalysis):$/;"	c
+EUCJPDistributionAnalysis	.\packages\chardet\chardistribution.py	/^class EUCJPDistributionAnalysis(CharDistributionAnalysis):$/;"	c
+EUCJPDistributionAnalysis	.\packages\chardet\eucjpprober.py	/^from .chardistribution import EUCJPDistributionAnalysis$/;"	i
+EUCJPProber	.\packages\chardet\eucjpprober.py	/^class EUCJPProber(MultiByteCharSetProber):$/;"	c
+EUCJPProber	.\packages\chardet\mbcsgroupprober.py	/^from .eucjpprober import EUCJPProber$/;"	i
+EUCJPSMModel	.\packages\chardet\eucjpprober.py	/^from .mbcssm import EUCJPSMModel$/;"	i
+EUCJPSMModel	.\packages\chardet\mbcssm.py	/^EUCJPSMModel = {'classTable': EUCJP_cls,$/;"	v
+EUCJP_cls	.\packages\chardet\mbcssm.py	/^EUCJP_cls = ($/;"	v
+EUCJP_st	.\packages\chardet\mbcssm.py	/^EUCJP_st = ($/;"	v
+EUCKRCharLenTable	.\packages\chardet\mbcssm.py	/^EUCKRCharLenTable = (0, 1, 2, 0)$/;"	v
+EUCKRCharToFreqOrder	.\packages\chardet\chardistribution.py	/^from .euckrfreq import (EUCKRCharToFreqOrder, EUCKR_TABLE_SIZE,$/;"	i
+EUCKRCharToFreqOrder	.\packages\chardet\euckrfreq.py	/^  13, 130, 120,1396, 481,1719,1720, 328, 609, 212,1721, 707, 400, 299,1722,  87,$/;"	v
+EUCKRDistributionAnalysis	.\packages\chardet\chardistribution.py	/^class EUCKRDistributionAnalysis(CharDistributionAnalysis):$/;"	c
+EUCKRDistributionAnalysis	.\packages\chardet\cp949prober.py	/^from .chardistribution import EUCKRDistributionAnalysis$/;"	i
+EUCKRDistributionAnalysis	.\packages\chardet\euckrprober.py	/^from .chardistribution import EUCKRDistributionAnalysis$/;"	i
+EUCKRProber	.\packages\chardet\euckrprober.py	/^class EUCKRProber(MultiByteCharSetProber):$/;"	c
+EUCKRProber	.\packages\chardet\mbcsgroupprober.py	/^from .euckrprober import EUCKRProber$/;"	i
+EUCKRSMModel	.\packages\chardet\euckrprober.py	/^from .mbcssm import EUCKRSMModel$/;"	i
+EUCKRSMModel	.\packages\chardet\mbcssm.py	/^EUCKRSMModel = {'classTable': EUCKR_cls,$/;"	v
+EUCKR_TABLE_SIZE	.\packages\chardet\chardistribution.py	/^from .euckrfreq import (EUCKRCharToFreqOrder, EUCKR_TABLE_SIZE,$/;"	i
+EUCKR_TABLE_SIZE	.\packages\chardet\euckrfreq.py	/^EUCKR_TABLE_SIZE = 2352$/;"	v
+EUCKR_TYPICAL_DISTRIBUTION_RATIO	.\packages\chardet\euckrfreq.py	/^EUCKR_TYPICAL_DISTRIBUTION_RATIO = 6.0$/;"	v
+EUCKR_cls	.\packages\chardet\mbcssm.py	/^EUCKR_cls  = ($/;"	v
+EUCKR_st	.\packages\chardet\mbcssm.py	/^EUCKR_st = ($/;"	v
+EUCTWCharLenTable	.\packages\chardet\mbcssm.py	/^EUCTWCharLenTable = (0, 0, 1, 2, 2, 2, 3)$/;"	v
+EUCTWCharToFreqOrder	.\packages\chardet\chardistribution.py	/^from .euctwfreq import (EUCTWCharToFreqOrder, EUCTW_TABLE_SIZE,$/;"	i
+EUCTWCharToFreqOrder	.\packages\chardet\euctwfreq.py	/^EUCTWCharToFreqOrder = ($/;"	v
+EUCTWDistributionAnalysis	.\packages\chardet\chardistribution.py	/^class EUCTWDistributionAnalysis(CharDistributionAnalysis):$/;"	c
+EUCTWDistributionAnalysis	.\packages\chardet\euctwprober.py	/^from .chardistribution import EUCTWDistributionAnalysis$/;"	i
+EUCTWProber	.\packages\chardet\euctwprober.py	/^class EUCTWProber(MultiByteCharSetProber):$/;"	c
+EUCTWProber	.\packages\chardet\mbcsgroupprober.py	/^from .euctwprober import EUCTWProber$/;"	i
+EUCTWSMModel	.\packages\chardet\euctwprober.py	/^from .mbcssm import EUCTWSMModel$/;"	i
+EUCTWSMModel	.\packages\chardet\mbcssm.py	/^EUCTWSMModel = {'classTable': EUCTW_cls,$/;"	v
+EUCTW_TABLE_SIZE	.\packages\chardet\chardistribution.py	/^from .euctwfreq import (EUCTWCharToFreqOrder, EUCTW_TABLE_SIZE,$/;"	i
+EUCTW_TABLE_SIZE	.\packages\chardet\euctwfreq.py	/^EUCTW_TABLE_SIZE = 8102$/;"	v
+EUCTW_TYPICAL_DISTRIBUTION_RATIO	.\packages\chardet\euctwfreq.py	/^EUCTW_TYPICAL_DISTRIBUTION_RATIO = 0.75$/;"	v
+EUCTW_cls	.\packages\chardet\mbcssm.py	/^EUCTW_cls = ($/;"	v
+EUCTW_st	.\packages\chardet\mbcssm.py	/^EUCTW_st = ($/;"	v
+Empty	.\packages\urllib3\connectionpool.py	/^    from Queue import LifoQueue, Empty, Full$/;"	i
+Empty	.\packages\urllib3\connectionpool.py	/^    from queue import LifoQueue, Empty, Full$/;"	i
+EmptyPoolError	.\packages\urllib3\exceptions.py	/^class EmptyPoolError(PoolError):$/;"	c
+EscCharSetProber	.\packages\chardet\escprober.py	/^class EscCharSetProber(CharSetProber):$/;"	c
+EscCharSetProber	.\packages\chardet\universaldetector.py	/^from .escprober import EscCharSetProber  # ISO-2122, etc.$/;"	i
+FINAL_KAF	.\packages\chardet\hebrewprober.py	/^FINAL_KAF = 0xea$/;"	v
+FINAL_MEM	.\packages\chardet\hebrewprober.py	/^FINAL_MEM = 0xed$/;"	v
+FINAL_NUN	.\packages\chardet\hebrewprober.py	/^FINAL_NUN = 0xef$/;"	v
+FINAL_PE	.\packages\chardet\hebrewprober.py	/^FINAL_PE = 0xf3$/;"	v
+FINAL_TSADI	.\packages\chardet\hebrewprober.py	/^FINAL_TSADI = 0xf5$/;"	v
+FREQ_CAT_NUM	.\packages\chardet\latin1prober.py	/^FREQ_CAT_NUM = 4$/;"	v
+FileModeWarning	.\exceptions.py	/^class FileModeWarning(RequestsWarning, DeprecationWarning):$/;"	c
+FileModeWarning	.\utils.py	/^from .exceptions import InvalidURL, FileModeWarning$/;"	i
+Full	.\packages\urllib3\connectionpool.py	/^    from Queue import LifoQueue, Empty, Full$/;"	i
+Full	.\packages\urllib3\connectionpool.py	/^    from queue import LifoQueue, Empty, Full$/;"	i
+GB2312CharLenTable	.\packages\chardet\mbcssm.py	/^GB2312CharLenTable = (0, 1, 1, 1, 1, 1, 2)$/;"	v
+GB2312CharToFreqOrder	.\packages\chardet\chardistribution.py	/^from .gb2312freq import (GB2312CharToFreqOrder, GB2312_TABLE_SIZE,$/;"	i
+GB2312CharToFreqOrder	.\packages\chardet\gb2312freq.py	/^GB2312CharToFreqOrder = ($/;"	v
+GB2312DistributionAnalysis	.\packages\chardet\chardistribution.py	/^class GB2312DistributionAnalysis(CharDistributionAnalysis):$/;"	c
+GB2312DistributionAnalysis	.\packages\chardet\gb2312prober.py	/^from .chardistribution import GB2312DistributionAnalysis$/;"	i
+GB2312Prober	.\packages\chardet\gb2312prober.py	/^class GB2312Prober(MultiByteCharSetProber):$/;"	c
+GB2312Prober	.\packages\chardet\mbcsgroupprober.py	/^from .gb2312prober import GB2312Prober$/;"	i
+GB2312SMModel	.\packages\chardet\gb2312prober.py	/^from .mbcssm import GB2312SMModel$/;"	i
+GB2312SMModel	.\packages\chardet\mbcssm.py	/^GB2312SMModel = {'classTable': GB2312_cls,$/;"	v
+GB2312_TABLE_SIZE	.\packages\chardet\chardistribution.py	/^from .gb2312freq import (GB2312CharToFreqOrder, GB2312_TABLE_SIZE,$/;"	i
+GB2312_TABLE_SIZE	.\packages\chardet\gb2312freq.py	/^GB2312_TABLE_SIZE = 3760$/;"	v
+GB2312_TYPICAL_DISTRIBUTION_RATIO	.\packages\chardet\gb2312freq.py	/^GB2312_TYPICAL_DISTRIBUTION_RATIO = 0.9$/;"	v
+GB2312_cls	.\packages\chardet\mbcssm.py	/^GB2312_cls = ($/;"	v
+GB2312_st	.\packages\chardet\mbcssm.py	/^GB2312_st = ($/;"	v
+GENERIC_ERROR	.\packages\urllib3\exceptions.py	/^    GENERIC_ERROR = 'too many error responses'$/;"	v	class:ResponseError
+GreekLangModel	.\packages\chardet\langgreekmodel.py	/^GreekLangModel = ($/;"	v
+GzipDecoder	.\packages\urllib3\response.py	/^class GzipDecoder(object):$/;"	c
+HASHFUNC_MAP	.\packages\urllib3\util\ssl_.py	/^HASHFUNC_MAP = {$/;"	v
+HAS_SNI	.\packages\urllib3\contrib\pyopenssl.py	/^HAS_SNI = SUBJ_ALT_NAME_SUPPORT$/;"	v
+HAS_SNI	.\packages\urllib3\util\ssl_.py	/^    from ssl import HAS_SNI  # Has SNI?$/;"	i
+HAS_SNI	.\packages\urllib3\util\ssl_.py	/^HAS_SNI = False$/;"	v
+HOOKS	.\hooks.py	/^HOOKS = ['response']$/;"	v
+HTTPAdapter	.\adapters.py	/^class HTTPAdapter(BaseAdapter):$/;"	c
+HTTPAdapter	.\sessions.py	/^from .adapters import HTTPAdapter$/;"	i
+HTTPBasicAuth	.\auth.py	/^class HTTPBasicAuth(AuthBase):$/;"	c
+HTTPBasicAuth	.\models.py	/^from .auth import HTTPBasicAuth$/;"	i
+HTTPConnection	.\packages\urllib3\connection.py	/^class HTTPConnection(_HTTPConnection, object):$/;"	c
+HTTPConnectionPool	.\packages\urllib3\connectionpool.py	/^class HTTPConnectionPool(ConnectionPool, RequestMethods):$/;"	c
+HTTPConnectionPool	.\packages\urllib3\poolmanager.py	/^from .connectionpool import HTTPConnectionPool, HTTPSConnectionPool$/;"	i
+HTTPDigestAuth	.\auth.py	/^class HTTPDigestAuth(AuthBase):$/;"	c
+HTTPError	.\exceptions.py	/^class HTTPError(RequestException):$/;"	c
+HTTPError	.\packages\urllib3\exceptions.py	/^class HTTPError(Exception):$/;"	c
+HTTPException	.\packages\urllib3\connection.py	/^    from http.client import HTTPConnection as _HTTPConnection, HTTPException$/;"	i
+HTTPException	.\packages\urllib3\connection.py	/^    from httplib import HTTPConnection as _HTTPConnection, HTTPException$/;"	i
+HTTPException	.\packages\urllib3\response.py	/^from .connection import HTTPException, BaseSSLError$/;"	i
+HTTPHeaderDict	.\packages\urllib3\_collections.py	/^class HTTPHeaderDict(MutableMapping):$/;"	c
+HTTPHeaderDict	.\packages\urllib3\response.py	/^from ._collections import HTTPHeaderDict$/;"	i
+HTTPProxyAuth	.\auth.py	/^class HTTPProxyAuth(HTTPBasicAuth):$/;"	c
+HTTPResponse	.\adapters.py	/^from .packages.urllib3.response import HTTPResponse$/;"	i
+HTTPResponse	.\packages\urllib3\__init__.py	/^from .response import HTTPResponse$/;"	i
+HTTPResponse	.\packages\urllib3\connectionpool.py	/^from .response import HTTPResponse$/;"	i
+HTTPResponse	.\packages\urllib3\contrib\appengine.py	/^from ..response import HTTPResponse$/;"	i
+HTTPResponse	.\packages\urllib3\response.py	/^class HTTPResponse(io.IOBase):$/;"	c
+HTTPSConnection	.\packages\urllib3\connection.py	/^    HTTPSConnection = DummyConnection$/;"	v	class:DummyConnection
+HTTPSConnection	.\packages\urllib3\connection.py	/^    HTTPSConnection = DummyConnection$/;"	v
+HTTPSConnection	.\packages\urllib3\connection.py	/^    HTTPSConnection = VerifiedHTTPSConnection$/;"	v	class:VerifiedHTTPSConnection
+HTTPSConnection	.\packages\urllib3\connection.py	/^class HTTPSConnection(HTTPConnection):$/;"	c
+HTTPSConnection	.\packages\urllib3\contrib\ntlmpool.py	/^    from http.client import HTTPSConnection$/;"	i
+HTTPSConnection	.\packages\urllib3\contrib\ntlmpool.py	/^    from httplib import HTTPSConnection$/;"	i
+HTTPSConnectionPool	.\packages\urllib3\connectionpool.py	/^class HTTPSConnectionPool(HTTPConnectionPool):$/;"	c
+HTTPSConnectionPool	.\packages\urllib3\contrib\ntlmpool.py	/^from urllib3 import HTTPSConnectionPool$/;"	i
+HTTPSConnectionPool	.\packages\urllib3\poolmanager.py	/^from .connectionpool import HTTPConnectionPool, HTTPSConnectionPool$/;"	i
+HTTPWarning	.\packages\urllib3\exceptions.py	/^class HTTPWarning(Warning):$/;"	c
+HZCharLenTable	.\packages\chardet\escsm.py	/^HZCharLenTable = (0, 0, 0, 0, 0, 0)$/;"	v
+HZSMModel	.\packages\chardet\escprober.py	/^from .escsm import (HZSMModel, ISO2022CNSMModel, ISO2022JPSMModel,$/;"	i
+HZSMModel	.\packages\chardet\escsm.py	/^HZSMModel = {'classTable': HZ_cls,$/;"	v
+HZ_cls	.\packages\chardet\escsm.py	/^HZ_cls = ($/;"	v
+HZ_st	.\packages\chardet\escsm.py	/^HZ_st = ($/;"	v
+Has	.\packages\urllib3\util\ssl_.py	/^    from ssl import HAS_SNI  # Has SNI?$/;"	i
+HeaderParsingError	.\packages\urllib3\exceptions.py	/^class HeaderParsingError(HTTPError):$/;"	c
+HeaderParsingError	.\packages\urllib3\util\response.py	/^from ..exceptions import HeaderParsingError$/;"	i
+HebrewLangModel	.\packages\chardet\langhebrewmodel.py	/^HebrewLangModel = ($/;"	v
+HebrewProber	.\packages\chardet\hebrewprober.py	/^class HebrewProber(CharSetProber):$/;"	c
+HebrewProber	.\packages\chardet\sbcsgroupprober.py	/^from .hebrewprober import HebrewProber$/;"	i
+HostChangedError	.\packages\urllib3\exceptions.py	/^class HostChangedError(RequestError):$/;"	c
+HungarianLangModel	.\packages\chardet\langhungarianmodel.py	/^HungarianLangModel = ($/;"	v
+IBM855_CharToOrderMap	.\packages\chardet\langcyrillicmodel.py	/^IBM855_CharToOrderMap = ($/;"	v
+IBM866_CharToOrderMap	.\packages\chardet\langcyrillicmodel.py	/^IBM866_CharToOrderMap = ($/;"	v
+ISO	.\packages\chardet\universaldetector.py	/^from .escprober import EscCharSetProber  # ISO-2122, etc.$/;"	i
+ISO2022CNCharLenTable	.\packages\chardet\escsm.py	/^ISO2022CNCharLenTable = (0, 0, 0, 0, 0, 0, 0, 0, 0)$/;"	v
+ISO2022CNSMModel	.\packages\chardet\escprober.py	/^from .escsm import (HZSMModel, ISO2022CNSMModel, ISO2022JPSMModel,$/;"	i
+ISO2022CNSMModel	.\packages\chardet\escsm.py	/^ISO2022CNSMModel = {'classTable': ISO2022CN_cls,$/;"	v
+ISO2022CN_cls	.\packages\chardet\escsm.py	/^ISO2022CN_cls = ($/;"	v
+ISO2022CN_st	.\packages\chardet\escsm.py	/^ISO2022CN_st = ($/;"	v
+ISO2022JPCharLenTable	.\packages\chardet\escsm.py	/^ISO2022JPCharLenTable = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)$/;"	v
+ISO2022JPSMModel	.\packages\chardet\escprober.py	/^from .escsm import (HZSMModel, ISO2022CNSMModel, ISO2022JPSMModel,$/;"	i
+ISO2022JPSMModel	.\packages\chardet\escsm.py	/^ISO2022JPSMModel = {'classTable': ISO2022JP_cls,$/;"	v
+ISO2022JP_cls	.\packages\chardet\escsm.py	/^ISO2022JP_cls = ($/;"	v
+ISO2022JP_st	.\packages\chardet\escsm.py	/^ISO2022JP_st = ($/;"	v
+ISO2022KRCharLenTable	.\packages\chardet\escsm.py	/^ISO2022KRCharLenTable = (0, 0, 0, 0, 0, 0)$/;"	v
+ISO2022KRSMModel	.\packages\chardet\escsm.py	/^ISO2022KRSMModel = {'classTable': ISO2022KR_cls,$/;"	v
+ISO2022KR_cls	.\packages\chardet\escsm.py	/^ISO2022KR_cls = ($/;"	v
+ISO2022KR_st	.\packages\chardet\escsm.py	/^ISO2022KR_st = ($/;"	v
+ITER_CHUNK_SIZE	.\models.py	/^ITER_CHUNK_SIZE = 512$/;"	v
+Ibm855Model	.\packages\chardet\langcyrillicmodel.py	/^Ibm855Model = {$/;"	v
+Ibm866Model	.\packages\chardet\langcyrillicmodel.py	/^Ibm866Model = {$/;"	v
+InsecurePlatformWarning	.\packages\urllib3\exceptions.py	/^class InsecurePlatformWarning(SecurityWarning):$/;"	c
+InsecurePlatformWarning	.\packages\urllib3\util\ssl_.py	/^from ..exceptions import SSLError, InsecurePlatformWarning$/;"	i
+InsecureRequestWarning	.\packages\urllib3\exceptions.py	/^class InsecureRequestWarning(SecurityWarning):$/;"	c
+InvalidSchema	.\exceptions.py	/^class InvalidSchema(RequestException, ValueError):$/;"	c
+InvalidURL	.\exceptions.py	/^class InvalidURL(RequestException, ValueError):$/;"	c
+InvalidURL	.\utils.py	/^from .exceptions import InvalidURL, FileModeWarning$/;"	i
+ItemsView	.\packages\urllib3\packages\ordered_dict.py	/^    from _abcoll import KeysView, ValuesView, ItemsView$/;"	i
+Iterator	.\packages\urllib3\packages\six.py	/^    Iterator = object$/;"	v
+Iterator	.\packages\urllib3\packages\six.py	/^    class Iterator(object):$/;"	c
+JISCharToFreqOrder	.\packages\chardet\chardistribution.py	/^from .jisfreq import (JISCharToFreqOrder, JIS_TABLE_SIZE,$/;"	i
+JISCharToFreqOrder	.\packages\chardet\jisfreq.py	/^JISCharToFreqOrder = ($/;"	v
+JIS_TABLE_SIZE	.\packages\chardet\chardistribution.py	/^from .jisfreq import (JISCharToFreqOrder, JIS_TABLE_SIZE,$/;"	i
+JIS_TABLE_SIZE	.\packages\chardet\jisfreq.py	/^JIS_TABLE_SIZE = 4368$/;"	v
+JIS_TYPICAL_DISTRIBUTION_RATIO	.\packages\chardet\jisfreq.py	/^JIS_TYPICAL_DISTRIBUTION_RATIO = 3.0$/;"	v
+JapaneseContextAnalysis	.\packages\chardet\jpcntx.py	/^class JapaneseContextAnalysis:$/;"	c
+KOI8R_CharToOrderMap	.\packages\chardet\langcyrillicmodel.py	/^KOI8R_CharToOrderMap = ($/;"	v
+KeysView	.\packages\urllib3\packages\ordered_dict.py	/^    from _abcoll import KeysView, ValuesView, ItemsView$/;"	i
+Koi8rModel	.\packages\chardet\langcyrillicmodel.py	/^Koi8rModel = {$/;"	v
+Koi8rModel	.\packages\chardet\sbcsgroupprober.py	/^from .langcyrillicmodel import (Win1251CyrillicModel, Koi8rModel,$/;"	i
+LOGICAL_HEBREW_NAME	.\packages\chardet\hebrewprober.py	/^LOGICAL_HEBREW_NAME = "windows-1255"$/;"	v
+Latin1ClassModel	.\packages\chardet\latin1prober.py	/^Latin1ClassModel = ($/;"	v
+Latin1Prober	.\packages\chardet\latin1prober.py	/^class Latin1Prober(CharSetProber):$/;"	c
+Latin1Prober	.\packages\chardet\universaldetector.py	/^from .latin1prober import Latin1Prober  # windows-1252$/;"	i
+Latin1_CharToClass	.\packages\chardet\latin1prober.py	/^Latin1_CharToClass = ($/;"	v
+Latin2HungarianModel	.\packages\chardet\langhungarianmodel.py	/^Latin2HungarianModel = {$/;"	v
+Latin2HungarianModel	.\packages\chardet\sbcsgroupprober.py	/^from .langhungarianmodel import Latin2HungarianModel, Win1250HungarianModel$/;"	i
+Latin2_HungarianCharToOrderMap	.\packages\chardet\langhungarianmodel.py	/^Latin2_HungarianCharToOrderMap = ($/;"	v
+Latin5BulgarianModel	.\packages\chardet\langbulgarianmodel.py	/^Latin5BulgarianModel = {$/;"	v
+Latin5BulgarianModel	.\packages\chardet\sbcsgroupprober.py	/^from .langbulgarianmodel import Latin5BulgarianModel, Win1251BulgarianModel$/;"	i
+Latin5CyrillicModel	.\packages\chardet\langcyrillicmodel.py	/^Latin5CyrillicModel = {$/;"	v
+Latin5_BulgarianCharToOrderMap	.\packages\chardet\langbulgarianmodel.py	/^Latin5_BulgarianCharToOrderMap = ($/;"	v
+Latin7GreekModel	.\packages\chardet\langgreekmodel.py	/^Latin7GreekModel = {$/;"	v
+Latin7GreekModel	.\packages\chardet\sbcsgroupprober.py	/^from .langgreekmodel import Latin7GreekModel, Win1253GreekModel$/;"	i
+Latin7_CharToOrderMap	.\packages\chardet\langgreekmodel.py	/^Latin7_CharToOrderMap = ($/;"	v
+LifoQueue	.\packages\urllib3\connectionpool.py	/^    from Queue import LifoQueue, Empty, Full$/;"	i
+LifoQueue	.\packages\urllib3\connectionpool.py	/^    from queue import LifoQueue, Empty, Full$/;"	i
+LocationParseError	.\packages\urllib3\exceptions.py	/^class LocationParseError(LocationValueError):$/;"	c
+LocationParseError	.\packages\urllib3\util\url.py	/^from ..exceptions import LocationParseError$/;"	i
+LocationValueError	.\packages\urllib3\exceptions.py	/^class LocationValueError(ValueError, HTTPError):$/;"	c
+LocationValueError	.\packages\urllib3\poolmanager.py	/^from .exceptions import LocationValueError, MaxRetryError, ProxySchemeUnknown$/;"	i
+LookupDict	.\status_codes.py	/^from .structures import LookupDict$/;"	i
+LookupDict	.\structures.py	/^class LookupDict(dict):$/;"	c
+MAXSIZE	.\packages\urllib3\packages\six.py	/^            MAXSIZE = int((1 << 31) - 1)$/;"	v
+MAXSIZE	.\packages\urllib3\packages\six.py	/^            MAXSIZE = int((1 << 63) - 1)$/;"	v
+MAXSIZE	.\packages\urllib3\packages\six.py	/^        MAXSIZE = int((1 << 31) - 1)$/;"	v
+MAXSIZE	.\packages\urllib3\packages\six.py	/^    MAXSIZE = sys.maxsize$/;"	v
+MAX_REL_THRESHOLD	.\packages\chardet\jpcntx.py	/^MAX_REL_THRESHOLD = 1000$/;"	v
+MBCSGroupProber	.\packages\chardet\mbcsgroupprober.py	/^class MBCSGroupProber(CharSetGroupProber):$/;"	c
+MBCSGroupProber	.\packages\chardet\universaldetector.py	/^from .mbcsgroupprober import MBCSGroupProber  # multi-byte character sets$/;"	i
+MINIMUM_DATA_THRESHOLD	.\packages\chardet\chardistribution.py	/^MINIMUM_DATA_THRESHOLD = 3$/;"	v
+MINIMUM_DATA_THRESHOLD	.\packages\chardet\jpcntx.py	/^MINIMUM_DATA_THRESHOLD = 4$/;"	v
+MINIMUM_THRESHOLD	.\packages\chardet\universaldetector.py	/^MINIMUM_THRESHOLD = 0.20$/;"	v
+MIN_FINAL_CHAR_DISTANCE	.\packages\chardet\hebrewprober.py	/^MIN_FINAL_CHAR_DISTANCE = 5$/;"	v
+MIN_MODEL_DISTANCE	.\packages\chardet\hebrewprober.py	/^MIN_MODEL_DISTANCE = 0.01$/;"	v
+MacCyrillicModel	.\packages\chardet\langcyrillicmodel.py	/^MacCyrillicModel = {$/;"	v
+Mapping	.\packages\urllib3\_collections.py	/^from collections import Mapping, MutableMapping$/;"	i
+Mapping	.\sessions.py	/^from collections import Mapping$/;"	i
+MaxRetryError	.\adapters.py	/^from .packages.urllib3.exceptions import MaxRetryError$/;"	i
+MaxRetryError	.\packages\urllib3\exceptions.py	/^class MaxRetryError(RequestError):$/;"	c
+MaxRetryError	.\packages\urllib3\poolmanager.py	/^from .exceptions import LocationValueError, MaxRetryError, ProxySchemeUnknown$/;"	i
+MissingSchema	.\exceptions.py	/^class MissingSchema(RequestException, ValueError):$/;"	c
+MockRequest	.\cookies.py	/^class MockRequest(object):$/;"	c
+MockResponse	.\cookies.py	/^class MockResponse(object):$/;"	c
+Modern	.\packages\urllib3\util\ssl_.py	/^    from ssl import SSLContext  # Modern SSL?$/;"	i
+Morsel	.\compat.py	/^    from Cookie import Morsel$/;"	i
+Morsel	.\compat.py	/^    from http.cookies import Morsel$/;"	i
+Morsel	.\cookies.py	/^from .compat import cookielib, urlparse, urlunparse, Morsel$/;"	i
+MovedAttribute	.\packages\urllib3\packages\six.py	/^class MovedAttribute(_LazyDescr):$/;"	c
+MovedModule	.\packages\urllib3\packages\six.py	/^class MovedModule(_LazyDescr):$/;"	c
+MultiByteCharSetProber	.\packages\chardet\big5prober.py	/^from .mbcharsetprober import MultiByteCharSetProber$/;"	i
+MultiByteCharSetProber	.\packages\chardet\cp949prober.py	/^from .mbcharsetprober import MultiByteCharSetProber$/;"	i
+MultiByteCharSetProber	.\packages\chardet\eucjpprober.py	/^from .mbcharsetprober import MultiByteCharSetProber$/;"	i
+MultiByteCharSetProber	.\packages\chardet\euckrprober.py	/^from .mbcharsetprober import MultiByteCharSetProber$/;"	i
+MultiByteCharSetProber	.\packages\chardet\euctwprober.py	/^from .mbcharsetprober import MultiByteCharSetProber$/;"	i
+MultiByteCharSetProber	.\packages\chardet\gb2312prober.py	/^from .mbcharsetprober import MultiByteCharSetProber$/;"	i
+MultiByteCharSetProber	.\packages\chardet\mbcharsetprober.py	/^class MultiByteCharSetProber(CharSetProber):$/;"	c
+MultiByteCharSetProber	.\packages\chardet\sjisprober.py	/^from .mbcharsetprober import MultiByteCharSetProber$/;"	i
+MutableMapping	.\packages\urllib3\_collections.py	/^from collections import Mapping, MutableMapping$/;"	i
+NEGATIVE_SHORTCUT_THRESHOLD	.\packages\chardet\sbcharsetprober.py	/^NEGATIVE_SHORTCUT_THRESHOLD = 0.05$/;"	v
+NETRC_FILES	.\utils.py	/^NETRC_FILES = ('.netrc', '_netrc')$/;"	v
+NORMAL_KAF	.\packages\chardet\hebrewprober.py	/^NORMAL_KAF = 0xeb$/;"	v
+NORMAL_MEM	.\packages\chardet\hebrewprober.py	/^NORMAL_MEM = 0xee$/;"	v
+NORMAL_NUN	.\packages\chardet\hebrewprober.py	/^NORMAL_NUN = 0xf0$/;"	v
+NORMAL_PE	.\packages\chardet\hebrewprober.py	/^NORMAL_PE = 0xf4$/;"	v
+NORMAL_TSADI	.\packages\chardet\hebrewprober.py	/^NORMAL_TSADI = 0xf6$/;"	v
+NTLMConnectionPool	.\packages\urllib3\contrib\ntlmpool.py	/^class NTLMConnectionPool(HTTPSConnectionPool):$/;"	c
+NUMBER_OF_SEQ_CAT	.\packages\chardet\sbcharsetprober.py	/^NUMBER_OF_SEQ_CAT = 4$/;"	v
+NUM_OF_CATEGORY	.\packages\chardet\jpcntx.py	/^NUM_OF_CATEGORY = 6$/;"	v
+NetrcParseError	.\utils.py	/^        from netrc import netrc, NetrcParseError$/;"	i
+NewConnectionError	.\adapters.py	/^from .packages.urllib3.exceptions import NewConnectionError$/;"	i
+NewConnectionError	.\packages\urllib3\exceptions.py	/^class NewConnectionError(ConnectTimeoutError, PoolError):$/;"	c
+NullHandler	.\__init__.py	/^    class NullHandler(logging.Handler):$/;"	c
+NullHandler	.\__init__.py	/^    from logging import NullHandler$/;"	i
+NullHandler	.\packages\urllib3\__init__.py	/^    class NullHandler(logging.Handler):$/;"	c
+NullHandler	.\packages\urllib3\__init__.py	/^    from logging import NullHandler$/;"	i
+ONE_CHAR_PROB	.\packages\chardet\utf8prober.py	/^ONE_CHAR_PROB = 0.5$/;"	v
+OP_NO_COMPRESSION	.\packages\urllib3\util\ssl_.py	/^    OP_NO_COMPRESSION = 0x20000$/;"	v
+OP_NO_COMPRESSION	.\packages\urllib3\util\ssl_.py	/^    from ssl import OP_NO_SSLv2, OP_NO_SSLv3, OP_NO_COMPRESSION$/;"	i
+OP_NO_SSLv2	.\packages\urllib3\util\ssl_.py	/^    from ssl import OP_NO_SSLv2, OP_NO_SSLv3, OP_NO_COMPRESSION$/;"	i
+OP_NO_SSLv3	.\packages\urllib3\util\ssl_.py	/^    from ssl import OP_NO_SSLv2, OP_NO_SSLv3, OP_NO_COMPRESSION$/;"	i
+OTH	.\packages\chardet\latin1prober.py	/^OTH = 1  # other$/;"	v
+OpenSSL	.\packages\urllib3\contrib\pyopenssl.py	/^import OpenSSL.SSL$/;"	i
+OrderedDict	.\compat.py	/^    from .packages.urllib3.packages.ordered_dict import OrderedDict$/;"	i
+OrderedDict	.\compat.py	/^    from collections import OrderedDict$/;"	i
+OrderedDict	.\packages\urllib3\_collections.py	/^    from .packages.ordered_dict import OrderedDict$/;"	i
+OrderedDict	.\packages\urllib3\_collections.py	/^    from collections import OrderedDict$/;"	i
+OrderedDict	.\packages\urllib3\packages\ordered_dict.py	/^class OrderedDict(dict):$/;"	c
+OrderedDict	.\sessions.py	/^from .compat import cookielib, OrderedDict, urljoin, urlparse$/;"	i
+OrderedDict	.\utils.py	/^from .compat import (quote, urlparse, bytes, str, OrderedDict, unquote, is_py2,$/;"	i
+POLLIN	.\packages\urllib3\util\connection.py	/^    from select import poll, POLLIN$/;"	i
+POSITIVE_CAT	.\packages\chardet\sbcharsetprober.py	/^POSITIVE_CAT = NUMBER_OF_SEQ_CAT - 1$/;"	v
+POSITIVE_SHORTCUT_THRESHOLD	.\packages\chardet\sbcharsetprober.py	/^POSITIVE_SHORTCUT_THRESHOLD = 0.95$/;"	v
+PROTOCOL_SSLv23	.\packages\urllib3\util\ssl_.py	/^    from ssl import wrap_socket, CERT_NONE, PROTOCOL_SSLv23$/;"	i
+PY3	.\packages\urllib3\_collections.py	/^from .packages.six import iterkeys, itervalues, PY3$/;"	i
+PY3	.\packages\urllib3\response.py	/^from .packages.six import string_types as basestring, binary_type, PY3$/;"	i
+Platform	.\packages\urllib3\connectionpool.py	/^    import Queue as _  # Platform-specific: Windows$/;"	i
+PoolError	.\packages\urllib3\exceptions.py	/^class PoolError(HTTPError):$/;"	c
+PoolManager	.\adapters.py	/^from .packages.urllib3.poolmanager import PoolManager, proxy_from_url$/;"	i
+PoolManager	.\packages\urllib3\__init__.py	/^from .poolmanager import PoolManager, ProxyManager, proxy_from_url$/;"	i
+PoolManager	.\packages\urllib3\poolmanager.py	/^class PoolManager(RequestMethods):$/;"	c
+PreparedRequest	.\__init__.py	/^from .models import Request, Response, PreparedRequest$/;"	i
+PreparedRequest	.\models.py	/^class PreparedRequest(RequestEncodingMixin, RequestHooksMixin):$/;"	c
+PreparedRequest	.\sessions.py	/^from .models import Request, PreparedRequest, DEFAULT_REDIRECT_LIMIT$/;"	i
+ProtocolError	.\adapters.py	/^from .packages.urllib3.exceptions import ProtocolError$/;"	i
+ProtocolError	.\packages\urllib3\exceptions.py	/^class ProtocolError(HTTPError):$/;"	c
+ProxyError	.\exceptions.py	/^class ProxyError(ConnectionError):$/;"	c
+ProxyError	.\packages\urllib3\exceptions.py	/^class ProxyError(HTTPError):$/;"	c
+ProxyManager	.\packages\urllib3\__init__.py	/^from .poolmanager import PoolManager, ProxyManager, proxy_from_url$/;"	i
+ProxyManager	.\packages\urllib3\poolmanager.py	/^class ProxyManager(PoolManager):$/;"	c
+ProxySchemeUnknown	.\packages\urllib3\exceptions.py	/^class ProxySchemeUnknown(AssertionError, ValueError):$/;"	c
+ProxySchemeUnknown	.\packages\urllib3\poolmanager.py	/^from .exceptions import LocationValueError, MaxRetryError, ProxySchemeUnknown$/;"	i
+QueueCls	.\packages\urllib3\connectionpool.py	/^    QueueCls = LifoQueue$/;"	v	class:ConnectionPool
+RECENT_DATE	.\packages\urllib3\connection.py	/^RECENT_DATE = datetime.date(2014, 1, 1)$/;"	v
+REDIRECT_CACHE_SIZE	.\sessions.py	/^REDIRECT_CACHE_SIZE = 1000$/;"	v
+REDIRECT_STATI	.\models.py	/^REDIRECT_STATI = ($/;"	v
+REDIRECT_STATI	.\sessions.py	/^from .models import REDIRECT_STATI$/;"	i
+REDIRECT_STATUSES	.\packages\urllib3\response.py	/^    REDIRECT_STATUSES = [301, 302, 303, 307, 308]$/;"	v	class:HTTPResponse
+RLock	.\packages\urllib3\_collections.py	/^    class RLock:$/;"	c
+RLock	.\packages\urllib3\_collections.py	/^    from threading import RLock$/;"	i
+ReadTimeout	.\adapters.py	/^from .exceptions import (ConnectionError, ConnectTimeout, ReadTimeout, SSLError,$/;"	i
+ReadTimeout	.\exceptions.py	/^class ReadTimeout(Timeout):$/;"	c
+ReadTimeoutError	.\adapters.py	/^from .packages.urllib3.exceptions import ReadTimeoutError$/;"	i
+ReadTimeoutError	.\packages\urllib3\exceptions.py	/^class ReadTimeoutError(TimeoutError, RequestError):$/;"	c
+RecentlyUsedContainer	.\packages\urllib3\_collections.py	/^class RecentlyUsedContainer(MutableMapping):$/;"	c
+RecentlyUsedContainer	.\packages\urllib3\poolmanager.py	/^from ._collections import RecentlyUsedContainer$/;"	i
+RecentlyUsedContainer	.\sessions.py	/^from .packages.urllib3._collections import RecentlyUsedContainer$/;"	i
+Request	.\__init__.py	/^from .models import Request, Response, PreparedRequest$/;"	i
+Request	.\models.py	/^class Request(RequestHooksMixin):$/;"	c
+Request	.\sessions.py	/^from .models import Request, PreparedRequest, DEFAULT_REDIRECT_LIMIT$/;"	i
+RequestEncodingMixin	.\models.py	/^class RequestEncodingMixin(object):$/;"	c
+RequestError	.\packages\urllib3\exceptions.py	/^class RequestError(PoolError):$/;"	c
+RequestException	.\exceptions.py	/^class RequestException(IOError):$/;"	c
+RequestField	.\models.py	/^from .packages.urllib3.fields import RequestField$/;"	i
+RequestField	.\packages\urllib3\fields.py	/^class RequestField(object):$/;"	c
+RequestField	.\packages\urllib3\filepost.py	/^from .fields import RequestField$/;"	i
+RequestHooksMixin	.\models.py	/^class RequestHooksMixin(object):$/;"	c
+RequestMethods	.\packages\urllib3\connectionpool.py	/^from .request import RequestMethods$/;"	i
+RequestMethods	.\packages\urllib3\contrib\appengine.py	/^from ..request import RequestMethods$/;"	i
+RequestMethods	.\packages\urllib3\poolmanager.py	/^from .request import RequestMethods$/;"	i
+RequestMethods	.\packages\urllib3\request.py	/^class RequestMethods(object):$/;"	c
+RequestsCookieJar	.\cookies.py	/^class RequestsCookieJar(cookielib.CookieJar, collections.MutableMapping):$/;"	c
+RequestsCookieJar	.\utils.py	/^from .cookies import RequestsCookieJar, cookiejar_from_dict$/;"	i
+RequestsWarning	.\exceptions.py	/^class RequestsWarning(Warning):$/;"	c
+Response	.\__init__.py	/^from .models import Request, Response, PreparedRequest$/;"	i
+Response	.\adapters.py	/^from .models import Response$/;"	i
+Response	.\models.py	/^class Response(object):$/;"	c
+ResponseError	.\adapters.py	/^from .packages.urllib3.exceptions import ResponseError$/;"	i
+ResponseError	.\packages\urllib3\exceptions.py	/^class ResponseError(HTTPError):$/;"	c
+ResponseNotChunked	.\packages\urllib3\exceptions.py	/^class ResponseNotChunked(ProtocolError, ValueError):$/;"	c
+Retry	.\adapters.py	/^from .packages.urllib3.util.retry import Retry$/;"	i
+Retry	.\packages\urllib3\__init__.py	/^from .util.retry import Retry$/;"	i
+Retry	.\packages\urllib3\connectionpool.py	/^from .util.retry import Retry$/;"	i
+Retry	.\packages\urllib3\contrib\appengine.py	/^from ..util.retry import Retry$/;"	i
+Retry	.\packages\urllib3\poolmanager.py	/^from .util.retry import Retry$/;"	i
+Retry	.\packages\urllib3\util\__init__.py	/^from .retry import Retry$/;"	i
+Retry	.\packages\urllib3\util\retry.py	/^class Retry(object):$/;"	c
+RetryError	.\exceptions.py	/^class RetryError(RequestException):$/;"	c
+RussianLangModel	.\packages\chardet\langcyrillicmodel.py	/^RussianLangModel = ($/;"	v
+SAMPLE_SIZE	.\packages\chardet\sbcharsetprober.py	/^SAMPLE_SIZE = 64$/;"	v
+SBCSGroupProber	.\packages\chardet\sbcsgroupprober.py	/^class SBCSGroupProber(CharSetGroupProber):$/;"	c
+SBCSGroupProber	.\packages\chardet\universaldetector.py	/^from .sbcsgroupprober import SBCSGroupProber  # single-byte character sets$/;"	i
+SB_ENOUGH_REL_THRESHOLD	.\packages\chardet\sbcharsetprober.py	/^SB_ENOUGH_REL_THRESHOLD = 1024$/;"	v
+SHORTCUT_THRESHOLD	.\packages\chardet\constants.py	/^SHORTCUT_THRESHOLD = 0.95$/;"	v
+SJISCharLenTable	.\packages\chardet\mbcssm.py	/^SJISCharLenTable = (0, 1, 1, 2, 0, 0)$/;"	v
+SJISContextAnalysis	.\packages\chardet\jpcntx.py	/^class SJISContextAnalysis(JapaneseContextAnalysis):$/;"	c
+SJISContextAnalysis	.\packages\chardet\sjisprober.py	/^from .jpcntx import SJISContextAnalysis$/;"	i
+SJISDistributionAnalysis	.\packages\chardet\chardistribution.py	/^class SJISDistributionAnalysis(CharDistributionAnalysis):$/;"	c
+SJISDistributionAnalysis	.\packages\chardet\sjisprober.py	/^from .chardistribution import SJISDistributionAnalysis$/;"	i
+SJISProber	.\packages\chardet\mbcsgroupprober.py	/^from .sjisprober import SJISProber$/;"	i
+SJISProber	.\packages\chardet\sjisprober.py	/^class SJISProber(MultiByteCharSetProber):$/;"	c
+SJISSMModel	.\packages\chardet\mbcssm.py	/^SJISSMModel = {'classTable': SJIS_cls,$/;"	v
+SJISSMModel	.\packages\chardet\sjisprober.py	/^from .mbcssm import SJISSMModel$/;"	i
+SJIS_cls	.\packages\chardet\mbcssm.py	/^SJIS_cls = ($/;"	v
+SJIS_st	.\packages\chardet\mbcssm.py	/^SJIS_st = ($/;"	v
+SNI	.\packages\urllib3\util\ssl_.py	/^    from ssl import HAS_SNI  # Has SNI?$/;"	i
+SPECIFIC_ERROR	.\packages\urllib3\exceptions.py	/^    SPECIFIC_ERROR = 'too many {status_code} error responses'$/;"	v	class:ResponseError
+SSL	.\packages\urllib3\contrib\pyopenssl.py	/^import OpenSSL.SSL$/;"	i
+SSL	.\packages\urllib3\util\ssl_.py	/^    from ssl import SSLContext  # Modern SSL?$/;"	i
+SSLContext	.\packages\urllib3\util\ssl_.py	/^    class SSLContext(object):  # Platform-specific: Python 2 & 3.1$/;"	c
+SSLContext	.\packages\urllib3\util\ssl_.py	/^    from ssl import SSLContext  # Modern SSL?$/;"	i
+SSLContext	.\packages\urllib3\util\ssl_.py	/^SSLContext = None$/;"	v
+SSLError	.\adapters.py	/^from .exceptions import (ConnectionError, ConnectTimeout, ReadTimeout, SSLError,$/;"	i
+SSLError	.\exceptions.py	/^class SSLError(ConnectionError):$/;"	c
+SSLError	.\packages\urllib3\exceptions.py	/^class SSLError(HTTPError):$/;"	c
+SSLError	.\packages\urllib3\util\ssl_.py	/^from ..exceptions import SSLError, InsecurePlatformWarning$/;"	i
+SSL_KEYWORDS	.\packages\urllib3\poolmanager.py	/^SSL_KEYWORDS = ('key_file', 'cert_file', 'cert_reqs', 'ca_certs',$/;"	v
+SSL_WRITE_BLOCKSIZE	.\packages\urllib3\contrib\pyopenssl.py	/^SSL_WRITE_BLOCKSIZE = 16384$/;"	v
+SUBJ_ALT_NAME_SUPPORT	.\packages\urllib3\contrib\pyopenssl.py	/^    from ndg.httpsclient.ssl_peer_verification import SUBJ_ALT_NAME_SUPPORT$/;"	i
+SURE_NO	.\packages\chardet\chardistribution.py	/^SURE_NO = 0.01$/;"	v
+SURE_YES	.\packages\chardet\chardistribution.py	/^SURE_YES = 0.99$/;"	v
+SYMBOL_CAT_ORDER	.\packages\chardet\sbcharsetprober.py	/^SYMBOL_CAT_ORDER = 250$/;"	v
+SecurityWarning	.\packages\urllib3\exceptions.py	/^class SecurityWarning(HTTPWarning):$/;"	c
+Session	.\__init__.py	/^from .sessions import session, Session$/;"	i
+Session	.\sessions.py	/^class Session(SessionRedirectMixin):$/;"	c
+SessionRedirectMixin	.\sessions.py	/^class SessionRedirectMixin(object):$/;"	c
+SingleByteCharSetProber	.\packages\chardet\sbcharsetprober.py	/^class SingleByteCharSetProber(CharSetProber):$/;"	c
+SingleByteCharSetProber	.\packages\chardet\sbcsgroupprober.py	/^from .sbcharsetprober import SingleByteCharSetProber$/;"	i
+SocketError	.\packages\urllib3\connection.py	/^from socket import error as SocketError, timeout as SocketTimeout$/;"	i
+SocketError	.\packages\urllib3\connectionpool.py	/^from socket import error as SocketError, timeout as SocketTimeout$/;"	i
+SocketTimeout	.\packages\urllib3\connection.py	/^from socket import error as SocketError, timeout as SocketTimeout$/;"	i
+SocketTimeout	.\packages\urllib3\connectionpool.py	/^from socket import error as SocketError, timeout as SocketTimeout$/;"	i
+SocketTimeout	.\packages\urllib3\response.py	/^from socket import timeout as SocketTimeout$/;"	i
+StreamConsumedError	.\exceptions.py	/^class StreamConsumedError(RequestException, TypeError):$/;"	c
+StringIO	.\compat.py	/^    from StringIO import StringIO$/;"	i
+StringIO	.\compat.py	/^    from io import StringIO$/;"	i
+StringIO	.\packages\urllib3\packages\six.py	/^    import StringIO$/;"	i
+SubjectAltName	.\packages\urllib3\contrib\pyopenssl.py	/^class SubjectAltName(BaseSubjectAltName):$/;"	c
+SubjectAltNameWarning	.\packages\urllib3\exceptions.py	/^class SubjectAltNameWarning(SecurityWarning):$/;"	c
+SystemTimeWarning	.\packages\urllib3\exceptions.py	/^class SystemTimeWarning(SecurityWarning):$/;"	c
+TIS620CharToOrderMap	.\packages\chardet\langthaimodel.py	/^TIS620CharToOrderMap = ($/;"	v
+TIS620ThaiModel	.\packages\chardet\langthaimodel.py	/^TIS620ThaiModel = {$/;"	v
+TIS620ThaiModel	.\packages\chardet\sbcsgroupprober.py	/^from .langthaimodel import TIS620ThaiModel$/;"	i
+ThaiLangModel	.\packages\chardet\langthaimodel.py	/^ThaiLangModel = ($/;"	v
+Timeout	.\exceptions.py	/^class Timeout(RequestException):$/;"	c
+Timeout	.\packages\urllib3\__init__.py	/^from .util.timeout import Timeout$/;"	i
+Timeout	.\packages\urllib3\connectionpool.py	/^from .util.timeout import Timeout$/;"	i
+Timeout	.\packages\urllib3\contrib\appengine.py	/^from ..util.timeout import Timeout$/;"	i
+Timeout	.\packages\urllib3\util\timeout.py	/^class Timeout(object):$/;"	c
+TimeoutError	.\packages\urllib3\exceptions.py	/^class TimeoutError(HTTPError):$/;"	c
+TimeoutSauce	.\adapters.py	/^from .packages.urllib3.util import Timeout as TimeoutSauce$/;"	i
+TimeoutStateError	.\packages\urllib3\exceptions.py	/^class TimeoutStateError(HTTPError):$/;"	c
+TimeoutStateError	.\packages\urllib3\util\timeout.py	/^from ..exceptions import TimeoutStateError$/;"	i
+TooManyRedirects	.\exceptions.py	/^class TooManyRedirects(RequestException):$/;"	c
+UCS2BECharLenTable	.\packages\chardet\mbcssm.py	/^UCS2BECharLenTable = (2, 2, 2, 0, 2, 2)$/;"	v
+UCS2BESMModel	.\packages\chardet\mbcssm.py	/^UCS2BESMModel = {'classTable': UCS2BE_cls,$/;"	v
+UCS2BE_cls	.\packages\chardet\mbcssm.py	/^UCS2BE_cls = ($/;"	v
+UCS2BE_st	.\packages\chardet\mbcssm.py	/^UCS2BE_st  = ($/;"	v
+UCS2LECharLenTable	.\packages\chardet\mbcssm.py	/^UCS2LECharLenTable = (2, 2, 2, 2, 2, 2)$/;"	v
+UCS2LESMModel	.\packages\chardet\mbcssm.py	/^UCS2LESMModel = {'classTable': UCS2LE_cls,$/;"	v
+UCS2LE_cls	.\packages\chardet\mbcssm.py	/^UCS2LE_cls = ($/;"	v
+UCS2LE_st	.\packages\chardet\mbcssm.py	/^UCS2LE_st = ($/;"	v
+UDF	.\packages\chardet\latin1prober.py	/^UDF = 0  # undefined$/;"	v
+UNRESERVED_SET	.\utils.py	/^UNRESERVED_SET = frozenset($/;"	v
+URLRequired	.\exceptions.py	/^class URLRequired(RequestException):$/;"	c
+UTF8CharLenTable	.\packages\chardet\mbcssm.py	/^UTF8CharLenTable = (0, 1, 0, 0, 0, 0, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6)$/;"	v
+UTF8Prober	.\packages\chardet\mbcsgroupprober.py	/^from .utf8prober import UTF8Prober$/;"	i
+UTF8Prober	.\packages\chardet\utf8prober.py	/^class UTF8Prober(CharSetProber):$/;"	c
+UTF8SMModel	.\packages\chardet\mbcssm.py	/^UTF8SMModel = {'classTable': UTF8_cls,$/;"	v
+UTF8SMModel	.\packages\chardet\utf8prober.py	/^from .mbcssm import UTF8SMModel$/;"	i
+UTF8_cls	.\packages\chardet\mbcssm.py	/^UTF8_cls = ($/;"	v
+UTF8_st	.\packages\chardet\mbcssm.py	/^UTF8_st = ($/;"	v
+UniversalDetector	.\packages\chardet\chardetect.py	/^from chardet.universaldetector import UniversalDetector$/;"	i
+UniversalDetector	.\packages\chardet\universaldetector.py	/^class UniversalDetector:$/;"	c
+UnsupportedOperation	.\models.py	/^from io import BytesIO, UnsupportedOperation$/;"	i
+UnverifiedHTTPSConnection	.\packages\urllib3\connection.py	/^    UnverifiedHTTPSConnection = HTTPSConnection$/;"	v	class:VerifiedHTTPSConnection
+Url	.\packages\urllib3\connectionpool.py	/^from .util.url import get_host, Url$/;"	i
+Url	.\packages\urllib3\util\url.py	/^class Url(namedtuple('Url', url_attrs)):$/;"	c
+VISUAL_HEBREW_NAME	.\packages\chardet\hebrewprober.py	/^VISUAL_HEBREW_NAME = "ISO-8859-8"$/;"	v
+ValuesView	.\packages\urllib3\packages\ordered_dict.py	/^    from _abcoll import KeysView, ValuesView, ItemsView$/;"	i
+VerifiedHTTPSConnection	.\packages\urllib3\connection.py	/^class VerifiedHTTPSConnection(HTTPSConnection):$/;"	c
+Win1250HungarianModel	.\packages\chardet\langhungarianmodel.py	/^Win1250HungarianModel = {$/;"	v
+Win1250HungarianModel	.\packages\chardet\sbcsgroupprober.py	/^from .langhungarianmodel import Latin2HungarianModel, Win1250HungarianModel$/;"	i
+Win1251BulgarianModel	.\packages\chardet\langbulgarianmodel.py	/^Win1251BulgarianModel = {$/;"	v
+Win1251BulgarianModel	.\packages\chardet\sbcsgroupprober.py	/^from .langbulgarianmodel import Latin5BulgarianModel, Win1251BulgarianModel$/;"	i
+Win1251CyrillicModel	.\packages\chardet\langcyrillicmodel.py	/^Win1251CyrillicModel = {$/;"	v
+Win1251CyrillicModel	.\packages\chardet\sbcsgroupprober.py	/^from .langcyrillicmodel import (Win1251CyrillicModel, Koi8rModel,$/;"	i
+Win1253GreekModel	.\packages\chardet\langgreekmodel.py	/^Win1253GreekModel = {$/;"	v
+Win1253GreekModel	.\packages\chardet\sbcsgroupprober.py	/^from .langgreekmodel import Latin7GreekModel, Win1253GreekModel$/;"	i
+Win1255HebrewModel	.\packages\chardet\langhebrewmodel.py	/^Win1255HebrewModel = {$/;"	v
+Win1255HebrewModel	.\packages\chardet\sbcsgroupprober.py	/^from .langhebrewmodel import Win1255HebrewModel$/;"	i
+Windows	.\packages\urllib3\connectionpool.py	/^    import Queue as _  # Platform-specific: Windows$/;"	i
+WrappedSocket	.\packages\urllib3\contrib\pyopenssl.py	/^class WrappedSocket(object):$/;"	c
+X	.\packages\urllib3\packages\six.py	/^        class X(object):$/;"	c
+_	.\packages\urllib3\connectionpool.py	/^    import Queue as _  # Platform-specific: Windows$/;"	i
+_	.\packages\urllib3\contrib\pyopenssl.py	/^    _ = memoryview$/;"	v
+_Default	.\packages\urllib3\connectionpool.py	/^_Default = object()$/;"	v
+_Default	.\packages\urllib3\util\timeout.py	/^_Default = object()$/;"	v
+_GLOBAL_DEFAULT_TIMEOUT	.\packages\urllib3\util\timeout.py	/^from socket import _GLOBAL_DEFAULT_TIMEOUT$/;"	i
+_HTTPConnection	.\packages\urllib3\connection.py	/^    from http.client import HTTPConnection as _HTTPConnection, HTTPException$/;"	i
+_HTTPConnection	.\packages\urllib3\connection.py	/^    from httplib import HTTPConnection as _HTTPConnection, HTTPException$/;"	i
+_HTTPError	.\adapters.py	/^from .packages.urllib3.exceptions import HTTPError as _HTTPError$/;"	i
+_LazyDescr	.\packages\urllib3\packages\six.py	/^class _LazyDescr(object):$/;"	c
+_MovedItems	.\packages\urllib3\packages\six.py	/^class _MovedItems(types.ModuleType):$/;"	c
+_Null	.\packages\urllib3\_collections.py	/^_Null = object()$/;"	v
+_ProxyError	.\adapters.py	/^from .packages.urllib3.exceptions import ProxyError as _ProxyError$/;"	i
+_SSLError	.\adapters.py	/^from .packages.urllib3.exceptions import SSLError as _SSLError$/;"	i
+__all__	.\packages\urllib3\_collections.py	/^__all__ = ['RecentlyUsedContainer', 'HTTPHeaderDict']$/;"	v
+__all__	.\packages\urllib3\contrib\pyopenssl.py	/^__all__ = ['inject_into_urllib3', 'extract_from_urllib3']$/;"	v
+__all__	.\packages\urllib3\packages\ssl_match_hostname\__init__.py	/^__all__ = ('CertificateError', 'match_hostname')$/;"	v
+__all__	.\packages\urllib3\poolmanager.py	/^__all__ = ['PoolManager', 'ProxyManager', 'proxy_from_url']$/;"	v
+__all__	.\packages\urllib3\request.py	/^__all__ = ['RequestMethods']$/;"	v
+__attrs__	.\adapters.py	/^    __attrs__ = ['max_retries', 'config', '_pool_connections', '_pool_maxsize',$/;"	v	class:HTTPAdapter
+__attrs__	.\models.py	/^    __attrs__ = [$/;"	v	class:Response
+__attrs__	.\sessions.py	/^    __attrs__ = [$/;"	v	class:Session
+__author__	.\__init__.py	/^__author__ = 'Kenneth Reitz'$/;"	v
+__author__	.\packages\urllib3\__init__.py	/^__author__ = 'Andrey Petrov (andrey.petrov@shazow.net)'$/;"	v
+__author__	.\packages\urllib3\packages\six.py	/^__author__ = "Benjamin Peterson <benjamin@python.org>"$/;"	v
+__bool__	.\models.py	/^    def __bool__(self):$/;"	m	class:Response	file:
+__build__	.\__init__.py	/^__build__ = 0x020801$/;"	v
+__call__	.\auth.py	/^    def __call__(self, r):$/;"	m	class:AuthBase	file:
+__call__	.\auth.py	/^    def __call__(self, r):$/;"	m	class:HTTPBasicAuth	file:
+__call__	.\auth.py	/^    def __call__(self, r):$/;"	m	class:HTTPDigestAuth	file:
+__call__	.\auth.py	/^    def __call__(self, r):$/;"	m	class:HTTPProxyAuth	file:
+__contains__	.\packages\urllib3\_collections.py	/^    def __contains__(self, key):$/;"	m	class:HTTPHeaderDict	file:
+__copyright__	.\__init__.py	/^__copyright__ = 'Copyright 2015 Kenneth Reitz'$/;"	v
+__delitem__	.\cookies.py	/^    def __delitem__(self, name):$/;"	m	class:RequestsCookieJar	file:
+__delitem__	.\packages\urllib3\_collections.py	/^    def __delitem__(self, key):$/;"	m	class:HTTPHeaderDict	file:
+__delitem__	.\packages\urllib3\_collections.py	/^    def __delitem__(self, key):$/;"	m	class:RecentlyUsedContainer	file:
+__delitem__	.\packages\urllib3\packages\ordered_dict.py	/^    def __delitem__(self, key, dict_delitem=dict.__delitem__):$/;"	m	class:OrderedDict	file:
+__delitem__	.\structures.py	/^    def __delitem__(self, key):$/;"	m	class:CaseInsensitiveDict	file:
+__enter__	.\packages\urllib3\_collections.py	/^        def __enter__(self):$/;"	m	class:RLock	file:
+__enter__	.\packages\urllib3\connectionpool.py	/^    def __enter__(self):$/;"	m	class:ConnectionPool	file:
+__enter__	.\packages\urllib3\contrib\appengine.py	/^    def __enter__(self):$/;"	m	class:AppEngineManager	file:
+__enter__	.\packages\urllib3\poolmanager.py	/^    def __enter__(self):$/;"	m	class:PoolManager	file:
+__enter__	.\sessions.py	/^    def __enter__(self):$/;"	m	class:Session	file:
+__eq__	.\packages\urllib3\_collections.py	/^    def __eq__(self, other):$/;"	m	class:HTTPHeaderDict	file:
+__eq__	.\packages\urllib3\packages\ordered_dict.py	/^    def __eq__(self, other):$/;"	m	class:OrderedDict	file:
+__eq__	.\structures.py	/^    def __eq__(self, other):$/;"	m	class:CaseInsensitiveDict	file:
+__exit__	.\packages\urllib3\_collections.py	/^        def __exit__(self, exc_type, exc_value, traceback):$/;"	m	class:RLock	file:
+__exit__	.\packages\urllib3\connectionpool.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:ConnectionPool	file:
+__exit__	.\packages\urllib3\contrib\appengine.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:AppEngineManager	file:
+__exit__	.\packages\urllib3\poolmanager.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:PoolManager	file:
+__exit__	.\sessions.py	/^    def __exit__(self, *args):$/;"	m	class:Session	file:
+__get__	.\packages\urllib3\packages\six.py	/^    def __get__(self, obj, tp):$/;"	m	class:_LazyDescr	file:
+__getattr__	.\packages\urllib3\response.py	/^    def __getattr__(self, name):$/;"	m	class:DeflateDecoder	file:
+__getattr__	.\packages\urllib3\response.py	/^    def __getattr__(self, name):$/;"	m	class:GzipDecoder	file:
+__getitem__	.\cookies.py	/^    def __getitem__(self, name):$/;"	m	class:RequestsCookieJar	file:
+__getitem__	.\packages\urllib3\_collections.py	/^    def __getitem__(self, key):$/;"	m	class:HTTPHeaderDict	file:
+__getitem__	.\packages\urllib3\_collections.py	/^    def __getitem__(self, key):$/;"	m	class:RecentlyUsedContainer	file:
+__getitem__	.\structures.py	/^    def __getitem__(self, key):$/;"	m	class:CaseInsensitiveDict	file:
+__getitem__	.\structures.py	/^    def __getitem__(self, key):$/;"	m	class:LookupDict	file:
+__getstate__	.\adapters.py	/^    def __getstate__(self):$/;"	m	class:HTTPAdapter	file:
+__getstate__	.\cookies.py	/^    def __getstate__(self):$/;"	m	class:RequestsCookieJar	file:
+__getstate__	.\models.py	/^    def __getstate__(self):$/;"	m	class:Response	file:
+__getstate__	.\sessions.py	/^    def __getstate__(self):$/;"	m	class:Session	file:
+__init__	.\adapters.py	/^    def __init__(self):$/;"	m	class:BaseAdapter
+__init__	.\adapters.py	/^    def __init__(self, pool_connections=DEFAULT_POOLSIZE,$/;"	m	class:HTTPAdapter
+__init__	.\auth.py	/^    def __init__(self, username, password):$/;"	m	class:HTTPBasicAuth
+__init__	.\auth.py	/^    def __init__(self, username, password):$/;"	m	class:HTTPDigestAuth
+__init__	.\cookies.py	/^    def __init__(self, headers):$/;"	m	class:MockResponse
+__init__	.\cookies.py	/^    def __init__(self, request):$/;"	m	class:MockRequest
+__init__	.\exceptions.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:RequestException
+__init__	.\models.py	/^    def __init__(self):$/;"	m	class:PreparedRequest
+__init__	.\models.py	/^    def __init__(self):$/;"	m	class:Response
+__init__	.\models.py	/^    def __init__(self, method=None, url=None, headers=None, files=None,$/;"	m	class:Request
+__init__	.\packages\chardet\big5prober.py	/^    def __init__(self):$/;"	m	class:Big5Prober
+__init__	.\packages\chardet\chardistribution.py	/^    def __init__(self):$/;"	m	class:Big5DistributionAnalysis
+__init__	.\packages\chardet\chardistribution.py	/^    def __init__(self):$/;"	m	class:CharDistributionAnalysis
+__init__	.\packages\chardet\chardistribution.py	/^    def __init__(self):$/;"	m	class:EUCJPDistributionAnalysis
+__init__	.\packages\chardet\chardistribution.py	/^    def __init__(self):$/;"	m	class:EUCKRDistributionAnalysis
+__init__	.\packages\chardet\chardistribution.py	/^    def __init__(self):$/;"	m	class:EUCTWDistributionAnalysis
+__init__	.\packages\chardet\chardistribution.py	/^    def __init__(self):$/;"	m	class:GB2312DistributionAnalysis
+__init__	.\packages\chardet\chardistribution.py	/^    def __init__(self):$/;"	m	class:SJISDistributionAnalysis
+__init__	.\packages\chardet\charsetgroupprober.py	/^    def __init__(self):$/;"	m	class:CharSetGroupProber
+__init__	.\packages\chardet\charsetprober.py	/^    def __init__(self):$/;"	m	class:CharSetProber
+__init__	.\packages\chardet\codingstatemachine.py	/^    def __init__(self, sm):$/;"	m	class:CodingStateMachine
+__init__	.\packages\chardet\cp949prober.py	/^    def __init__(self):$/;"	m	class:CP949Prober
+__init__	.\packages\chardet\escprober.py	/^    def __init__(self):$/;"	m	class:EscCharSetProber
+__init__	.\packages\chardet\eucjpprober.py	/^    def __init__(self):$/;"	m	class:EUCJPProber
+__init__	.\packages\chardet\euckrprober.py	/^    def __init__(self):$/;"	m	class:EUCKRProber
+__init__	.\packages\chardet\euctwprober.py	/^    def __init__(self):$/;"	m	class:EUCTWProber
+__init__	.\packages\chardet\gb2312prober.py	/^    def __init__(self):$/;"	m	class:GB2312Prober
+__init__	.\packages\chardet\hebrewprober.py	/^    def __init__(self):$/;"	m	class:HebrewProber
+__init__	.\packages\chardet\jpcntx.py	/^    def __init__(self):$/;"	m	class:JapaneseContextAnalysis
+__init__	.\packages\chardet\jpcntx.py	/^    def __init__(self):$/;"	m	class:SJISContextAnalysis
+__init__	.\packages\chardet\latin1prober.py	/^    def __init__(self):$/;"	m	class:Latin1Prober
+__init__	.\packages\chardet\mbcharsetprober.py	/^    def __init__(self):$/;"	m	class:MultiByteCharSetProber
+__init__	.\packages\chardet\mbcsgroupprober.py	/^    def __init__(self):$/;"	m	class:MBCSGroupProber
+__init__	.\packages\chardet\sbcharsetprober.py	/^    def __init__(self, model, reversed=False, nameProber=None):$/;"	m	class:SingleByteCharSetProber
+__init__	.\packages\chardet\sbcsgroupprober.py	/^    def __init__(self):$/;"	m	class:SBCSGroupProber
+__init__	.\packages\chardet\sjisprober.py	/^    def __init__(self):$/;"	m	class:SJISProber
+__init__	.\packages\chardet\universaldetector.py	/^    def __init__(self):$/;"	m	class:UniversalDetector
+__init__	.\packages\chardet\utf8prober.py	/^    def __init__(self):$/;"	m	class:UTF8Prober
+__init__	.\packages\urllib3\_collections.py	/^    def __init__(self, headers=None, **kwargs):$/;"	m	class:HTTPHeaderDict
+__init__	.\packages\urllib3\_collections.py	/^    def __init__(self, maxsize=10, dispose_func=None):$/;"	m	class:RecentlyUsedContainer
+__init__	.\packages\urllib3\connection.py	/^    def __init__(self, *args, **kw):$/;"	m	class:HTTPConnection
+__init__	.\packages\urllib3\connection.py	/^    def __init__(self, host, port=None, key_file=None, cert_file=None,$/;"	m	class:HTTPSConnection
+__init__	.\packages\urllib3\connectionpool.py	/^    def __init__(self, host, port=None):$/;"	m	class:ConnectionPool
+__init__	.\packages\urllib3\connectionpool.py	/^    def __init__(self, host, port=None, strict=False,$/;"	m	class:HTTPConnectionPool
+__init__	.\packages\urllib3\connectionpool.py	/^    def __init__(self, host, port=None,$/;"	m	class:HTTPSConnectionPool
+__init__	.\packages\urllib3\contrib\appengine.py	/^    def __init__(self, headers=None, retries=None, validate_certificate=True):$/;"	m	class:AppEngineManager
+__init__	.\packages\urllib3\contrib\ntlmpool.py	/^    def __init__(self, user, pw, authurl, *args, **kwargs):$/;"	m	class:NTLMConnectionPool
+__init__	.\packages\urllib3\contrib\pyopenssl.py	/^    def __init__(self, connection, socket, suppress_ragged_eofs=True):$/;"	m	class:WrappedSocket
+__init__	.\packages\urllib3\exceptions.py	/^    def __init__(self, defects, unparsed_data):$/;"	m	class:HeaderParsingError
+__init__	.\packages\urllib3\exceptions.py	/^    def __init__(self, location):$/;"	m	class:LocationParseError
+__init__	.\packages\urllib3\exceptions.py	/^    def __init__(self, pool, message):$/;"	m	class:PoolError
+__init__	.\packages\urllib3\exceptions.py	/^    def __init__(self, pool, url, message):$/;"	m	class:RequestError
+__init__	.\packages\urllib3\exceptions.py	/^    def __init__(self, pool, url, reason=None):$/;"	m	class:MaxRetryError
+__init__	.\packages\urllib3\exceptions.py	/^    def __init__(self, pool, url, retries=3):$/;"	m	class:HostChangedError
+__init__	.\packages\urllib3\exceptions.py	/^    def __init__(self, scheme):$/;"	m	class:ProxySchemeUnknown
+__init__	.\packages\urllib3\fields.py	/^    def __init__(self, name, data, filename=None, headers=None):$/;"	m	class:RequestField
+__init__	.\packages\urllib3\packages\ordered_dict.py	/^    def __init__(self, *args, **kwds):$/;"	m	class:OrderedDict
+__init__	.\packages\urllib3\packages\six.py	/^    def __init__(self, name):$/;"	m	class:_LazyDescr
+__init__	.\packages\urllib3\packages\six.py	/^    def __init__(self, name, old, new=None):$/;"	m	class:MovedModule
+__init__	.\packages\urllib3\packages\six.py	/^    def __init__(self, name, old_mod, new_mod, old_attr=None, new_attr=None):$/;"	m	class:MovedAttribute
+__init__	.\packages\urllib3\poolmanager.py	/^    def __init__(self, num_pools=10, headers=None, **connection_pool_kw):$/;"	m	class:PoolManager
+__init__	.\packages\urllib3\poolmanager.py	/^    def __init__(self, proxy_url, num_pools=10, headers=None,$/;"	m	class:ProxyManager
+__init__	.\packages\urllib3\request.py	/^    def __init__(self, headers=None):$/;"	m	class:RequestMethods
+__init__	.\packages\urllib3\response.py	/^    def __init__(self):$/;"	m	class:DeflateDecoder
+__init__	.\packages\urllib3\response.py	/^    def __init__(self):$/;"	m	class:GzipDecoder
+__init__	.\packages\urllib3\response.py	/^    def __init__(self, body='', headers=None, status=0, version=0, reason=None,$/;"	m	class:HTTPResponse
+__init__	.\packages\urllib3\util\retry.py	/^    def __init__(self, total=10, connect=None, read=None, redirect=None,$/;"	m	class:Retry
+__init__	.\packages\urllib3\util\ssl_.py	/^        def __init__(self, protocol_version):$/;"	m	class:SSLContext
+__init__	.\packages\urllib3\util\timeout.py	/^    def __init__(self, total=None, connect=_Default, read=_Default):$/;"	m	class:Timeout
+__init__	.\sessions.py	/^    def __init__(self):$/;"	m	class:Session
+__init__	.\structures.py	/^    def __init__(self, data=None, **kwargs):$/;"	m	class:CaseInsensitiveDict
+__init__	.\structures.py	/^    def __init__(self, name=None):$/;"	m	class:LookupDict
+__iter__	.\models.py	/^    def __iter__(self):$/;"	m	class:Response	file:
+__iter__	.\packages\urllib3\_collections.py	/^    def __iter__(self):$/;"	m	class:HTTPHeaderDict	file:
+__iter__	.\packages\urllib3\_collections.py	/^    def __iter__(self):$/;"	m	class:RecentlyUsedContainer	file:
+__iter__	.\packages\urllib3\packages\ordered_dict.py	/^    def __iter__(self):$/;"	m	class:OrderedDict	file:
+__iter__	.\structures.py	/^    def __iter__(self):$/;"	m	class:CaseInsensitiveDict	file:
+__len__	.\packages\urllib3\_collections.py	/^    def __len__(self):$/;"	m	class:HTTPHeaderDict	file:
+__len__	.\packages\urllib3\_collections.py	/^    def __len__(self):$/;"	m	class:RecentlyUsedContainer	file:
+__len__	.\packages\urllib3\packages\six.py	/^            def __len__(self):$/;"	m	class:X	file:
+__len__	.\structures.py	/^    def __len__(self):$/;"	m	class:CaseInsensitiveDict	file:
+__license__	.\__init__.py	/^__license__ = 'Apache 2.0'$/;"	v
+__license__	.\packages\urllib3\__init__.py	/^__license__ = 'MIT'$/;"	v
+__marker	.\packages\urllib3\_collections.py	/^    __marker = object()$/;"	v	class:HTTPHeaderDict
+__marker	.\packages\urllib3\packages\ordered_dict.py	/^    __marker = object()$/;"	v	class:OrderedDict
+__ne__	.\packages\urllib3\_collections.py	/^    def __ne__(self, other):$/;"	m	class:HTTPHeaderDict	file:
+__ne__	.\packages\urllib3\packages\ordered_dict.py	/^    def __ne__(self, other):$/;"	m	class:OrderedDict	file:
+__new__	.\packages\urllib3\util\url.py	/^    def __new__(cls, scheme=None, auth=None, host=None, port=None, path=None,$/;"	m	class:Url	file:
+__nonzero__	.\models.py	/^    def __nonzero__(self):$/;"	m	class:Response	file:
+__reduce__	.\packages\urllib3\exceptions.py	/^    def __reduce__(self):$/;"	m	class:PoolError	file:
+__reduce__	.\packages\urllib3\exceptions.py	/^    def __reduce__(self):$/;"	m	class:RequestError	file:
+__reduce__	.\packages\urllib3\packages\ordered_dict.py	/^    def __reduce__(self):$/;"	m	class:OrderedDict	file:
+__repr__	.\models.py	/^    def __repr__(self):$/;"	m	class:PreparedRequest	file:
+__repr__	.\models.py	/^    def __repr__(self):$/;"	m	class:Request	file:
+__repr__	.\models.py	/^    def __repr__(self):$/;"	m	class:Response	file:
+__repr__	.\packages\urllib3\_collections.py	/^    def __repr__(self):$/;"	m	class:HTTPHeaderDict	file:
+__repr__	.\packages\urllib3\packages\ordered_dict.py	/^    def __repr__(self, _repr_running={}):$/;"	m	class:OrderedDict	file:
+__repr__	.\packages\urllib3\util\retry.py	/^    def __repr__(self):$/;"	m	class:Retry	file:
+__repr__	.\structures.py	/^    def __repr__(self):$/;"	m	class:CaseInsensitiveDict	file:
+__repr__	.\structures.py	/^    def __repr__(self):$/;"	m	class:LookupDict	file:
+__reversed__	.\packages\urllib3\packages\ordered_dict.py	/^    def __reversed__(self):$/;"	m	class:OrderedDict	file:
+__setitem__	.\cookies.py	/^    def __setitem__(self, name, value):$/;"	m	class:RequestsCookieJar	file:
+__setitem__	.\packages\urllib3\_collections.py	/^    def __setitem__(self, key, val):$/;"	m	class:HTTPHeaderDict	file:
+__setitem__	.\packages\urllib3\_collections.py	/^    def __setitem__(self, key, value):$/;"	m	class:RecentlyUsedContainer	file:
+__setitem__	.\packages\urllib3\packages\ordered_dict.py	/^    def __setitem__(self, key, value, dict_setitem=dict.__setitem__):$/;"	m	class:OrderedDict	file:
+__setitem__	.\structures.py	/^    def __setitem__(self, key, value):$/;"	m	class:CaseInsensitiveDict	file:
+__setstate__	.\adapters.py	/^    def __setstate__(self, state):$/;"	m	class:HTTPAdapter	file:
+__setstate__	.\cookies.py	/^    def __setstate__(self, state):$/;"	m	class:RequestsCookieJar	file:
+__setstate__	.\models.py	/^    def __setstate__(self, state):$/;"	m	class:Response	file:
+__setstate__	.\sessions.py	/^    def __setstate__(self, state):$/;"	m	class:Session	file:
+__str__	.\packages\urllib3\connectionpool.py	/^    def __str__(self):$/;"	m	class:ConnectionPool	file:
+__str__	.\packages\urllib3\util\timeout.py	/^    def __str__(self):$/;"	m	class:Timeout	file:
+__str__	.\packages\urllib3\util\url.py	/^    def __str__(self):$/;"	m	class:Url	file:
+__title__	.\__init__.py	/^__title__ = 'requests'$/;"	v
+__update	.\packages\urllib3\packages\ordered_dict.py	/^    __update = update  # let subclasses override update without breaking __init__$/;"	v	class:OrderedDict
+__version__	.\__init__.py	/^__version__ = '2.8.1'$/;"	v
+__version__	.\packages\chardet\__init__.py	/^__version__ = "2.3.0"$/;"	v
+__version__	.\packages\chardet\chardetect.py	/^from chardet import __version__$/;"	i
+__version__	.\packages\urllib3\__init__.py	/^__version__ = '1.12'$/;"	v
+__version__	.\packages\urllib3\packages\six.py	/^__version__ = "1.2.0"  # Revision 41c74fef2ded$/;"	v
+__version__	.\packages\urllib3\packages\ssl_match_hostname\_implementation.py	/^__version__ = '3.4.0.2'$/;"	v
+__version__	.\utils.py	/^from . import __version__$/;"	i
+_absolute_url	.\packages\urllib3\connectionpool.py	/^    def _absolute_url(self, path):$/;"	m	class:HTTPConnectionPool
+_add_doc	.\packages\urllib3\packages\six.py	/^def _add_doc(func, doc):$/;"	f
+_basic_auth_str	.\adapters.py	/^from .auth import _basic_auth_str$/;"	i
+_basic_auth_str	.\auth.py	/^def _basic_auth_str(username, password):$/;"	f
+_basic_auth_str	.\sessions.py	/^from .auth import _basic_auth_str$/;"	i
+_blocking_errnos	.\packages\urllib3\connectionpool.py	/^_blocking_errnos = set([errno.EAGAIN, errno.EWOULDBLOCK])$/;"	v
+_codes	.\status_codes.py	/^_codes = {$/;"	v
+_copy_cookie_jar	.\cookies.py	/^def _copy_cookie_jar(jar):$/;"	f
+_copy_cookie_jar	.\models.py	/^from .cookies import cookiejar_from_dict, get_cookie_header, _copy_cookie_jar$/;"	i
+_copy_from	.\packages\urllib3\_collections.py	/^    def _copy_from(self, other):$/;"	m	class:HTTPHeaderDict
+_debug	.\packages\chardet\constants.py	/^_debug = 0$/;"	v
+_decode	.\packages\urllib3\response.py	/^    def _decode(self, data, decode_content, flush_decoder):$/;"	m	class:HTTPResponse
+_dnsname_match	.\packages\urllib3\packages\ssl_match_hostname\_implementation.py	/^def _dnsname_match(dn, hostname, max_wildcards=1):$/;"	f
+_drop	.\packages\urllib3\contrib\pyopenssl.py	/^    def _drop(self):$/;"	m	class:WrappedSocket
+_encode_files	.\models.py	/^    def _encode_files(files, data):$/;"	m	class:RequestEncodingMixin
+_encode_params	.\models.py	/^    def _encode_params(data):$/;"	m	class:RequestEncodingMixin
+_encode_url_methods	.\packages\urllib3\request.py	/^    _encode_url_methods = set(['DELETE', 'GET', 'HEAD', 'OPTIONS'])$/;"	v	class:RequestMethods
+_error_catcher	.\packages\urllib3\response.py	/^    def _error_catcher(self):$/;"	m	class:HTTPResponse
+_fileobject	.\packages\urllib3\contrib\pyopenssl.py	/^from socket import _fileobject, timeout$/;"	i
+_find	.\cookies.py	/^    def _find(self, name, domain=None, path=None):$/;"	m	class:RequestsCookieJar
+_find_no_duplicates	.\cookies.py	/^    def _find_no_duplicates(self, name, domain=None, path=None):$/;"	m	class:RequestsCookieJar
+_func_code	.\packages\urllib3\packages\six.py	/^    _func_code = "func_code"$/;"	v
+_func_defaults	.\packages\urllib3\packages\six.py	/^    _func_defaults = "func_defaults"$/;"	v
+_get_absolute_timeout	.\packages\urllib3\contrib\appengine.py	/^    def _get_absolute_timeout(self, timeout):$/;"	m	class:AppEngineManager
+_get_conn	.\packages\urllib3\connectionpool.py	/^    def _get_conn(self, timeout=None):$/;"	m	class:HTTPConnectionPool
+_get_decoder	.\packages\urllib3\response.py	/^def _get_decoder(mode):$/;"	f
+_get_ident	.\packages\urllib3\packages\ordered_dict.py	/^    from dummy_thread import get_ident as _get_ident$/;"	i
+_get_ident	.\packages\urllib3\packages\ordered_dict.py	/^    from thread import get_ident as _get_ident$/;"	i
+_get_retries	.\packages\urllib3\contrib\appengine.py	/^    def _get_retries(self, retries, redirect):$/;"	m	class:AppEngineManager
+_get_timeout	.\packages\urllib3\connectionpool.py	/^    def _get_timeout(self, timeout):$/;"	m	class:HTTPConnectionPool
+_handle_chunk	.\packages\urllib3\response.py	/^    def _handle_chunk(self, amt):$/;"	m	class:HTTPResponse
+_hush_pyflakes	.\utils.py	/^_hush_pyflakes = (RequestsCookieJar,)$/;"	v
+_import_module	.\packages\urllib3\packages\six.py	/^def _import_module(name):$/;"	f
+_init_decoder	.\packages\urllib3\response.py	/^    def _init_decoder(self):$/;"	m	class:HTTPResponse
+_is_connection_error	.\packages\urllib3\util\retry.py	/^    def _is_connection_error(self, err):$/;"	m	class:Retry
+_is_read_error	.\packages\urllib3\util\retry.py	/^    def _is_read_error(self, err):$/;"	m	class:Retry
+_iteritems	.\packages\urllib3\packages\six.py	/^    _iteritems = "iteritems"$/;"	v
+_iterkeys	.\packages\urllib3\packages\six.py	/^    _iterkeys = "iterkeys"$/;"	v
+_itervalues	.\packages\urllib3\packages\six.py	/^    _itervalues = "itervalues"$/;"	v
+_make_request	.\packages\urllib3\connectionpool.py	/^    def _make_request(self, conn, method, url, timeout=_Default,$/;"	m	class:HTTPConnectionPool
+_meth_func	.\packages\urllib3\packages\six.py	/^    _meth_func = "im_func"$/;"	v
+_meth_self	.\packages\urllib3\packages\six.py	/^    _meth_self = "im_self"$/;"	v
+_moved_attributes	.\packages\urllib3\packages\six.py	/^_moved_attributes = [$/;"	v
+_new_conn	.\packages\urllib3\connection.py	/^    def _new_conn(self):$/;"	m	class:HTTPConnection
+_new_conn	.\packages\urllib3\connectionpool.py	/^    def _new_conn(self):$/;"	m	class:HTTPConnectionPool
+_new_conn	.\packages\urllib3\connectionpool.py	/^    def _new_conn(self):$/;"	m	class:HTTPSConnectionPool
+_new_conn	.\packages\urllib3\contrib\ntlmpool.py	/^    def _new_conn(self):$/;"	m	class:NTLMConnectionPool
+_new_pool	.\packages\urllib3\poolmanager.py	/^    def _new_pool(self, scheme, host, port):$/;"	m	class:PoolManager
+_null	.\utils.py	/^_null = '\\x00'.encode('ascii')  # encoding to ASCII for Python 3$/;"	v
+_null2	.\utils.py	/^_null2 = _null * 2$/;"	v
+_null3	.\utils.py	/^_null3 = _null * 3$/;"	v
+_openssl_verify	.\packages\urllib3\contrib\pyopenssl.py	/^_openssl_verify = {$/;"	v
+_openssl_versions	.\packages\urllib3\contrib\pyopenssl.py	/^_openssl_versions = {$/;"	v
+_parse_list_header	.\utils.py	/^from .compat import parse_http_list as _parse_list_header$/;"	i
+_prepare_conn	.\packages\urllib3\connection.py	/^    def _prepare_conn(self, conn):$/;"	m	class:HTTPConnection
+_prepare_conn	.\packages\urllib3\connectionpool.py	/^    def _prepare_conn(self, conn):$/;"	m	class:HTTPSConnectionPool
+_prepare_proxy	.\packages\urllib3\connectionpool.py	/^    def _prepare_proxy(self, conn):$/;"	m	class:HTTPConnectionPool
+_prepare_proxy	.\packages\urllib3\connectionpool.py	/^    def _prepare_proxy(self, conn):$/;"	m	class:HTTPSConnectionPool
+_put_conn	.\packages\urllib3\connectionpool.py	/^    def _put_conn(self, conn):$/;"	m	class:HTTPConnectionPool
+_raise_timeout	.\packages\urllib3\connectionpool.py	/^    def _raise_timeout(self, err, url, timeout_value):$/;"	m	class:HTTPConnectionPool
+_render_part	.\packages\urllib3\fields.py	/^    def _render_part(self, name, value):$/;"	m	class:RequestField
+_render_parts	.\packages\urllib3\fields.py	/^    def _render_parts(self, header_parts):$/;"	m	class:RequestField
+_resolve	.\packages\urllib3\packages\six.py	/^    def _resolve(self):$/;"	m	class:MovedAttribute
+_resolve	.\packages\urllib3\packages\six.py	/^    def _resolve(self):$/;"	m	class:MovedModule
+_reuse	.\packages\urllib3\contrib\pyopenssl.py	/^    def _reuse(self):$/;"	m	class:WrappedSocket
+_send_until_done	.\packages\urllib3\contrib\pyopenssl.py	/^    def _send_until_done(self, data):$/;"	m	class:WrappedSocket
+_set_proxy_headers	.\packages\urllib3\poolmanager.py	/^    def _set_proxy_headers(self, url, headers=None):$/;"	m	class:ProxyManager
+_set_socket_options	.\packages\urllib3\util\connection.py	/^def _set_socket_options(sock, options):$/;"	f
+_update_chunk_length	.\packages\urllib3\response.py	/^    def _update_chunk_length(self):$/;"	m	class:HTTPResponse
+_urlfetch_response_to_http_response	.\packages\urllib3\contrib\appengine.py	/^    def _urlfetch_response_to_http_response(self, urlfetch_resp, **response_kw):$/;"	m	class:AppEngineManager
+_validate_conn	.\packages\urllib3\connectionpool.py	/^    def _validate_conn(self, conn):$/;"	m	class:HTTPConnectionPool
+_validate_conn	.\packages\urllib3\connectionpool.py	/^    def _validate_conn(self, conn):$/;"	m	class:HTTPSConnectionPool
+_validate_timeout	.\packages\urllib3\util\timeout.py	/^    def _validate_timeout(cls, value, name):$/;"	m	class:Timeout
+_ver	.\compat.py	/^_ver = sys.version_info$/;"	v
+_verify_callback	.\packages\urllib3\contrib\pyopenssl.py	/^def _verify_callback(cnx, x509, err_no, err_depth, return_code):$/;"	f
+absolute_import	.\packages\__init__.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	.\packages\chardet\chardetect.py	/^from __future__ import absolute_import, print_function, unicode_literals$/;"	i
+absolute_import	.\packages\urllib3\packages\__init__.py	/^from __future__ import absolute_import$/;"	i
+add	.\packages\urllib3\_collections.py	/^    def add(self, key, val):$/;"	m	class:HTTPHeaderDict
+add_dict_to_cookiejar	.\utils.py	/^def add_dict_to_cookiejar(cj, cookie_dict):$/;"	f
+add_header	.\cookies.py	/^    def add_header(self, key, val):$/;"	m	class:MockRequest
+add_headers	.\adapters.py	/^    def add_headers(self, request, **kwargs):$/;"	m	class:HTTPAdapter
+add_move	.\packages\urllib3\packages\six.py	/^def add_move(move):$/;"	f
+add_stderr_logger	.\packages\urllib3\__init__.py	/^def add_stderr_logger(level=logging.DEBUG):$/;"	f
+add_unredirected_header	.\cookies.py	/^    def add_unredirected_header(self, name, value):$/;"	m	class:MockRequest
+address_in_network	.\utils.py	/^def address_in_network(ip, net):$/;"	f
+advance_iterator	.\packages\urllib3\packages\six.py	/^    advance_iterator = next$/;"	v
+advance_iterator	.\packages\urllib3\packages\six.py	/^    def advance_iterator(it):$/;"	f
+apparent_encoding	.\models.py	/^    def apparent_encoding(self):$/;"	m	class:Response
+append	.\packages\urllib3\__init__.py	/^                      append=True)$/;"	v
+argparse	.\packages\chardet\chardetect.py	/^import argparse$/;"	i
+assert_fingerprint	.\packages\urllib3\connection.py	/^    assert_fingerprint = None$/;"	v	class:VerifiedHTTPSConnection
+assert_fingerprint	.\packages\urllib3\util\ssl_.py	/^def assert_fingerprint(cert, fingerprint):$/;"	f
+assert_header_parsing	.\packages\urllib3\connectionpool.py	/^from .util.response import assert_header_parsing$/;"	i
+assert_header_parsing	.\packages\urllib3\util\response.py	/^def assert_header_parsing(headers):$/;"	f
+b	.\packages\urllib3\filepost.py	/^from .packages.six import b$/;"	i
+b	.\packages\urllib3\packages\six.py	/^    def b(s):$/;"	f	function:iteritems
+b	.\packages\urllib3\packages\six.py	/^    def b(s):$/;"	f
+b	.\packages\urllib3\util\request.py	/^from ..packages.six import b$/;"	i
+b64encode	.\auth.py	/^from base64 import b64encode$/;"	i
+b64encode	.\packages\urllib3\util\request.py	/^from base64 import b64encode$/;"	i
+base_str	.\packages\chardet\compat.py	/^    base_str = (bytes, str)$/;"	v
+base_str	.\packages\chardet\compat.py	/^    base_str = (str, unicode)$/;"	v
+basestring	.\adapters.py	/^from .compat import urlparse, basestring$/;"	i
+basestring	.\compat.py	/^    basestring = (str, bytes)$/;"	v
+basestring	.\compat.py	/^    basestring = basestring$/;"	v
+basestring	.\packages\urllib3\response.py	/^from .packages.six import string_types as basestring, binary_type, PY3$/;"	i
+binary_type	.\packages\urllib3\packages\six.py	/^    binary_type = bytes$/;"	v
+binary_type	.\packages\urllib3\packages\six.py	/^    binary_type = str$/;"	v
+binary_type	.\packages\urllib3\response.py	/^from .packages.six import string_types as basestring, binary_type, PY3$/;"	i
+build_digest_header	.\auth.py	/^    def build_digest_header(self, method, url):$/;"	m	class:HTTPDigestAuth
+build_response	.\adapters.py	/^    def build_response(self, req, resp):$/;"	m	class:HTTPAdapter
+builtin_str	.\compat.py	/^    builtin_str = str$/;"	v
+builtins	.\packages\urllib3\packages\six.py	/^    import builtins$/;"	i
+byte	.\packages\chardet\universaldetector.py	/^from .mbcsgroupprober import MBCSGroupProber  # multi-byte character sets$/;"	i
+byte	.\packages\chardet\universaldetector.py	/^from .sbcsgroupprober import SBCSGroupProber  # single-byte character sets$/;"	i
+bytes	.\compat.py	/^    bytes = bytes$/;"	v
+bytes	.\compat.py	/^    bytes = str$/;"	v
+bytes	.\utils.py	/^from .compat import (quote, urlparse, bytes, str, OrderedDict, unquote, is_py2,$/;"	i
+ca_cert_dir	.\packages\urllib3\connection.py	/^    ca_cert_dir = None$/;"	v	class:VerifiedHTTPSConnection
+ca_certs	.\packages\urllib3\connection.py	/^    ca_certs = None$/;"	v	class:VerifiedHTTPSConnection
+callable	.\packages\urllib3\packages\six.py	/^    callable = callable$/;"	v
+callable	.\packages\urllib3\packages\six.py	/^    def callable(obj):$/;"	f
+cert_reqs	.\packages\urllib3\connection.py	/^    cert_reqs = None$/;"	v	class:VerifiedHTTPSConnection
+cert_verify	.\adapters.py	/^    def cert_verify(self, conn, url, verify, cert):$/;"	m	class:HTTPAdapter
+certs	.\utils.py	/^from . import certs$/;"	i
+cgi	.\utils.py	/^import cgi$/;"	i
+character	.\packages\chardet\universaldetector.py	/^from .mbcsgroupprober import MBCSGroupProber  # multi-byte character sets$/;"	i
+character	.\packages\chardet\universaldetector.py	/^from .sbcsgroupprober import SBCSGroupProber  # single-byte character sets$/;"	i
+chardet	.\compat.py	/^from .packages import chardet$/;"	i
+chardet	.\packages\__init__.py	/^    from . import chardet$/;"	i
+chardet	.\packages\__init__.py	/^    import chardet$/;"	i
+choose_boundary	.\packages\urllib3\filepost.py	/^def choose_boundary():$/;"	f
+class_types	.\packages\urllib3\packages\six.py	/^    class_types = (type, types.ClassType)$/;"	v
+class_types	.\packages\urllib3\packages\six.py	/^    class_types = type,$/;"	v
+clear	.\packages\urllib3\_collections.py	/^    def clear(self):$/;"	m	class:RecentlyUsedContainer
+clear	.\packages\urllib3\packages\ordered_dict.py	/^    def clear(self):$/;"	m	class:OrderedDict
+clear	.\packages\urllib3\poolmanager.py	/^    def clear(self):$/;"	m	class:PoolManager
+clone	.\packages\urllib3\util\timeout.py	/^    def clone(self):$/;"	m	class:Timeout
+close	.\adapters.py	/^    def close(self):$/;"	m	class:BaseAdapter
+close	.\adapters.py	/^    def close(self):$/;"	m	class:HTTPAdapter
+close	.\models.py	/^    def close(self):$/;"	m	class:Response
+close	.\packages\chardet\universaldetector.py	/^    def close(self):$/;"	m	class:UniversalDetector
+close	.\packages\urllib3\connectionpool.py	/^    def close():$/;"	m	class:ConnectionPool
+close	.\packages\urllib3\connectionpool.py	/^    def close(self):$/;"	m	class:HTTPConnectionPool
+close	.\packages\urllib3\contrib\pyopenssl.py	/^    def close(self):$/;"	m	class:WrappedSocket
+close	.\packages\urllib3\response.py	/^    def close(self):$/;"	m	class:HTTPResponse
+close	.\sessions.py	/^    def close(self):$/;"	m	class:Session
+closed	.\packages\urllib3\response.py	/^    def closed(self):$/;"	m	class:HTTPResponse
+codecs	.\packages\chardet\universaldetector.py	/^import codecs$/;"	i
+codecs	.\packages\urllib3\filepost.py	/^import codecs$/;"	i
+codecs	.\utils.py	/^import codecs$/;"	i
+codes	.\__init__.py	/^from .status_codes import codes$/;"	i
+codes	.\auth.py	/^from .status_codes import codes$/;"	i
+codes	.\models.py	/^from .status_codes import codes$/;"	i
+codes	.\sessions.py	/^from .status_codes import codes$/;"	i
+codes	.\status_codes.py	/^codes = LookupDict(name='status_codes')$/;"	v
+collections	.\cookies.py	/^import collections$/;"	i
+collections	.\models.py	/^import collections$/;"	i
+collections	.\structures.py	/^import collections$/;"	i
+collections	.\utils.py	/^import collections$/;"	i
+complexjson	.\models.py	/^from .compat import json as complexjson$/;"	i
+connect	.\packages\urllib3\connection.py	/^    def connect(self):$/;"	m	class:HTTPConnection
+connect	.\packages\urllib3\connection.py	/^    def connect(self):$/;"	m	class:HTTPSConnection
+connect	.\packages\urllib3\connection.py	/^    def connect(self):$/;"	m	class:VerifiedHTTPSConnection
+connect_timeout	.\packages\urllib3\util\timeout.py	/^    def connect_timeout(self):$/;"	m	class:Timeout
+connection	.\packages\urllib3\connection.py	/^from .util import connection$/;"	i
+connection	.\packages\urllib3\contrib\pyopenssl.py	/^from .. import connection$/;"	i
+connection_from_host	.\packages\urllib3\poolmanager.py	/^    def connection_from_host(self, host, port=None, scheme='http'):$/;"	m	class:PoolManager
+connection_from_host	.\packages\urllib3\poolmanager.py	/^    def connection_from_host(self, host, port=None, scheme='http'):$/;"	m	class:ProxyManager
+connection_from_url	.\packages\urllib3\connectionpool.py	/^def connection_from_url(url, **kw):$/;"	f
+connection_from_url	.\packages\urllib3\poolmanager.py	/^    def connection_from_url(self, url):$/;"	m	class:PoolManager
+constants	.\packages\chardet\charsetgroupprober.py	/^from . import constants$/;"	i
+constants	.\packages\chardet\charsetprober.py	/^from . import constants$/;"	i
+constants	.\packages\chardet\escprober.py	/^from . import constants$/;"	i
+constants	.\packages\chardet\eucjpprober.py	/^from . import constants$/;"	i
+constants	.\packages\chardet\mbcharsetprober.py	/^from . import constants$/;"	i
+constants	.\packages\chardet\sbcharsetprober.py	/^from . import constants$/;"	i
+constants	.\packages\chardet\sjisprober.py	/^from . import constants$/;"	i
+constants	.\packages\chardet\universaldetector.py	/^from . import constants$/;"	i
+constants	.\packages\chardet\utf8prober.py	/^from . import constants$/;"	i
+constraint	.\packages\urllib3\contrib\pyopenssl.py	/^from pyasn1.type import univ, constraint$/;"	i
+content	.\models.py	/^    def content(self):$/;"	m	class:Response
+contextmanager	.\packages\urllib3\response.py	/^from contextlib import contextmanager$/;"	i
+cookiejar_from_dict	.\cookies.py	/^def cookiejar_from_dict(cookie_dict, cookiejar=None, overwrite=True):$/;"	f
+cookiejar_from_dict	.\models.py	/^from .cookies import cookiejar_from_dict, get_cookie_header, _copy_cookie_jar$/;"	i
+cookiejar_from_dict	.\utils.py	/^from .cookies import RequestsCookieJar, cookiejar_from_dict$/;"	i
+cookielib	.\compat.py	/^    from http import cookiejar as cookielib$/;"	i
+cookielib	.\compat.py	/^    import cookielib$/;"	i
+cookielib	.\cookies.py	/^from .compat import cookielib, urlparse, urlunparse, Morsel$/;"	i
+cookielib	.\sessions.py	/^from .compat import cookielib, OrderedDict, urljoin, urlparse$/;"	i
+copy	.\cookies.py	/^    def copy(self):$/;"	m	class:RequestsCookieJar
+copy	.\cookies.py	/^import copy$/;"	i
+copy	.\models.py	/^    def copy(self):$/;"	m	class:PreparedRequest
+copy	.\packages\urllib3\_collections.py	/^    def copy(self):$/;"	m	class:HTTPHeaderDict
+copy	.\packages\urllib3\packages\ordered_dict.py	/^    def copy(self):$/;"	m	class:OrderedDict
+copy	.\structures.py	/^    def copy(self):$/;"	m	class:CaseInsensitiveDict
+create_connection	.\packages\urllib3\util\connection.py	/^def create_connection(address, timeout=socket._GLOBAL_DEFAULT_TIMEOUT,$/;"	f
+create_cookie	.\cookies.py	/^def create_cookie(name, value, **kwargs):$/;"	f
+create_default_context	.\packages\urllib3\util\ssl_.py	/^create_default_context = None$/;"	v
+create_urllib3_context	.\packages\urllib3\util\ssl_.py	/^def create_urllib3_context(ssl_version=None, cert_reqs=None,$/;"	f
+current_time	.\packages\urllib3\util\timeout.py	/^def current_time():$/;"	f
+data	.\packages\urllib3\response.py	/^    def data(self):$/;"	m	class:HTTPResponse
+datetime	.\models.py	/^import datetime$/;"	i
+datetime	.\packages\urllib3\connection.py	/^import datetime$/;"	i
+datetime	.\sessions.py	/^from datetime import datetime$/;"	i
+decompress	.\packages\urllib3\response.py	/^    def decompress(self, data):$/;"	m	class:DeflateDecoder
+decompress	.\packages\urllib3\response.py	/^    def decompress(self, data):$/;"	m	class:GzipDecoder
+default_headers	.\sessions.py	/^from .utils import to_key_val_list, default_headers, to_native_string$/;"	i
+default_headers	.\utils.py	/^def default_headers():$/;"	f
+default_hooks	.\hooks.py	/^def default_hooks():$/;"	f
+default_hooks	.\models.py	/^from .hooks import default_hooks$/;"	i
+default_hooks	.\sessions.py	/^from .hooks import default_hooks, dispatch_hook$/;"	i
+default_port	.\packages\urllib3\connection.py	/^    default_port = port_by_scheme['http']$/;"	v	class:HTTPConnection
+default_port	.\packages\urllib3\connection.py	/^    default_port = port_by_scheme['https']$/;"	v	class:HTTPSConnection
+default_socket_options	.\packages\urllib3\connection.py	/^    default_socket_options = [(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)]$/;"	v	class:HTTPConnection
+default_user_agent	.\utils.py	/^def default_user_agent(name="python-requests"):$/;"	f
+delete	.\__init__.py	/^from .api import request, get, head, post, patch, put, delete, options$/;"	i
+delete	.\api.py	/^def delete(url, **kwargs):$/;"	f
+delete	.\sessions.py	/^    def delete(self, url, **kwargs):$/;"	m	class:Session
+der_decoder	.\packages\urllib3\contrib\pyopenssl.py	/^from pyasn1.codec.der import decoder as der_decoder$/;"	i
+deregister_hook	.\models.py	/^    def deregister_hook(self, event, hook):$/;"	m	class:RequestHooksMixin
+description_of	.\packages\chardet\chardetect.py	/^def description_of(lines, name='stdin'):$/;"	f
+detect	.\packages\chardet\__init__.py	/^def detect(aBuf):$/;"	f
+dict_from_cookiejar	.\utils.py	/^def dict_from_cookiejar(cj):$/;"	f
+dict_to_sequence	.\utils.py	/^def dict_to_sequence(d):$/;"	f
+disable_warnings	.\packages\urllib3\__init__.py	/^def disable_warnings(category=exceptions.HTTPWarning):$/;"	f
+discard	.\packages\urllib3\_collections.py	/^    def discard(self, key):$/;"	m	class:HTTPHeaderDict
+dispatch_hook	.\hooks.py	/^def dispatch_hook(key, hooks, hook_data, **kwargs):$/;"	f
+dispatch_hook	.\sessions.py	/^from .hooks import default_hooks, dispatch_hook$/;"	i
+dotted_netmask	.\utils.py	/^def dotted_netmask(mask):$/;"	f
+eDetecting	.\packages\chardet\constants.py	/^eDetecting = 0$/;"	v
+eDetecting	.\packages\chardet\hebrewprober.py	/^from .constants import eNotMe, eDetecting$/;"	i
+eError	.\packages\chardet\constants.py	/^eError = 1$/;"	v
+eError	.\packages\chardet\escsm.py	/^from .constants import eStart, eError, eItsMe$/;"	i
+eError	.\packages\chardet\mbcssm.py	/^from .constants import eStart, eError, eItsMe$/;"	i
+eEscAscii	.\packages\chardet\universaldetector.py	/^eEscAscii = 1$/;"	v
+eFoundIt	.\packages\chardet\constants.py	/^eFoundIt = 1$/;"	v
+eHighbyte	.\packages\chardet\universaldetector.py	/^eHighbyte = 2$/;"	v
+eItsMe	.\packages\chardet\constants.py	/^eItsMe = 2$/;"	v
+eItsMe	.\packages\chardet\escsm.py	/^from .constants import eStart, eError, eItsMe$/;"	i
+eItsMe	.\packages\chardet\mbcssm.py	/^from .constants import eStart, eError, eItsMe$/;"	i
+eNotMe	.\packages\chardet\constants.py	/^eNotMe = 2$/;"	v
+eNotMe	.\packages\chardet\hebrewprober.py	/^from .constants import eNotMe, eDetecting$/;"	i
+eNotMe	.\packages\chardet\latin1prober.py	/^from .constants import eNotMe$/;"	i
+ePureAscii	.\packages\chardet\universaldetector.py	/^ePureAscii = 0$/;"	v
+eStart	.\packages\chardet\codingstatemachine.py	/^from .constants import eStart$/;"	i
+eStart	.\packages\chardet\constants.py	/^eStart = 0$/;"	v
+eStart	.\packages\chardet\escsm.py	/^from .constants import eStart, eError, eItsMe$/;"	i
+eStart	.\packages\chardet\mbcssm.py	/^from .constants import eStart, eError, eItsMe$/;"	i
+email	.\packages\urllib3\fields.py	/^import email.utils$/;"	i
+emit	.\__init__.py	/^        def emit(self, record):$/;"	m	class:NullHandler
+emit	.\packages\urllib3\__init__.py	/^        def emit(self, record):$/;"	m	class:NullHandler
+encode_multipart_formdata	.\models.py	/^from .packages.urllib3.filepost import encode_multipart_formdata$/;"	i
+encode_multipart_formdata	.\packages\urllib3\__init__.py	/^from .filepost import encode_multipart_formdata$/;"	i
+encode_multipart_formdata	.\packages\urllib3\filepost.py	/^def encode_multipart_formdata(fields, boundary=None):$/;"	f
+encode_multipart_formdata	.\packages\urllib3\request.py	/^from .filepost import encode_multipart_formdata$/;"	i
+errno	.\packages\urllib3\connectionpool.py	/^import errno$/;"	i
+errno	.\packages\urllib3\util\ssl_.py	/^import errno$/;"	i
+etc	.\packages\chardet\universaldetector.py	/^from .escprober import EscCharSetProber  # ISO-2122, etc.$/;"	i
+exceptions	.\packages\urllib3\__init__.py	/^from . import exceptions$/;"	i
+exec_	.\packages\urllib3\packages\six.py	/^    def exec_(code, globs=None, locs=None):$/;"	f
+exec_	.\packages\urllib3\packages\six.py	/^    exec_ = getattr(builtins, "exec")$/;"	v
+extend	.\packages\urllib3\_collections.py	/^    def extend(self, *args, **kwargs):$/;"	m	class:HTTPHeaderDict
+extract_cookies_to_jar	.\adapters.py	/^from .cookies import extract_cookies_to_jar$/;"	i
+extract_cookies_to_jar	.\auth.py	/^from .cookies import extract_cookies_to_jar$/;"	i
+extract_cookies_to_jar	.\cookies.py	/^def extract_cookies_to_jar(jar, request, response):$/;"	f
+extract_from_urllib3	.\packages\urllib3\contrib\pyopenssl.py	/^def extract_from_urllib3():$/;"	f
+feed	.\packages\chardet\chardistribution.py	/^    def feed(self, aBuf, aCharLen):$/;"	m	class:CharDistributionAnalysis
+feed	.\packages\chardet\charsetgroupprober.py	/^    def feed(self, aBuf):$/;"	m	class:CharSetGroupProber
+feed	.\packages\chardet\charsetprober.py	/^    def feed(self, aBuf):$/;"	m	class:CharSetProber
+feed	.\packages\chardet\escprober.py	/^    def feed(self, aBuf):$/;"	m	class:EscCharSetProber
+feed	.\packages\chardet\eucjpprober.py	/^    def feed(self, aBuf):$/;"	m	class:EUCJPProber
+feed	.\packages\chardet\hebrewprober.py	/^    def feed(self, aBuf):$/;"	m	class:HebrewProber
+feed	.\packages\chardet\jpcntx.py	/^    def feed(self, aBuf, aLen):$/;"	m	class:JapaneseContextAnalysis
+feed	.\packages\chardet\latin1prober.py	/^    def feed(self, aBuf):$/;"	m	class:Latin1Prober
+feed	.\packages\chardet\mbcharsetprober.py	/^    def feed(self, aBuf):$/;"	m	class:MultiByteCharSetProber
+feed	.\packages\chardet\sbcharsetprober.py	/^    def feed(self, aBuf):$/;"	m	class:SingleByteCharSetProber
+feed	.\packages\chardet\sjisprober.py	/^    def feed(self, aBuf):$/;"	m	class:SJISProber
+feed	.\packages\chardet\universaldetector.py	/^    def feed(self, aBuf):$/;"	m	class:UniversalDetector
+feed	.\packages\chardet\utf8prober.py	/^    def feed(self, aBuf):$/;"	m	class:UTF8Prober
+fileno	.\packages\urllib3\contrib\pyopenssl.py	/^    def fileno(self):$/;"	m	class:WrappedSocket
+fileno	.\packages\urllib3\response.py	/^    def fileno(self):$/;"	m	class:HTTPResponse
+filter_high_bit_only	.\packages\chardet\charsetprober.py	/^    def filter_high_bit_only(self, aBuf):$/;"	m	class:CharSetProber
+filter_with_english_letters	.\packages\chardet\charsetprober.py	/^    def filter_with_english_letters(self, aBuf):$/;"	m	class:CharSetProber
+filter_without_english_letters	.\packages\chardet\charsetprober.py	/^    def filter_without_english_letters(self, aBuf):$/;"	m	class:CharSetProber
+flush	.\packages\urllib3\response.py	/^    def flush(self):$/;"	m	class:HTTPResponse
+format_header_param	.\packages\urllib3\fields.py	/^def format_header_param(name, value):$/;"	f
+from_float	.\packages\urllib3\util\timeout.py	/^    def from_float(cls, timeout):$/;"	m	class:Timeout
+from_httplib	.\packages\urllib3\_collections.py	/^    def from_httplib(cls, message): # Python 2$/;"	m	class:HTTPHeaderDict
+from_httplib	.\packages\urllib3\response.py	/^    def from_httplib(ResponseCls, r, **response_kw):$/;"	m	class:HTTPResponse
+from_int	.\packages\urllib3\util\retry.py	/^    def from_int(cls, retries, redirect=True, default=None):$/;"	m	class:Retry
+from_key_val_list	.\utils.py	/^def from_key_val_list(value):$/;"	f
+from_tuples	.\packages\urllib3\fields.py	/^    def from_tuples(cls, fieldname, value):$/;"	m	class:RequestField
+fromkeys	.\packages\urllib3\packages\ordered_dict.py	/^    def fromkeys(cls, iterable, value=None):$/;"	m	class:OrderedDict
+generate	.\models.py	/^        def generate():$/;"	f	function:Response.iter_content
+get	.\__init__.py	/^from .api import request, get, head, post, patch, put, delete, options$/;"	i
+get	.\api.py	/^def get(url, params=None, **kwargs):$/;"	f
+get	.\cookies.py	/^    def get(self, name, default=None, domain=None, path=None):$/;"	m	class:RequestsCookieJar
+get	.\sessions.py	/^    def get(self, url, **kwargs):$/;"	m	class:Session
+get	.\structures.py	/^    def get(self, key, default=None):$/;"	m	class:LookupDict
+getLogger	.\packages\urllib3\contrib\ntlmpool.py	/^from logging import getLogger$/;"	i
+get_adapter	.\sessions.py	/^    def get_adapter(self, url):$/;"	m	class:Session
+get_auth_from_url	.\utils.py	/^def get_auth_from_url(url):$/;"	f
+get_backoff_time	.\packages\urllib3\util\retry.py	/^    def get_backoff_time(self):$/;"	m	class:Retry
+get_charset_name	.\packages\chardet\big5prober.py	/^    def get_charset_name(self):$/;"	m	class:Big5Prober
+get_charset_name	.\packages\chardet\charsetgroupprober.py	/^    def get_charset_name(self):$/;"	m	class:CharSetGroupProber
+get_charset_name	.\packages\chardet\charsetprober.py	/^    def get_charset_name(self):$/;"	m	class:CharSetProber
+get_charset_name	.\packages\chardet\cp949prober.py	/^    def get_charset_name(self):$/;"	m	class:CP949Prober
+get_charset_name	.\packages\chardet\escprober.py	/^    def get_charset_name(self):$/;"	m	class:EscCharSetProber
+get_charset_name	.\packages\chardet\eucjpprober.py	/^    def get_charset_name(self):$/;"	m	class:EUCJPProber
+get_charset_name	.\packages\chardet\euckrprober.py	/^    def get_charset_name(self):$/;"	m	class:EUCKRProber
+get_charset_name	.\packages\chardet\euctwprober.py	/^    def get_charset_name(self):$/;"	m	class:EUCTWProber
+get_charset_name	.\packages\chardet\gb2312prober.py	/^    def get_charset_name(self):$/;"	m	class:GB2312Prober
+get_charset_name	.\packages\chardet\hebrewprober.py	/^    def get_charset_name(self):$/;"	m	class:HebrewProber
+get_charset_name	.\packages\chardet\jpcntx.py	/^    def get_charset_name(self):$/;"	m	class:SJISContextAnalysis
+get_charset_name	.\packages\chardet\latin1prober.py	/^    def get_charset_name(self):$/;"	m	class:Latin1Prober
+get_charset_name	.\packages\chardet\mbcharsetprober.py	/^    def get_charset_name(self):$/;"	m	class:MultiByteCharSetProber
+get_charset_name	.\packages\chardet\sbcharsetprober.py	/^    def get_charset_name(self):$/;"	m	class:SingleByteCharSetProber
+get_charset_name	.\packages\chardet\sjisprober.py	/^    def get_charset_name(self):$/;"	m	class:SJISProber
+get_charset_name	.\packages\chardet\utf8prober.py	/^    def get_charset_name(self):$/;"	m	class:UTF8Prober
+get_coding_state_machine	.\packages\chardet\codingstatemachine.py	/^    def get_coding_state_machine(self):$/;"	m	class:CodingStateMachine
+get_confidence	.\packages\chardet\chardistribution.py	/^    def get_confidence(self):$/;"	m	class:CharDistributionAnalysis
+get_confidence	.\packages\chardet\charsetgroupprober.py	/^    def get_confidence(self):$/;"	m	class:CharSetGroupProber
+get_confidence	.\packages\chardet\charsetprober.py	/^    def get_confidence(self):$/;"	m	class:CharSetProber
+get_confidence	.\packages\chardet\escprober.py	/^    def get_confidence(self):$/;"	m	class:EscCharSetProber
+get_confidence	.\packages\chardet\eucjpprober.py	/^    def get_confidence(self):$/;"	m	class:EUCJPProber
+get_confidence	.\packages\chardet\jpcntx.py	/^    def get_confidence(self):$/;"	m	class:JapaneseContextAnalysis
+get_confidence	.\packages\chardet\latin1prober.py	/^    def get_confidence(self):$/;"	m	class:Latin1Prober
+get_confidence	.\packages\chardet\mbcharsetprober.py	/^    def get_confidence(self):$/;"	m	class:MultiByteCharSetProber
+get_confidence	.\packages\chardet\sbcharsetprober.py	/^    def get_confidence(self):$/;"	m	class:SingleByteCharSetProber
+get_confidence	.\packages\chardet\sjisprober.py	/^    def get_confidence(self):$/;"	m	class:SJISProber
+get_confidence	.\packages\chardet\utf8prober.py	/^    def get_confidence(self):$/;"	m	class:UTF8Prober
+get_connect_duration	.\packages\urllib3\util\timeout.py	/^    def get_connect_duration(self):$/;"	m	class:Timeout
+get_connection	.\adapters.py	/^    def get_connection(self, url, proxies=None):$/;"	m	class:HTTPAdapter
+get_cookie_header	.\cookies.py	/^def get_cookie_header(jar, request):$/;"	f
+get_cookie_header	.\models.py	/^from .cookies import cookiejar_from_dict, get_cookie_header, _copy_cookie_jar$/;"	i
+get_current_charlen	.\packages\chardet\codingstatemachine.py	/^    def get_current_charlen(self):$/;"	m	class:CodingStateMachine
+get_dict	.\cookies.py	/^    def get_dict(self, domain=None, path=None):$/;"	m	class:RequestsCookieJar
+get_encoding_from_headers	.\adapters.py	/^from .utils import (DEFAULT_CA_BUNDLE_PATH, get_encoding_from_headers,$/;"	i
+get_encoding_from_headers	.\utils.py	/^def get_encoding_from_headers(headers):$/;"	f
+get_encodings_from_content	.\utils.py	/^def get_encodings_from_content(content):$/;"	f
+get_environ_proxies	.\utils.py	/^def get_environ_proxies(url):$/;"	f
+get_full_url	.\cookies.py	/^    def get_full_url(self):$/;"	m	class:MockRequest
+get_function_code	.\packages\urllib3\packages\six.py	/^get_function_code = operator.attrgetter(_func_code)$/;"	v
+get_function_defaults	.\packages\urllib3\packages\six.py	/^get_function_defaults = operator.attrgetter(_func_defaults)$/;"	v
+get_header	.\cookies.py	/^    def get_header(self, name, default=None):$/;"	m	class:MockRequest
+get_host	.\cookies.py	/^    def get_host(self):$/;"	m	class:MockRequest
+get_host	.\packages\urllib3\__init__.py	/^from .util.url import get_host$/;"	i
+get_host	.\packages\urllib3\connectionpool.py	/^from .util.url import get_host, Url$/;"	i
+get_host	.\packages\urllib3\util\url.py	/^def get_host(url):$/;"	f
+get_method_function	.\packages\urllib3\packages\six.py	/^get_method_function = operator.attrgetter(_meth_func)$/;"	v
+get_method_self	.\packages\urllib3\packages\six.py	/^get_method_self = operator.attrgetter(_meth_self)$/;"	v
+get_netrc_auth	.\utils.py	/^def get_netrc_auth(url, raise_errors=False):$/;"	f
+get_new_headers	.\cookies.py	/^    def get_new_headers(self):$/;"	m	class:MockRequest
+get_order	.\packages\chardet\chardistribution.py	/^    def get_order(self, aBuf):$/;"	m	class:Big5DistributionAnalysis
+get_order	.\packages\chardet\chardistribution.py	/^    def get_order(self, aBuf):$/;"	m	class:CharDistributionAnalysis
+get_order	.\packages\chardet\chardistribution.py	/^    def get_order(self, aBuf):$/;"	m	class:EUCJPDistributionAnalysis
+get_order	.\packages\chardet\chardistribution.py	/^    def get_order(self, aBuf):$/;"	m	class:EUCKRDistributionAnalysis
+get_order	.\packages\chardet\chardistribution.py	/^    def get_order(self, aBuf):$/;"	m	class:EUCTWDistributionAnalysis
+get_order	.\packages\chardet\chardistribution.py	/^    def get_order(self, aBuf):$/;"	m	class:GB2312DistributionAnalysis
+get_order	.\packages\chardet\chardistribution.py	/^    def get_order(self, aBuf):$/;"	m	class:SJISDistributionAnalysis
+get_order	.\packages\chardet\jpcntx.py	/^    def get_order(self, aBuf):$/;"	m	class:EUCJPContextAnalysis
+get_order	.\packages\chardet\jpcntx.py	/^    def get_order(self, aBuf):$/;"	m	class:JapaneseContextAnalysis
+get_order	.\packages\chardet\jpcntx.py	/^    def get_order(self, aBuf):$/;"	m	class:SJISContextAnalysis
+get_origin_req_host	.\cookies.py	/^    def get_origin_req_host(self):$/;"	m	class:MockRequest
+get_redirect_location	.\packages\urllib3\response.py	/^    def get_redirect_location(self):$/;"	m	class:HTTPResponse
+get_state	.\packages\chardet\charsetprober.py	/^    def get_state(self):$/;"	m	class:CharSetProber
+get_state	.\packages\chardet\hebrewprober.py	/^    def get_state(self):$/;"	m	class:HebrewProber
+get_subj_alt_name	.\packages\urllib3\contrib\pyopenssl.py	/^def get_subj_alt_name(peer_cert):$/;"	f
+get_type	.\cookies.py	/^    def get_type(self):$/;"	m	class:MockRequest
+get_unbound_function	.\packages\urllib3\packages\six.py	/^    def get_unbound_function(unbound):$/;"	f
+get_unicode_from_response	.\utils.py	/^def get_unicode_from_response(r):$/;"	f
+getallmatchingheaders	.\packages\urllib3\_collections.py	/^    getallmatchingheaders = getlist$/;"	v	class:HTTPHeaderDict
+getheader	.\packages\urllib3\response.py	/^    def getheader(self, name, default=None):$/;"	m	class:HTTPResponse
+getheaders	.\cookies.py	/^    def getheaders(self, name):$/;"	m	class:MockResponse
+getheaders	.\packages\urllib3\_collections.py	/^    getheaders = getlist$/;"	v	class:HTTPHeaderDict
+getheaders	.\packages\urllib3\response.py	/^    def getheaders(self):$/;"	m	class:HTTPResponse
+getlist	.\packages\urllib3\_collections.py	/^    def getlist(self, key):$/;"	m	class:HTTPHeaderDict
+getpeercert	.\packages\urllib3\contrib\pyopenssl.py	/^    def getpeercert(self, binary_form=False):$/;"	m	class:WrappedSocket
+getproxies	.\compat.py	/^    from urllib import quote, unquote, quote_plus, unquote_plus, urlencode, getproxies, proxy_bypass$/;"	i
+getproxies	.\compat.py	/^    from urllib.request import parse_http_list, getproxies, proxy_bypass$/;"	i
+got_enough_data	.\packages\chardet\chardistribution.py	/^    def got_enough_data(self):$/;"	m	class:CharDistributionAnalysis
+got_enough_data	.\packages\chardet\jpcntx.py	/^    def got_enough_data(self):$/;"	m	class:JapaneseContextAnalysis
+guess_content_type	.\packages\urllib3\fields.py	/^def guess_content_type(filename, default='application\/octet-stream'):$/;"	f
+guess_filename	.\utils.py	/^def guess_filename(obj):$/;"	f
+guess_json_utf	.\utils.py	/^def guess_json_utf(data):$/;"	f
+handle_401	.\auth.py	/^    def handle_401(self, r, **kwargs):$/;"	m	class:HTTPDigestAuth
+handle_redirect	.\auth.py	/^    def handle_redirect(self, r, **kwargs):$/;"	m	class:HTTPDigestAuth
+has_header	.\cookies.py	/^    def has_header(self, name):$/;"	m	class:MockRequest
+has_memoryview	.\packages\urllib3\contrib\pyopenssl.py	/^    has_memoryview = False$/;"	v
+has_memoryview	.\packages\urllib3\contrib\pyopenssl.py	/^    has_memoryview = True$/;"	v
+hashlib	.\auth.py	/^import hashlib$/;"	i
+head	.\__init__.py	/^from .api import request, get, head, post, patch, put, delete, options$/;"	i
+head	.\api.py	/^def head(url, **kwargs):$/;"	f
+head	.\sessions.py	/^    def head(self, url, **kwargs):$/;"	m	class:Session
+hexlify	.\packages\urllib3\util\ssl_.py	/^from binascii import hexlify, unhexlify$/;"	i
+host	.\cookies.py	/^    def host(self):$/;"	m	class:MockRequest
+hostname	.\packages\urllib3\util\url.py	/^    def hostname(self):$/;"	m	class:Url
+httplib	.\packages\urllib3\response.py	/^from .packages.six.moves import http_client as httplib$/;"	i
+httplib	.\packages\urllib3\util\response.py	/^from ..packages.six.moves import http_client as httplib$/;"	i
+iget	.\packages\urllib3\_collections.py	/^    iget = getlist$/;"	v	class:HTTPHeaderDict
+increment	.\packages\urllib3\util\retry.py	/^    def increment(self, method=None, url=None, response=None, error=None, _pool=None, _stacktrace=None):$/;"	m	class:Retry
+info	.\cookies.py	/^    def info(self):$/;"	m	class:MockResponse
+init_per_thread_state	.\auth.py	/^    def init_per_thread_state(self):$/;"	m	class:HTTPDigestAuth
+init_poolmanager	.\adapters.py	/^    def init_poolmanager(self, connections, maxsize, block=DEFAULT_POOLBLOCK, **pool_kwargs):$/;"	m	class:HTTPAdapter
+inject_into_urllib3	.\packages\urllib3\contrib\pyopenssl.py	/^def inject_into_urllib3():$/;"	f
+int2byte	.\packages\urllib3\packages\six.py	/^        def int2byte(i):$/;"	f	function:iteritems.u
+int2byte	.\packages\urllib3\packages\six.py	/^    int2byte = chr$/;"	v
+integer_types	.\packages\urllib3\packages\six.py	/^    integer_types = (int, long)$/;"	v
+integer_types	.\packages\urllib3\packages\six.py	/^    integer_types = int,$/;"	v
+io	.\packages\urllib3\packages\six.py	/^    import io$/;"	i
+io	.\packages\urllib3\response.py	/^import io$/;"	i
+io	.\utils.py	/^import io$/;"	i
+is_appengine	.\packages\urllib3\contrib\appengine.py	/^def is_appengine():$/;"	f
+is_appengine_sandbox	.\packages\urllib3\contrib\appengine.py	/^def is_appengine_sandbox():$/;"	f
+is_connection_dropped	.\packages\urllib3\connectionpool.py	/^from .util.connection import is_connection_dropped$/;"	i
+is_connection_dropped	.\packages\urllib3\util\__init__.py	/^from .connection import is_connection_dropped$/;"	i
+is_connection_dropped	.\packages\urllib3\util\connection.py	/^def is_connection_dropped(conn):  # Platform-specific$/;"	f
+is_exhausted	.\packages\urllib3\util\retry.py	/^    def is_exhausted(self):$/;"	m	class:Retry
+is_final	.\packages\chardet\hebrewprober.py	/^    def is_final(self, c):$/;"	m	class:HebrewProber
+is_forced_retry	.\packages\urllib3\util\retry.py	/^    def is_forced_retry(self, method, status_code):$/;"	m	class:Retry
+is_fp_closed	.\packages\urllib3\response.py	/^from .util.response import is_fp_closed, is_response_to_head$/;"	i
+is_fp_closed	.\packages\urllib3\util\__init__.py	/^from .response import is_fp_closed$/;"	i
+is_fp_closed	.\packages\urllib3\util\response.py	/^def is_fp_closed(obj):$/;"	f
+is_ipv4_address	.\utils.py	/^def is_ipv4_address(string_ip):$/;"	f
+is_local_appengine	.\packages\urllib3\contrib\appengine.py	/^def is_local_appengine():$/;"	f
+is_non_final	.\packages\chardet\hebrewprober.py	/^    def is_non_final(self, c):$/;"	m	class:HebrewProber
+is_permanent_redirect	.\models.py	/^    def is_permanent_redirect(self):$/;"	m	class:Response
+is_prod_appengine_v1	.\packages\urllib3\contrib\appengine.py	/^def is_prod_appengine_v1():$/;"	f
+is_prod_appengine_v2	.\packages\urllib3\contrib\appengine.py	/^def is_prod_appengine_v2():$/;"	f
+is_py2	.\compat.py	/^is_py2 = (_ver[0] == 2)$/;"	v
+is_py2	.\utils.py	/^from .compat import (quote, urlparse, bytes, str, OrderedDict, unquote, is_py2,$/;"	i
+is_py3	.\compat.py	/^is_py3 = (_ver[0] == 3)$/;"	v
+is_redirect	.\models.py	/^    def is_redirect(self):$/;"	m	class:Response
+is_response_to_head	.\packages\urllib3\response.py	/^from .util.response import is_fp_closed, is_response_to_head$/;"	i
+is_response_to_head	.\packages\urllib3\util\response.py	/^def is_response_to_head(response):$/;"	f
+is_same_host	.\packages\urllib3\connectionpool.py	/^    def is_same_host(self, url):$/;"	m	class:HTTPConnectionPool
+is_unverifiable	.\cookies.py	/^    def is_unverifiable(self):$/;"	m	class:MockRequest
+is_valid_cidr	.\utils.py	/^def is_valid_cidr(string_network):$/;"	f
+is_verified	.\packages\urllib3\connection.py	/^    is_verified = False$/;"	v	class:HTTPConnection
+items	.\cookies.py	/^    def items(self):$/;"	m	class:RequestsCookieJar
+items	.\packages\urllib3\_collections.py	/^    def items(self):$/;"	m	class:HTTPHeaderDict
+items	.\packages\urllib3\packages\ordered_dict.py	/^    def items(self):$/;"	m	class:OrderedDict
+iter_content	.\models.py	/^    def iter_content(self, chunk_size=1, decode_unicode=False):$/;"	m	class:Response
+iter_field_objects	.\packages\urllib3\filepost.py	/^def iter_field_objects(fields):$/;"	f
+iter_fields	.\packages\urllib3\filepost.py	/^def iter_fields(fields):$/;"	f
+iter_lines	.\models.py	/^    def iter_lines(self, chunk_size=ITER_CHUNK_SIZE, decode_unicode=None, delimiter=None):$/;"	m	class:Response
+iter_slices	.\utils.py	/^def iter_slices(string, slice_length):$/;"	f
+iteritems	.\cookies.py	/^    def iteritems(self):$/;"	m	class:RequestsCookieJar
+iteritems	.\packages\urllib3\_collections.py	/^    def iteritems(self):$/;"	m	class:HTTPHeaderDict
+iteritems	.\packages\urllib3\packages\ordered_dict.py	/^    def iteritems(self):$/;"	m	class:OrderedDict
+iteritems	.\packages\urllib3\packages\six.py	/^def iteritems(d):$/;"	f
+iterkeys	.\cookies.py	/^    def iterkeys(self):$/;"	m	class:RequestsCookieJar
+iterkeys	.\packages\urllib3\_collections.py	/^from .packages.six import iterkeys, itervalues, PY3$/;"	i
+iterkeys	.\packages\urllib3\packages\ordered_dict.py	/^    def iterkeys(self):$/;"	m	class:OrderedDict
+iterkeys	.\packages\urllib3\packages\six.py	/^def iterkeys(d):$/;"	f
+itermerged	.\packages\urllib3\_collections.py	/^    def itermerged(self):$/;"	m	class:HTTPHeaderDict
+itervalues	.\cookies.py	/^    def itervalues(self):$/;"	m	class:RequestsCookieJar
+itervalues	.\packages\urllib3\_collections.py	/^from .packages.six import iterkeys, itervalues, PY3$/;"	i
+itervalues	.\packages\urllib3\packages\ordered_dict.py	/^    def itervalues(self):$/;"	m	class:OrderedDict
+itervalues	.\packages\urllib3\packages\six.py	/^def itervalues(d):$/;"	f
+jp2CharContext	.\packages\chardet\jpcntx.py	/^jp2CharContext = ($/;"	v
+json	.\compat.py	/^    import json$/;"	i
+json	.\compat.py	/^    import simplejson as json$/;"	i
+json	.\models.py	/^    def json(self, **kwargs):$/;"	m	class:Response
+keys	.\cookies.py	/^    def keys(self):$/;"	m	class:RequestsCookieJar
+keys	.\packages\urllib3\_collections.py	/^    def keys(self):$/;"	m	class:RecentlyUsedContainer
+keys	.\packages\urllib3\packages\ordered_dict.py	/^    def keys(self):$/;"	m	class:OrderedDict
+latin5_CharToOrderMap	.\packages\chardet\langcyrillicmodel.py	/^latin5_CharToOrderMap = ($/;"	v
+links	.\models.py	/^    def links(self):$/;"	m	class:Response
+list_domains	.\cookies.py	/^    def list_domains(self):$/;"	m	class:RequestsCookieJar
+list_paths	.\cookies.py	/^    def list_paths(self):$/;"	m	class:RequestsCookieJar
+load_cert_chain	.\packages\urllib3\util\ssl_.py	/^        def load_cert_chain(self, certfile, keyfile):$/;"	m	class:SSLContext
+load_verify_locations	.\packages\urllib3\util\ssl_.py	/^        def load_verify_locations(self, cafile=None, capath=None):$/;"	m	class:SSLContext
+log	.\packages\urllib3\connectionpool.py	/^log = logging.getLogger(__name__)$/;"	v
+log	.\packages\urllib3\contrib\appengine.py	/^log = logging.getLogger(__name__)$/;"	v
+log	.\packages\urllib3\contrib\ntlmpool.py	/^log = getLogger(__name__)$/;"	v
+log	.\packages\urllib3\poolmanager.py	/^log = logging.getLogger(__name__)$/;"	v
+log	.\packages\urllib3\util\retry.py	/^log = logging.getLogger(__name__)$/;"	v
+logging	.\__init__.py	/^import logging$/;"	i
+logging	.\packages\urllib3\__init__.py	/^import logging$/;"	i
+logging	.\packages\urllib3\connectionpool.py	/^import logging$/;"	i
+logging	.\packages\urllib3\contrib\appengine.py	/^import logging$/;"	i
+logging	.\packages\urllib3\poolmanager.py	/^import logging$/;"	i
+logging	.\packages\urllib3\util\retry.py	/^import logging$/;"	i
+lower_items	.\structures.py	/^    def lower_items(self):$/;"	m	class:CaseInsensitiveDict
+macCyrillic_CharToOrderMap	.\packages\chardet\langcyrillicmodel.py	/^macCyrillic_CharToOrderMap = ($/;"	v
+main	.\packages\chardet\chardetect.py	/^def main(argv=None):$/;"	f
+make_headers	.\packages\urllib3\__init__.py	/^from .util.request import make_headers$/;"	i
+make_headers	.\packages\urllib3\util\__init__.py	/^from .request import make_headers$/;"	i
+make_headers	.\packages\urllib3\util\request.py	/^def make_headers(keep_alive=None, accept_encoding=None, user_agent=None,$/;"	f
+make_multipart	.\packages\urllib3\fields.py	/^    def make_multipart(self, content_disposition=None, content_type=None,$/;"	m	class:RequestField
+makefile	.\packages\urllib3\contrib\pyopenssl.py	/^    def makefile(self, mode, bufsize=-1):$/;"	m	class:WrappedSocket
+match_hostname	.\packages\urllib3\connection.py	/^from .packages.ssl_match_hostname import match_hostname$/;"	i
+match_hostname	.\packages\urllib3\packages\ssl_match_hostname\__init__.py	/^        from ._implementation import CertificateError, match_hostname$/;"	i
+match_hostname	.\packages\urllib3\packages\ssl_match_hostname\__init__.py	/^        from backports.ssl_match_hostname import CertificateError, match_hostname$/;"	i
+match_hostname	.\packages\urllib3\packages\ssl_match_hostname\__init__.py	/^    from ssl import CertificateError, match_hostname$/;"	i
+match_hostname	.\packages\urllib3\packages\ssl_match_hostname\_implementation.py	/^def match_hostname(cert, hostname):$/;"	f
+md5	.\packages\urllib3\util\ssl_.py	/^from hashlib import md5, sha1, sha256$/;"	i
+md5_utf8	.\auth.py	/^            def md5_utf8(x):$/;"	f	function:HTTPDigestAuth.build_digest_header
+merge_cookies	.\cookies.py	/^def merge_cookies(cookiejar, cookies):$/;"	f
+merge_environment_settings	.\sessions.py	/^    def merge_environment_settings(self, url, proxies, stream, verify, cert):$/;"	m	class:Session
+merge_hooks	.\sessions.py	/^def merge_hooks(request_hooks, session_hooks, dict_class=OrderedDict):$/;"	f
+merge_setting	.\sessions.py	/^def merge_setting(request_setting, session_setting, dict_class=OrderedDict):$/;"	f
+mimetypes	.\packages\urllib3\fields.py	/^import mimetypes$/;"	i
+morsel_to_cookie	.\cookies.py	/^def morsel_to_cookie(morsel):$/;"	f
+mount	.\sessions.py	/^    def mount(self, prefix, adapter):$/;"	m	class:Session
+multi	.\packages\chardet\universaldetector.py	/^from .mbcsgroupprober import MBCSGroupProber  # multi-byte character sets$/;"	i
+multiple_domains	.\cookies.py	/^    def multiple_domains(self):$/;"	m	class:RequestsCookieJar
+namedtuple	.\packages\urllib3\util\url.py	/^from collections import namedtuple$/;"	i
+netloc	.\packages\urllib3\util\url.py	/^    def netloc(self):$/;"	m	class:Url
+netrc	.\utils.py	/^        from netrc import netrc, NetrcParseError$/;"	i
+new	.\packages\urllib3\util\retry.py	/^    def new(self, **kw):$/;"	m	class:Retry
+next	.\packages\urllib3\packages\six.py	/^        def next(self):$/;"	m	class:.Iterator
+next	.\packages\urllib3\packages\six.py	/^next = advance_iterator$/;"	v
+next_state	.\packages\chardet\codingstatemachine.py	/^    def next_state(self, c):$/;"	m	class:CodingStateMachine
+ntlm	.\packages\urllib3\contrib\ntlmpool.py	/^from ntlm import ntlm$/;"	i
+numeric_types	.\compat.py	/^    numeric_types = (int, float)$/;"	v
+numeric_types	.\compat.py	/^    numeric_types = (int, long, float)$/;"	v
+ok	.\models.py	/^    def ok(self):$/;"	m	class:Response
+open	.\packages\chardet\chardetect.py	/^from io import open$/;"	i
+operator	.\packages\urllib3\packages\six.py	/^import operator$/;"	i
+options	.\__init__.py	/^from .api import request, get, head, post, patch, put, delete, options$/;"	i
+options	.\api.py	/^def options(url, **kwargs):$/;"	f
+options	.\sessions.py	/^    def options(self, url, **kwargs):$/;"	m	class:Session
+orig_connection_ssl_wrap_socket	.\packages\urllib3\contrib\pyopenssl.py	/^orig_connection_ssl_wrap_socket = connection.ssl_wrap_socket$/;"	v
+orig_util_HAS_SNI	.\packages\urllib3\contrib\pyopenssl.py	/^orig_util_HAS_SNI = util.HAS_SNI$/;"	v
+origin_req_host	.\cookies.py	/^    def origin_req_host(self):$/;"	m	class:MockRequest
+os	.\auth.py	/^import os$/;"	i
+os	.\certs.py	/^import os.path$/;"	i
+os	.\packages\urllib3\contrib\appengine.py	/^import os$/;"	i
+os	.\sessions.py	/^import os$/;"	i
+os	.\utils.py	/^import os$/;"	i
+parse_dict_header	.\auth.py	/^from .utils import parse_dict_header, to_native_string$/;"	i
+parse_dict_header	.\utils.py	/^def parse_dict_header(value):$/;"	f
+parse_header_links	.\utils.py	/^def parse_header_links(value):$/;"	f
+parse_http_list	.\compat.py	/^    from urllib.request import parse_http_list, getproxies, proxy_bypass$/;"	i
+parse_http_list	.\compat.py	/^    from urllib2 import parse_http_list$/;"	i
+parse_list_header	.\utils.py	/^def parse_list_header(value):$/;"	f
+parse_url	.\models.py	/^from .packages.urllib3.util import parse_url$/;"	i
+parse_url	.\packages\urllib3\poolmanager.py	/^from .util.url import parse_url$/;"	i
+parse_url	.\packages\urllib3\util\url.py	/^def parse_url(url):$/;"	f
+patch	.\__init__.py	/^from .api import request, get, head, post, patch, put, delete, options$/;"	i
+patch	.\api.py	/^def patch(url, data=None, **kwargs):$/;"	f
+patch	.\sessions.py	/^    def patch(self, url, data=None, **kwargs):$/;"	m	class:Session
+path	.\certs.py	/^import os.path$/;"	i
+path_url	.\models.py	/^    def path_url(self):$/;"	m	class:RequestEncodingMixin
+platform	.\utils.py	/^import platform$/;"	i
+poll	.\packages\urllib3\util\connection.py	/^    from select import poll, POLLIN$/;"	i
+poll	.\packages\urllib3\util\connection.py	/^    poll = False$/;"	v
+pool_classes_by_scheme	.\packages\urllib3\poolmanager.py	/^pool_classes_by_scheme = {$/;"	v
+pop	.\packages\urllib3\_collections.py	/^    def pop(self, key, default=__marker):$/;"	m	class:HTTPHeaderDict
+pop	.\packages\urllib3\packages\ordered_dict.py	/^    def pop(self, key, default=__marker):$/;"	m	class:OrderedDict
+popitem	.\packages\urllib3\packages\ordered_dict.py	/^    def popitem(self, last=True):$/;"	m	class:OrderedDict
+port_by_scheme	.\packages\urllib3\connection.py	/^port_by_scheme = {$/;"	v
+port_by_scheme	.\packages\urllib3\poolmanager.py	/^from .connectionpool import port_by_scheme$/;"	i
+post	.\__init__.py	/^from .api import request, get, head, post, patch, put, delete, options$/;"	i
+post	.\api.py	/^def post(url, data=None, json=None, **kwargs):$/;"	f
+post	.\sessions.py	/^    def post(self, url, data=None, json=None, **kwargs):$/;"	m	class:Session
+prepare	.\models.py	/^    def prepare(self):$/;"	m	class:Request
+prepare	.\models.py	/^    def prepare(self, method=None, url=None, headers=None, files=None,$/;"	m	class:PreparedRequest
+prepare_auth	.\models.py	/^    def prepare_auth(self, auth, url=''):$/;"	m	class:PreparedRequest
+prepare_body	.\models.py	/^    def prepare_body(self, data, files, json=None):$/;"	m	class:PreparedRequest
+prepare_content_length	.\models.py	/^    def prepare_content_length(self, body):$/;"	m	class:PreparedRequest
+prepare_cookies	.\models.py	/^    def prepare_cookies(self, cookies):$/;"	m	class:PreparedRequest
+prepare_headers	.\models.py	/^    def prepare_headers(self, headers):$/;"	m	class:PreparedRequest
+prepare_hooks	.\models.py	/^    def prepare_hooks(self, hooks):$/;"	m	class:PreparedRequest
+prepare_method	.\models.py	/^    def prepare_method(self, method):$/;"	m	class:PreparedRequest
+prepare_request	.\sessions.py	/^    def prepare_request(self, request):$/;"	m	class:Session
+prepare_url	.\models.py	/^    def prepare_url(self, url, params):$/;"	m	class:PreparedRequest
+prepend_scheme_if_needed	.\utils.py	/^def prepend_scheme_if_needed(url, new_scheme):$/;"	f
+print_	.\packages\urllib3\packages\six.py	/^    def print_(*args, **kwargs):$/;"	f
+print_	.\packages\urllib3\packages\six.py	/^    print_ = getattr(builtins, "print")$/;"	v
+print_function	.\packages\chardet\chardetect.py	/^from __future__ import absolute_import, print_function, unicode_literals$/;"	i
+proxy	.\packages\urllib3\poolmanager.py	/^    proxy = None$/;"	v	class:PoolManager
+proxy_bypass	.\compat.py	/^    from urllib import quote, unquote, quote_plus, unquote_plus, urlencode, getproxies, proxy_bypass$/;"	i
+proxy_bypass	.\compat.py	/^    from urllib.request import parse_http_list, getproxies, proxy_bypass$/;"	i
+proxy_from_url	.\adapters.py	/^from .packages.urllib3.poolmanager import PoolManager, proxy_from_url$/;"	i
+proxy_from_url	.\packages\urllib3\__init__.py	/^from .poolmanager import PoolManager, ProxyManager, proxy_from_url$/;"	i
+proxy_from_url	.\packages\urllib3\poolmanager.py	/^def proxy_from_url(url, **kw):$/;"	f
+proxy_headers	.\adapters.py	/^    def proxy_headers(self, proxy):$/;"	m	class:HTTPAdapter
+proxy_manager_for	.\adapters.py	/^    def proxy_manager_for(self, proxy, **proxy_kwargs):$/;"	m	class:HTTPAdapter
+put	.\__init__.py	/^from .api import request, get, head, post, patch, put, delete, options$/;"	i
+put	.\api.py	/^def put(url, data=None, **kwargs):$/;"	f
+put	.\sessions.py	/^    def put(self, url, data=None, **kwargs):$/;"	m	class:Session
+pyopenssl	.\__init__.py	/^    from .packages.urllib3.contrib import pyopenssl$/;"	i
+quote	.\compat.py	/^    from urllib import quote, unquote, quote_plus, unquote_plus, urlencode, getproxies, proxy_bypass$/;"	i
+quote	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+quote	.\utils.py	/^from .compat import (quote, urlparse, bytes, str, OrderedDict, unquote, is_py2,$/;"	i
+quote_plus	.\compat.py	/^    from urllib import quote, unquote, quote_plus, unquote_plus, urlencode, getproxies, proxy_bypass$/;"	i
+quote_plus	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+raise_for_status	.\models.py	/^    def raise_for_status(self):$/;"	m	class:Response
+re	.\auth.py	/^import re$/;"	i
+re	.\packages\chardet\charsetprober.py	/^import re$/;"	i
+re	.\packages\chardet\universaldetector.py	/^import re$/;"	i
+re	.\packages\urllib3\packages\ssl_match_hostname\_implementation.py	/^import re$/;"	i
+re	.\utils.py	/^import re$/;"	i
+read	.\packages\urllib3\response.py	/^    def read(self, amt=None, decode_content=None, cache_content=False):$/;"	m	class:HTTPResponse
+read_chunked	.\packages\urllib3\response.py	/^    def read_chunked(self, amt=None, decode_content=None):$/;"	m	class:HTTPResponse
+read_timeout	.\packages\urllib3\util\timeout.py	/^    def read_timeout(self):$/;"	m	class:Timeout
+readable	.\packages\urllib3\response.py	/^    def readable(self):$/;"	m	class:HTTPResponse
+readinto	.\packages\urllib3\response.py	/^    def readinto(self, b):$/;"	m	class:HTTPResponse
+rebuild_auth	.\sessions.py	/^    def rebuild_auth(self, prepared_request, response):$/;"	m	class:SessionRedirectMixin
+rebuild_proxies	.\sessions.py	/^    def rebuild_proxies(self, prepared_request, proxies):$/;"	m	class:SessionRedirectMixin
+recv	.\packages\urllib3\contrib\pyopenssl.py	/^    def recv(self, *args, **kwargs):$/;"	m	class:WrappedSocket
+register_hook	.\models.py	/^    def register_hook(self, event, hook):$/;"	m	class:RequestHooksMixin
+release_conn	.\packages\urllib3\response.py	/^    def release_conn(self):$/;"	m	class:HTTPResponse
+remove_cookie_by_name	.\cookies.py	/^def remove_cookie_by_name(cookiejar, name, domain=None, path=None):$/;"	f
+remove_move	.\packages\urllib3\packages\six.py	/^def remove_move(name):$/;"	f
+render_headers	.\packages\urllib3\fields.py	/^    def render_headers(self):$/;"	m	class:RequestField
+request	.\__init__.py	/^from .api import request, get, head, post, patch, put, delete, options$/;"	i
+request	.\api.py	/^def request(method, url, **kwargs):$/;"	f
+request	.\packages\urllib3\request.py	/^    def request(self, method, url, fields=None, headers=None, **urlopen_kw):$/;"	m	class:RequestMethods
+request	.\sessions.py	/^    def request(self, method, url,$/;"	m	class:Session
+request_encode_body	.\packages\urllib3\request.py	/^    def request_encode_body(self, method, url, fields=None, headers=None,$/;"	m	class:RequestMethods
+request_encode_url	.\packages\urllib3\request.py	/^    def request_encode_url(self, method, url, fields=None, headers=None,$/;"	m	class:RequestMethods
+request_uri	.\packages\urllib3\util\url.py	/^    def request_uri(self):$/;"	m	class:Url
+request_url	.\adapters.py	/^    def request_url(self, request, proxies):$/;"	m	class:HTTPAdapter
+requote_uri	.\utils.py	/^def requote_uri(uri):$/;"	f
+reraise	.\packages\urllib3\packages\six.py	/^    def reraise(tp, value, tb=None):$/;"	f
+reset	.\packages\chardet\chardistribution.py	/^    def reset(self):$/;"	m	class:CharDistributionAnalysis
+reset	.\packages\chardet\charsetgroupprober.py	/^    def reset(self):$/;"	m	class:CharSetGroupProber
+reset	.\packages\chardet\charsetprober.py	/^    def reset(self):$/;"	m	class:CharSetProber
+reset	.\packages\chardet\codingstatemachine.py	/^    def reset(self):$/;"	m	class:CodingStateMachine
+reset	.\packages\chardet\escprober.py	/^    def reset(self):$/;"	m	class:EscCharSetProber
+reset	.\packages\chardet\eucjpprober.py	/^    def reset(self):$/;"	m	class:EUCJPProber
+reset	.\packages\chardet\hebrewprober.py	/^    def reset(self):$/;"	m	class:HebrewProber
+reset	.\packages\chardet\jpcntx.py	/^    def reset(self):$/;"	m	class:JapaneseContextAnalysis
+reset	.\packages\chardet\latin1prober.py	/^    def reset(self):$/;"	m	class:Latin1Prober
+reset	.\packages\chardet\mbcharsetprober.py	/^    def reset(self):$/;"	m	class:MultiByteCharSetProber
+reset	.\packages\chardet\sbcharsetprober.py	/^    def reset(self):$/;"	m	class:SingleByteCharSetProber
+reset	.\packages\chardet\sjisprober.py	/^    def reset(self):$/;"	m	class:SJISProber
+reset	.\packages\chardet\universaldetector.py	/^    def reset(self):$/;"	m	class:UniversalDetector
+reset	.\packages\chardet\utf8prober.py	/^    def reset(self):$/;"	m	class:UTF8Prober
+resolve_cert_reqs	.\packages\urllib3\util\ssl_.py	/^def resolve_cert_reqs(candidate):$/;"	f
+resolve_redirects	.\sessions.py	/^    def resolve_redirects(self, resp, req, stream=False, timeout=None,$/;"	m	class:SessionRedirectMixin
+resolve_ssl_version	.\packages\urllib3\util\ssl_.py	/^def resolve_ssl_version(candidate):$/;"	f
+scheme	.\packages\urllib3\connectionpool.py	/^    scheme = 'http'$/;"	v	class:HTTPConnectionPool
+scheme	.\packages\urllib3\connectionpool.py	/^    scheme = 'https'$/;"	v	class:HTTPSConnectionPool
+scheme	.\packages\urllib3\connectionpool.py	/^    scheme = None$/;"	v	class:ConnectionPool
+scheme	.\packages\urllib3\contrib\ntlmpool.py	/^    scheme = 'https'$/;"	v	class:NTLMConnectionPool
+select	.\packages\urllib3\contrib\pyopenssl.py	/^import select$/;"	i
+select	.\packages\urllib3\util\connection.py	/^        from select import select$/;"	i
+select	.\packages\urllib3\util\connection.py	/^        select = False$/;"	v
+select_proxy	.\utils.py	/^def select_proxy(url, proxies):$/;"	f
+send	.\adapters.py	/^    def send(self):$/;"	m	class:BaseAdapter
+send	.\adapters.py	/^    def send(self, request, stream=False, timeout=None, verify=True, cert=None, proxies=None):$/;"	m	class:HTTPAdapter
+send	.\sessions.py	/^    def send(self, request, **kwargs):$/;"	m	class:Session
+sendall	.\packages\urllib3\contrib\pyopenssl.py	/^    def sendall(self, data):$/;"	m	class:WrappedSocket
+session	.\__init__.py	/^from .sessions import session, Session$/;"	i
+session	.\sessions.py	/^def session():$/;"	f
+sessions	.\api.py	/^from . import sessions$/;"	i
+set	.\cookies.py	/^    def set(self, name, value, **kwargs):$/;"	m	class:RequestsCookieJar
+set_cert	.\packages\urllib3\connection.py	/^    def set_cert(self, key_file=None, cert_file=None,$/;"	m	class:VerifiedHTTPSConnection
+set_ciphers	.\packages\urllib3\util\ssl_.py	/^        def set_ciphers(self, cipher_suite):$/;"	m	class:SSLContext
+set_cookie	.\cookies.py	/^    def set_cookie(self, cookie, *args, **kwargs):$/;"	m	class:RequestsCookieJar
+set_model_probers	.\packages\chardet\hebrewprober.py	/^    def set_model_probers(self, logicalProber, visualProber):$/;"	m	class:HebrewProber
+setdefault	.\packages\urllib3\packages\ordered_dict.py	/^    def setdefault(self, key, default=None):$/;"	m	class:OrderedDict
+sets	.\packages\chardet\universaldetector.py	/^from .mbcsgroupprober import MBCSGroupProber  # multi-byte character sets$/;"	i
+sets	.\packages\chardet\universaldetector.py	/^from .sbcsgroupprober import SBCSGroupProber  # single-byte character sets$/;"	i
+settimeout	.\packages\urllib3\contrib\pyopenssl.py	/^    def settimeout(self, timeout):$/;"	m	class:WrappedSocket
+sha1	.\packages\urllib3\util\ssl_.py	/^from hashlib import md5, sha1, sha256$/;"	i
+sha256	.\packages\urllib3\util\ssl_.py	/^from hashlib import md5, sha1, sha256$/;"	i
+sha_utf8	.\auth.py	/^            def sha_utf8(x):$/;"	f	function:HTTPDigestAuth.build_digest_header
+should_bypass_proxies	.\utils.py	/^def should_bypass_proxies(url):$/;"	f
+shutdown	.\packages\urllib3\contrib\pyopenssl.py	/^    def shutdown(self):$/;"	m	class:WrappedSocket
+single	.\packages\chardet\universaldetector.py	/^from .sbcsgroupprober import SBCSGroupProber  # single-byte character sets$/;"	i
+six	.\packages\urllib3\connection.py	/^from .packages import six$/;"	i
+six	.\packages\urllib3\connectionpool.py	/^from .packages import six$/;"	i
+six	.\packages\urllib3\fields.py	/^from .packages import six$/;"	i
+six	.\packages\urllib3\filepost.py	/^from .packages import six$/;"	i
+six	.\packages\urllib3\util\retry.py	/^from ..packages import six$/;"	i
+sizeSpec	.\packages\urllib3\contrib\pyopenssl.py	/^        constraint.ValueSizeConstraint(1, 1024)$/;"	v	class:SubjectAltName
+sleep	.\packages\urllib3\util\retry.py	/^    def sleep(self):$/;"	m	class:Retry
+slots	.\packages\urllib3\util\url.py	/^    slots = ()$/;"	v	class:Url
+socket	.\adapters.py	/^import socket$/;"	i
+socket	.\packages\urllib3\connection.py	/^import socket$/;"	i
+socket	.\packages\urllib3\connectionpool.py	/^import socket$/;"	i
+socket	.\packages\urllib3\util\connection.py	/^import socket$/;"	i
+socket	.\utils.py	/^import socket$/;"	i
+specific	.\packages\urllib3\connectionpool.py	/^    import Queue as _  # Platform-specific: Windows$/;"	i
+split_first	.\packages\urllib3\util\url.py	/^def split_first(s, delims):$/;"	f
+ssl	.\packages\urllib3\connection.py	/^    import ssl$/;"	i
+ssl	.\packages\urllib3\connection.py	/^    ssl = None$/;"	v
+ssl	.\packages\urllib3\contrib\pyopenssl.py	/^import ssl$/;"	i
+ssl	.\packages\urllib3\util\ssl_.py	/^    import ssl$/;"	i
+ssl_match_hostname	.\packages\urllib3\packages\__init__.py	/^from . import ssl_match_hostname$/;"	i
+ssl_version	.\packages\urllib3\connection.py	/^    ssl_version = None$/;"	v	class:VerifiedHTTPSConnection
+ssl_wrap_socket	.\packages\urllib3\contrib\pyopenssl.py	/^def ssl_wrap_socket(sock, keyfile=None, certfile=None, cert_reqs=None,$/;"	f
+ssl_wrap_socket	.\packages\urllib3\util\ssl_.py	/^def ssl_wrap_socket(sock, keyfile=None, certfile=None, cert_reqs=None,$/;"	f
+start_connect	.\packages\urllib3\util\timeout.py	/^    def start_connect(self):$/;"	m	class:Timeout
+str	.\auth.py	/^from .compat import urlparse, str$/;"	i
+str	.\compat.py	/^    str = str$/;"	v
+str	.\compat.py	/^    str = unicode$/;"	v
+str	.\utils.py	/^from .compat import (quote, urlparse, bytes, str, OrderedDict, unquote, is_py2,$/;"	i
+stream	.\packages\urllib3\response.py	/^    def stream(self, amt=2**16, decode_content=None):$/;"	m	class:HTTPResponse
+stream_decode_response_unicode	.\utils.py	/^def stream_decode_response_unicode(iterator, r):$/;"	f
+string_types	.\packages\urllib3\packages\six.py	/^    string_types = basestring,$/;"	v
+string_types	.\packages\urllib3\packages\six.py	/^    string_types = str,$/;"	v
+struct	.\utils.py	/^import struct$/;"	i
+super_len	.\utils.py	/^def super_len(o):$/;"	f
+supports_set_ciphers	.\packages\urllib3\util\ssl_.py	/^        supports_set_ciphers = ((2, 7) <= sys.version_info < (3,) or$/;"	v	class:SSLContext
+sys	.\compat.py	/^import sys$/;"	i
+sys	.\packages\__init__.py	/^import sys$/;"	i
+sys	.\packages\chardet\chardetect.py	/^import sys$/;"	i
+sys	.\packages\chardet\charsetgroupprober.py	/^import sys$/;"	i
+sys	.\packages\chardet\compat.py	/^import sys$/;"	i
+sys	.\packages\chardet\eucjpprober.py	/^import sys$/;"	i
+sys	.\packages\chardet\mbcharsetprober.py	/^import sys$/;"	i
+sys	.\packages\chardet\sbcharsetprober.py	/^import sys$/;"	i
+sys	.\packages\chardet\sjisprober.py	/^import sys$/;"	i
+sys	.\packages\chardet\universaldetector.py	/^import sys$/;"	i
+sys	.\packages\urllib3\connection.py	/^import sys$/;"	i
+sys	.\packages\urllib3\connectionpool.py	/^import sys$/;"	i
+sys	.\packages\urllib3\packages\six.py	/^import sys$/;"	i
+sys	.\packages\urllib3\util\ssl_.py	/^    import sys$/;"	i
+sys	.\utils.py	/^import sys$/;"	i
+tell	.\packages\urllib3\response.py	/^    def tell(self):$/;"	m	class:HTTPResponse
+text	.\models.py	/^    def text(self):$/;"	m	class:Response
+text_type	.\packages\urllib3\packages\six.py	/^    text_type = str$/;"	v
+text_type	.\packages\urllib3\packages\six.py	/^    text_type = unicode$/;"	v
+threading	.\auth.py	/^import threading$/;"	i
+threading	.\cookies.py	/^    import dummy_threading as threading$/;"	i
+threading	.\cookies.py	/^    import threading$/;"	i
+time	.\auth.py	/^import time$/;"	i
+time	.\cookies.py	/^import time$/;"	i
+time	.\packages\urllib3\util\retry.py	/^import time$/;"	i
+time	.\packages\urllib3\util\timeout.py	/^import time$/;"	i
+timeout	.\packages\urllib3\contrib\pyopenssl.py	/^from socket import _fileobject, timeout$/;"	i
+to_key_val_list	.\sessions.py	/^from .utils import to_key_val_list, default_headers, to_native_string$/;"	i
+to_key_val_list	.\utils.py	/^def to_key_val_list(value):$/;"	f
+to_native_string	.\auth.py	/^from .utils import parse_dict_header, to_native_string$/;"	i
+to_native_string	.\sessions.py	/^from .utils import to_key_val_list, default_headers, to_native_string$/;"	i
+to_native_string	.\utils.py	/^def to_native_string(string, encoding='ascii'):$/;"	f
+types	.\packages\urllib3\packages\six.py	/^import types$/;"	i
+u	.\packages\urllib3\packages\six.py	/^    def u(s):$/;"	f	function:iteritems
+u	.\packages\urllib3\packages\six.py	/^    def u(s):$/;"	f
+unhexlify	.\packages\urllib3\util\ssl_.py	/^from binascii import hexlify, unhexlify$/;"	i
+unicode_literals	.\packages\chardet\chardetect.py	/^from __future__ import absolute_import, print_function, unicode_literals$/;"	i
+univ	.\packages\urllib3\contrib\pyopenssl.py	/^from pyasn1.type import univ, constraint$/;"	i
+universaldetector	.\packages\chardet\__init__.py	/^    from . import universaldetector$/;"	i
+unquote	.\compat.py	/^    from urllib import quote, unquote, quote_plus, unquote_plus, urlencode, getproxies, proxy_bypass$/;"	i
+unquote	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+unquote	.\utils.py	/^from .compat import (quote, urlparse, bytes, str, OrderedDict, unquote, is_py2,$/;"	i
+unquote_header_value	.\utils.py	/^def unquote_header_value(value, is_filename=False):$/;"	f
+unquote_plus	.\compat.py	/^    from urllib import quote, unquote, quote_plus, unquote_plus, urlencode, getproxies, proxy_bypass$/;"	i
+unquote_plus	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+unquote_unreserved	.\utils.py	/^def unquote_unreserved(uri):$/;"	f
+unverifiable	.\cookies.py	/^    def unverifiable(self):$/;"	m	class:MockRequest
+update	.\cookies.py	/^    def update(self, other):$/;"	m	class:RequestsCookieJar
+update	.\packages\urllib3\packages\ordered_dict.py	/^    def update(*args, **kwds):$/;"	m	class:OrderedDict
+url	.\packages\urllib3\util\url.py	/^    def url(self):$/;"	m	class:Url
+url_attrs	.\packages\urllib3\util\url.py	/^url_attrs = ['scheme', 'auth', 'host', 'port', 'path', 'query', 'fragment']$/;"	v
+urldefrag	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+urldefrag	.\compat.py	/^    from urlparse import urlparse, urlunparse, urljoin, urlsplit, urldefrag$/;"	i
+urldefragauth	.\utils.py	/^def urldefragauth(url):$/;"	f
+urlencode	.\compat.py	/^    from urllib import quote, unquote, quote_plus, unquote_plus, urlencode, getproxies, proxy_bypass$/;"	i
+urlencode	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+urlencode	.\packages\urllib3\request.py	/^    from urllib import urlencode$/;"	i
+urlencode	.\packages\urllib3\request.py	/^    from urllib.parse import urlencode$/;"	i
+urlfetch	.\packages\urllib3\contrib\appengine.py	/^    from google.appengine.api import urlfetch$/;"	i
+urlfetch	.\packages\urllib3\contrib\appengine.py	/^    urlfetch = None$/;"	v
+urljoin	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+urljoin	.\compat.py	/^    from urlparse import urlparse, urlunparse, urljoin, urlsplit, urldefrag$/;"	i
+urljoin	.\packages\urllib3\poolmanager.py	/^    from urllib.parse import urljoin$/;"	i
+urljoin	.\packages\urllib3\poolmanager.py	/^    from urlparse import urljoin$/;"	i
+urljoin	.\sessions.py	/^from .compat import cookielib, OrderedDict, urljoin, urlparse$/;"	i
+urllib3	.\packages\__init__.py	/^    from . import urllib3$/;"	i
+urllib3	.\packages\__init__.py	/^    import urllib3$/;"	i
+urlopen	.\packages\urllib3\connectionpool.py	/^    def urlopen(self, method, url, body=None, headers=None, retries=None,$/;"	m	class:HTTPConnectionPool
+urlopen	.\packages\urllib3\contrib\appengine.py	/^    def urlopen(self, method, url, body=None, headers=None,$/;"	m	class:AppEngineManager
+urlopen	.\packages\urllib3\contrib\ntlmpool.py	/^    def urlopen(self, method, url, body=None, headers=None, retries=3,$/;"	m	class:NTLMConnectionPool
+urlopen	.\packages\urllib3\poolmanager.py	/^    def urlopen(self, method, url, redirect=True, **kw):$/;"	m	class:PoolManager
+urlopen	.\packages\urllib3\poolmanager.py	/^    def urlopen(self, method, url, redirect=True, **kw):$/;"	m	class:ProxyManager
+urlopen	.\packages\urllib3\request.py	/^    def urlopen(self, method, url, body=None, headers=None,$/;"	m	class:RequestMethods
+urlparse	.\adapters.py	/^from .compat import urlparse, basestring$/;"	i
+urlparse	.\auth.py	/^from .compat import urlparse, str$/;"	i
+urlparse	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+urlparse	.\compat.py	/^    from urlparse import urlparse, urlunparse, urljoin, urlsplit, urldefrag$/;"	i
+urlparse	.\cookies.py	/^from .compat import cookielib, urlparse, urlunparse, Morsel$/;"	i
+urlparse	.\sessions.py	/^from .compat import cookielib, OrderedDict, urljoin, urlparse$/;"	i
+urlparse	.\utils.py	/^from .compat import (quote, urlparse, bytes, str, OrderedDict, unquote, is_py2,$/;"	i
+urlsplit	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+urlsplit	.\compat.py	/^    from urlparse import urlparse, urlunparse, urljoin, urlsplit, urldefrag$/;"	i
+urlunparse	.\compat.py	/^    from urllib.parse import urlparse, urlunparse, urljoin, urlsplit, urlencode, quote, unquote, quote_plus, unquote_plus, urldefrag$/;"	i
+urlunparse	.\compat.py	/^    from urlparse import urlparse, urlunparse, urljoin, urlsplit, urldefrag$/;"	i
+urlunparse	.\cookies.py	/^from .compat import cookielib, urlparse, urlunparse, Morsel$/;"	i
+util	.\packages\urllib3\contrib\pyopenssl.py	/^from .. import util$/;"	i
+utils	.\__init__.py	/^from . import utils$/;"	i
+utils	.\packages\urllib3\fields.py	/^import email.utils$/;"	i
+uuid4	.\packages\urllib3\filepost.py	/^from uuid import uuid4$/;"	i
+values	.\cookies.py	/^    def values(self):$/;"	m	class:RequestsCookieJar
+values	.\packages\urllib3\packages\ordered_dict.py	/^    def values(self):$/;"	m	class:OrderedDict
+version_info	.\packages\chardet\__init__.py	/^from sys import version_info$/;"	i
+viewitems	.\packages\urllib3\packages\ordered_dict.py	/^    def viewitems(self):$/;"	m	class:OrderedDict
+viewkeys	.\packages\urllib3\packages\ordered_dict.py	/^    def viewkeys(self):$/;"	m	class:OrderedDict
+viewvalues	.\packages\urllib3\packages\ordered_dict.py	/^    def viewvalues(self):$/;"	m	class:OrderedDict
+warnings	.\__init__.py	/^import warnings$/;"	i
+warnings	.\packages\urllib3\__init__.py	/^import warnings$/;"	i
+warnings	.\packages\urllib3\connection.py	/^import warnings$/;"	i
+warnings	.\packages\urllib3\connectionpool.py	/^import warnings$/;"	i
+warnings	.\packages\urllib3\contrib\appengine.py	/^import warnings$/;"	i
+warnings	.\packages\urllib3\util\ssl_.py	/^import warnings$/;"	i
+warnings	.\utils.py	/^import warnings$/;"	i
+where	.\certs.py	/^    def where():$/;"	f
+where	.\certs.py	/^    from certifi import where$/;"	i
+win1250HungarianCharToOrderMap	.\packages\chardet\langhungarianmodel.py	/^win1250HungarianCharToOrderMap = ($/;"	v
+win1251BulgarianCharToOrderMap	.\packages\chardet\langbulgarianmodel.py	/^win1251BulgarianCharToOrderMap = ($/;"	v
+win1251_CharToOrderMap	.\packages\chardet\langcyrillicmodel.py	/^win1251_CharToOrderMap = ($/;"	v
+win1253_CharToOrderMap	.\packages\chardet\langgreekmodel.py	/^win1253_CharToOrderMap = ($/;"	v
+win1255_CharToOrderMap	.\packages\chardet\langhebrewmodel.py	/^win1255_CharToOrderMap = ($/;"	v
+windows	.\packages\chardet\universaldetector.py	/^from .latin1prober import Latin1Prober  # windows-1252$/;"	i
+with_metaclass	.\packages\urllib3\packages\six.py	/^def with_metaclass(meta, base=object):$/;"	f
+wrap_ord	.\packages\chardet\chardistribution.py	/^from .compat import wrap_ord$/;"	i
+wrap_ord	.\packages\chardet\codingstatemachine.py	/^from .compat import wrap_ord$/;"	i
+wrap_ord	.\packages\chardet\compat.py	/^def wrap_ord(a):$/;"	f
+wrap_ord	.\packages\chardet\escprober.py	/^from .compat import wrap_ord$/;"	i
+wrap_ord	.\packages\chardet\hebrewprober.py	/^from .compat import wrap_ord$/;"	i
+wrap_ord	.\packages\chardet\jpcntx.py	/^from .compat import wrap_ord$/;"	i
+wrap_ord	.\packages\chardet\latin1prober.py	/^from .compat import wrap_ord$/;"	i
+wrap_ord	.\packages\chardet\sbcharsetprober.py	/^from .compat import wrap_ord$/;"	i
+wrap_socket	.\packages\urllib3\util\ssl_.py	/^        def wrap_socket(self, socket, server_hostname=None):$/;"	m	class:SSLContext
+wrap_socket	.\packages\urllib3\util\ssl_.py	/^    from ssl import wrap_socket, CERT_NONE, PROTOCOL_SSLv23$/;"	i
+write	.\packages\urllib3\packages\six.py	/^        def write(data):$/;"	f	function:.print_
+writer	.\packages\urllib3\filepost.py	/^writer = codecs.lookup('utf-8')[3]$/;"	v
+xrange	.\packages\urllib3\connectionpool.py	/^xrange = six.moves.xrange$/;"	v
+zlib	.\packages\urllib3\response.py	/^import zlib$/;"	i
