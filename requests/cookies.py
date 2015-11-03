@@ -34,6 +34,7 @@ class MockRequest(object):
     def __init__(self, request):
         self._r = request
         self._new_headers = {}
+        #http or ftp, etc.
         self.type = urlparse(self._r.url).scheme
 
     def get_type(self):

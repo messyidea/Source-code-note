@@ -10,7 +10,7 @@ Data structures that power Requests.
 
 import collections
 
-
+#大小写不敏感的字典
 class CaseInsensitiveDict(collections.MutableMapping):
     """
     A case-insensitive ``dict``-like object.
