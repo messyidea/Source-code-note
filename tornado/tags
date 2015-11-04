@@ -1,0 +1,752 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Application	.\web.py	/^class Application(object):$/;"	c
+AsyncHTTPClient	.\httpclient.py	/^class AsyncHTTPClient(object):$/;"	c
+AsyncHTTPClient2	.\httpclient.py	/^class AsyncHTTPClient2(object):$/;"	c
+BaseRequestHandler	.\s3server.py	/^class BaseRequestHandler(web.RequestHandler):$/;"	c
+BucketHandler	.\s3server.py	/^class BucketHandler(BaseRequestHandler):$/;"	c
+CONTENT_TYPES	.\web.py	/^    CONTENT_TYPES = set([$/;"	v	class:GZipContentEncoding
+CONVERSIONS	.\database.py	/^CONVERSIONS = copy.deepcopy(MySQLdb.converters.conversions)$/;"	v
+CSVLocale	.\locale.py	/^class CSVLocale(Locale):$/;"	c
+ChunkedTransferEncoding	.\web.py	/^class ChunkedTransferEncoding(OutputTransform):$/;"	c
+Connection	.\database.py	/^class Connection(object):$/;"	c
+Cookie	.\web.py	/^import Cookie$/;"	i
+CurlError	.\httpclient.py	/^class CurlError(HTTPError):$/;"	c
+ERROR	.\ioloop.py	/^    ERROR = _EPOLLERR | _EPOLLHUP | _EPOLLRDHUP$/;"	v	class:IOLoop
+Error	.\options.py	/^class Error(Exception):$/;"	c
+ErrorHandler	.\web.py	/^class ErrorHandler(RequestHandler):$/;"	c
+FD_CLOEXEC	.\win32_support.py	/^FD_CLOEXEC = 1$/;"	v
+FIELD_TYPE	.\database.py	/^FIELD_TYPE = MySQLdb.constants.FIELD_TYPE$/;"	v
+FIONBIO	.\win32_support.py	/^FIONBIO = 126$/;"	v
+FLAG	.\database.py	/^FLAG = MySQLdb.constants.FLAG$/;"	v
+F_GETFD	.\win32_support.py	/^F_GETFD = 1$/;"	v
+F_GETFL	.\win32_support.py	/^F_GETFL = 3$/;"	v
+F_SETFD	.\win32_support.py	/^F_SETFD = 2$/;"	v
+F_SETFL	.\win32_support.py	/^F_SETFL = 4$/;"	v
+FacebookMixin	.\auth.py	/^class FacebookMixin(object):$/;"	c
+FallbackHandler	.\web.py	/^class FallbackHandler(RequestHandler):$/;"	c
+FriendFeedMixin	.\auth.py	/^class FriendFeedMixin(OAuthMixin):$/;"	c
+GZipContentEncoding	.\web.py	/^class GZipContentEncoding(OutputTransform):$/;"	c
+GettextLocale	.\locale.py	/^class GettextLocale(Locale):$/;"	c
+GoogleMixin	.\auth.py	/^class GoogleMixin(OpenIdMixin, OAuthMixin):$/;"	c
+HANDLE_FLAG_INHERIT	.\win32_support.py	/^HANDLE_FLAG_INHERIT = 0x00000001$/;"	v
+HTTPClient	.\httpclient.py	/^class HTTPClient(object):$/;"	c
+HTTPConnection	.\httpserver.py	/^class HTTPConnection(object):$/;"	c
+HTTPError	.\httpclient.py	/^class HTTPError(Exception):$/;"	c
+HTTPError	.\web.py	/^class HTTPError(Exception):$/;"	c
+HTTPHeaders	.\httputil.py	/^class HTTPHeaders(dict):$/;"	c
+HTTPRequest	.\httpclient.py	/^class HTTPRequest(object):$/;"	c
+HTTPRequest	.\httpserver.py	/^class HTTPRequest(object):$/;"	c
+HTTPRequest	.\wsgi.py	/^class HTTPRequest(object):$/;"	c
+HTTPResponse	.\httpclient.py	/^class HTTPResponse(object):$/;"	c
+HTTPServer	.\httpserver.py	/^class HTTPServer(object):$/;"	c
+IOLoop	.\ioloop.py	/^class IOLoop(object):$/;"	c
+IOStream	.\iostream.py	/^class IOStream(object):$/;"	c
+IntegrityError	.\database.py	/^IntegrityError = MySQLdb.IntegrityError$/;"	v
+LOCALE_NAMES	.\locale.py	/^LOCALE_NAMES = {$/;"	v
+Loader	.\template.py	/^class Loader(object):$/;"	c
+Locale	.\locale.py	/^class Locale(object):$/;"	c
+MAX_EVENTS	.\epoll.c	21;"	d	file:
+MIN_LENGTH	.\web.py	/^    MIN_LENGTH = 5$/;"	v	class:GZipContentEncoding
+MySQLdb	.\database.py	/^import MySQLdb.constants$/;"	i
+MySQLdb	.\database.py	/^import MySQLdb.converters$/;"	i
+MySQLdb	.\database.py	/^import MySQLdb.cursors$/;"	i
+NONE	.\ioloop.py	/^    NONE = 0$/;"	v	class:IOLoop
+OAuthMixin	.\auth.py	/^class OAuthMixin(object):$/;"	c
+ObjectHandler	.\s3server.py	/^class ObjectHandler(BaseRequestHandler):$/;"	c
+OpenIdMixin	.\auth.py	/^class OpenIdMixin(object):$/;"	c
+OperationalError	.\database.py	/^OperationalError = MySQLdb.OperationalError$/;"	v
+OutputTransform	.\web.py	/^class OutputTransform(object):$/;"	c
+ParseError	.\template.py	/^class ParseError(Exception):$/;"	c
+PeriodicCallback	.\ioloop.py	/^class PeriodicCallback(object):$/;"	c
+Pipe	.\win32_support.py	/^class Pipe(object):$/;"	c
+Python	.\httpserver.py	/^    import ssl # Python 2.6+$/;"	i
+READ	.\ioloop.py	/^    READ = _EPOLLIN$/;"	v	class:IOLoop
+RedirectHandler	.\web.py	/^class RedirectHandler(RequestHandler):$/;"	c
+RequestHandler	.\web.py	/^class RequestHandler(object):$/;"	c
+RootHandler	.\s3server.py	/^class RootHandler(BaseRequestHandler):$/;"	c
+Row	.\database.py	/^class Row(dict):$/;"	c
+S3Application	.\s3server.py	/^class S3Application(web.Application):$/;"	c
+SUPPORTED_METHODS	.\s3server.py	/^    SUPPORTED_METHODS = ("PUT", "GET", "DELETE")$/;"	v	class:BaseRequestHandler
+SUPPORTED_METHODS	.\web.py	/^    SUPPORTED_METHODS = ("GET", "HEAD", "POST", "DELETE", "PUT")$/;"	v	class:RequestHandler
+SetHandleInformation	.\win32_support.py	/^SetHandleInformation = ctypes.windll.kernel32.SetHandleInformation$/;"	v
+StaticFileHandler	.\web.py	/^class StaticFileHandler(RequestHandler):$/;"	c
+Template	.\template.py	/^class Template(object):$/;"	c
+TestIOLoop	.\test\test_ioloop.py	/^class TestIOLoop(unittest.TestCase):$/;"	c
+TwitterMixin	.\auth.py	/^class TwitterMixin(OAuthMixin):$/;"	c
+UIModule	.\web.py	/^class UIModule(object):$/;"	c
+URLSpec	.\web.py	/^class URLSpec(object):$/;"	c
+WRITE	.\ioloop.py	/^    WRITE = _EPOLLOUT$/;"	v	class:IOLoop
+WSGIApplication	.\wsgi.py	/^class WSGIApplication(web.Application):$/;"	c
+WSGIContainer	.\wsgi.py	/^class WSGIContainer(object):$/;"	c
+_ARG_DEFAULT	.\web.py	/^    _ARG_DEFAULT = []$/;"	v	class:RequestHandler
+_ASYNC_CLIENTS	.\httpclient.py	/^    _ASYNC_CLIENTS = weakref.WeakKeyDictionary()$/;"	v	class:AsyncHTTPClient
+_ASYNC_CLIENTS	.\httpclient.py	/^    _ASYNC_CLIENTS = weakref.WeakKeyDictionary()$/;"	v	class:AsyncHTTPClient2
+_ApplyBlock	.\template.py	/^class _ApplyBlock(_Node):$/;"	c
+_ChunkList	.\template.py	/^class _ChunkList(_Node):$/;"	c
+_CodeWriter	.\template.py	/^class _CodeWriter(object):$/;"	c
+_ControlBlock	.\template.py	/^class _ControlBlock(_Node):$/;"	c
+_DATETIME_FORMATS	.\options.py	/^    _DATETIME_FORMATS = [$/;"	v	class:_Option
+_EPOLLERR	.\ioloop.py	/^    _EPOLLERR = 0x008$/;"	v	class:IOLoop
+_EPOLLET	.\ioloop.py	/^    _EPOLLET = (1 << 31)$/;"	v	class:IOLoop
+_EPOLLHUP	.\ioloop.py	/^    _EPOLLHUP = 0x010$/;"	v	class:IOLoop
+_EPOLLIN	.\ioloop.py	/^    _EPOLLIN = 0x001$/;"	v	class:IOLoop
+_EPOLLONESHOT	.\ioloop.py	/^    _EPOLLONESHOT = (1 << 30)$/;"	v	class:IOLoop
+_EPOLLOUT	.\ioloop.py	/^    _EPOLLOUT = 0x004$/;"	v	class:IOLoop
+_EPOLLPRI	.\ioloop.py	/^    _EPOLLPRI = 0x002$/;"	v	class:IOLoop
+_EPOLLRDHUP	.\ioloop.py	/^    _EPOLLRDHUP = 0x2000$/;"	v	class:IOLoop
+_EPOLL_CTL_ADD	.\ioloop.py	/^    _EPOLL_CTL_ADD = 1$/;"	v	class:_EPoll
+_EPOLL_CTL_DEL	.\ioloop.py	/^    _EPOLL_CTL_DEL = 2$/;"	v	class:_EPoll
+_EPOLL_CTL_MOD	.\ioloop.py	/^    _EPOLL_CTL_MOD = 3$/;"	v	class:_EPoll
+_EPoll	.\ioloop.py	/^class _EPoll(object):$/;"	c
+_Expression	.\template.py	/^class _Expression(_Node):$/;"	c
+_ExtendsBlock	.\template.py	/^class _ExtendsBlock(_Node):$/;"	c
+_FLOAT_PATTERN	.\options.py	/^    _FLOAT_PATTERN = r'[-+]?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:[eE][-+]?\\d+)?'$/;"	v	class:_Option
+_File	.\template.py	/^class _File(_Node):$/;"	c
+_HTML_UNICODE_MAP	.\escape.py	/^_HTML_UNICODE_MAP = _build_unicode_map()$/;"	v
+_IncludeBlock	.\template.py	/^class _IncludeBlock(_Node):$/;"	c
+_IntermediateControlBlock	.\template.py	/^class _IntermediateControlBlock(_Node):$/;"	c
+_KQueue	.\ioloop.py	/^class _KQueue(object):$/;"	c
+_LogFormatter	.\options.py	/^class _LogFormatter(logging.Formatter):$/;"	c
+_NamedBlock	.\template.py	/^class _NamedBlock(_Node):$/;"	c
+_Node	.\template.py	/^class _Node(object):$/;"	c
+_O	.\web.py	/^class _O(dict):$/;"	c
+_OAUTH_ACCESS_TOKEN_URL	.\auth.py	/^    _OAUTH_ACCESS_TOKEN_URL = "http:\/\/api.twitter.com\/oauth\/access_token"$/;"	v	class:TwitterMixin
+_OAUTH_ACCESS_TOKEN_URL	.\auth.py	/^    _OAUTH_ACCESS_TOKEN_URL = "https:\/\/friendfeed.com\/account\/oauth\/access_token"$/;"	v	class:FriendFeedMixin
+_OAUTH_ACCESS_TOKEN_URL	.\auth.py	/^    _OAUTH_ACCESS_TOKEN_URL = "https:\/\/www.google.com\/accounts\/OAuthGetAccessToken"$/;"	v	class:GoogleMixin
+_OAUTH_AUTHENTICATE_URL	.\auth.py	/^    _OAUTH_AUTHENTICATE_URL = "http:\/\/api.twitter.com\/oauth\/authenticate"$/;"	v	class:TwitterMixin
+_OAUTH_AUTHORIZE_URL	.\auth.py	/^    _OAUTH_AUTHORIZE_URL = "http:\/\/api.twitter.com\/oauth\/authorize"$/;"	v	class:TwitterMixin
+_OAUTH_AUTHORIZE_URL	.\auth.py	/^    _OAUTH_AUTHORIZE_URL = "https:\/\/friendfeed.com\/account\/oauth\/authorize"$/;"	v	class:FriendFeedMixin
+_OAUTH_NO_CALLBACKS	.\auth.py	/^    _OAUTH_NO_CALLBACKS = True$/;"	v	class:FriendFeedMixin
+_OAUTH_NO_CALLBACKS	.\auth.py	/^    _OAUTH_NO_CALLBACKS = True$/;"	v	class:TwitterMixin
+_OAUTH_REQUEST_TOKEN_URL	.\auth.py	/^    _OAUTH_REQUEST_TOKEN_URL = "http:\/\/api.twitter.com\/oauth\/request_token"$/;"	v	class:TwitterMixin
+_OAUTH_REQUEST_TOKEN_URL	.\auth.py	/^    _OAUTH_REQUEST_TOKEN_URL = "https:\/\/friendfeed.com\/account\/oauth\/request_token"$/;"	v	class:FriendFeedMixin
+_OPENID_ENDPOINT	.\auth.py	/^    _OPENID_ENDPOINT = "https:\/\/www.google.com\/accounts\/o8\/ud"$/;"	v	class:GoogleMixin
+_Option	.\options.py	/^class _Option(object):$/;"	c
+_Options	.\options.py	/^class _Options(dict):$/;"	c
+_Select	.\ioloop.py	/^class _Select(object):$/;"	c
+_Statement	.\template.py	/^class _Statement(_Node):$/;"	c
+_TIMEDELTA_ABBREVS	.\options.py	/^    _TIMEDELTA_ABBREVS = [$/;"	v	class:_Option
+_TIMEDELTA_ABBREV_DICT	.\options.py	/^    _TIMEDELTA_ABBREV_DICT = dict($/;"	v	class:_Option
+_TIMEDELTA_PATTERN	.\options.py	/^    _TIMEDELTA_PATTERN = re.compile($/;"	v	class:_Option
+_TemplateReader	.\template.py	/^class _TemplateReader(object):$/;"	c
+_Text	.\template.py	/^class _Text(_Node):$/;"	c
+_Timeout	.\ioloop.py	/^class _Timeout(object):$/;"	c
+__call__	.\web.py	/^    def __call__(self, request):$/;"	m	class:Application	file:
+__call__	.\wsgi.py	/^    def __call__(self, environ, start_response):$/;"	m	class:WSGIApplication	file:
+__call__	.\wsgi.py	/^    def __call__(self, request):$/;"	m	class:WSGIContainer	file:
+__cmp__	.\ioloop.py	/^    def __cmp__(self, other):$/;"	m	class:_Timeout	file:
+__del__	.\database.py	/^    def __del__(self):$/;"	m	class:Connection	file:
+__del__	.\httpclient.py	/^    def __del__(self):$/;"	m	class:HTTPClient	file:
+__del__	.\httpclient.py	/^    def __del__(self):$/;"	m	class:HTTPResponse	file:
+__delitem__	.\httputil.py	/^    def __delitem__(self, name):$/;"	m	class:HTTPHeaders	file:
+__enter__	.\template.py	/^    def __enter__(self):$/;"	m	class:_CodeWriter	file:
+__exit__	.\template.py	/^    def __exit__(self, *args):$/;"	m	class:_CodeWriter	file:
+__getattr__	.\database.py	/^    def __getattr__(self, name):$/;"	m	class:Row	file:
+__getattr__	.\options.py	/^    def __getattr__(self, name):$/;"	m	class:_Options	file:
+__getattr__	.\web.py	/^    def __getattr__(self, name):$/;"	m	class:_O	file:
+__getitem__	.\httputil.py	/^    def __getitem__(self, name):$/;"	m	class:HTTPHeaders	file:
+__getitem__	.\template.py	/^    def __getitem__(self, key):$/;"	m	class:_TemplateReader	file:
+__init__	.\database.py	/^    def __init__(self, host, database, user=None, password=None):$/;"	m	class:Connection
+__init__	.\httpclient.py	/^    def __init__(self, code, message=None, response=None):$/;"	m	class:HTTPError
+__init__	.\httpclient.py	/^    def __init__(self, errno, message):$/;"	m	class:CurlError
+__init__	.\httpclient.py	/^    def __init__(self, max_simultaneous_connections=None):$/;"	m	class:HTTPClient
+__init__	.\httpclient.py	/^    def __init__(self, request, code, headers={}, buffer=None, effective_url=None,$/;"	m	class:HTTPResponse
+__init__	.\httpclient.py	/^    def __init__(self, url, method="GET", headers=None, body=None,$/;"	m	class:HTTPRequest
+__init__	.\httpserver.py	/^    def __init__(self, method, uri, version="HTTP\/1.0", headers=None,$/;"	m	class:HTTPRequest
+__init__	.\httpserver.py	/^    def __init__(self, request_callback, no_keep_alive=False, io_loop=None,$/;"	m	class:HTTPServer
+__init__	.\httpserver.py	/^    def __init__(self, stream, address, request_callback, no_keep_alive=False,$/;"	m	class:HTTPConnection
+__init__	.\httputil.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:HTTPHeaders
+__init__	.\ioloop.py	/^    def __init__(self):$/;"	m	class:_EPoll
+__init__	.\ioloop.py	/^    def __init__(self):$/;"	m	class:_KQueue
+__init__	.\ioloop.py	/^    def __init__(self):$/;"	m	class:_Select
+__init__	.\ioloop.py	/^    def __init__(self, callback, callback_time, io_loop=None):$/;"	m	class:PeriodicCallback
+__init__	.\ioloop.py	/^    def __init__(self, deadline, callback):$/;"	m	class:_Timeout
+__init__	.\ioloop.py	/^    def __init__(self, impl=None):$/;"	m	class:IOLoop
+__init__	.\iostream.py	/^    def __init__(self, socket, io_loop=None, max_buffer_size=104857600,$/;"	m	class:IOStream
+__init__	.\locale.py	/^    def __init__(self, code, translations):$/;"	m	class:Locale
+__init__	.\options.py	/^    def __init__(self, color, *args, **kwargs):$/;"	m	class:_LogFormatter
+__init__	.\options.py	/^    def __init__(self, name, default=None, type=str, help=None, metavar=None,$/;"	m	class:_Option
+__init__	.\s3server.py	/^    def __init__(self, root_directory, bucket_depth=0):$/;"	m	class:S3Application
+__init__	.\template.py	/^    def __init__(self, body):$/;"	m	class:_File
+__init__	.\template.py	/^    def __init__(self, chunks):$/;"	m	class:_ChunkList
+__init__	.\template.py	/^    def __init__(self, expression):$/;"	m	class:_Expression
+__init__	.\template.py	/^    def __init__(self, file, named_blocks, loader, current_template,$/;"	m	class:_CodeWriter
+__init__	.\template.py	/^    def __init__(self, method, body=None):$/;"	m	class:_ApplyBlock
+__init__	.\template.py	/^    def __init__(self, name):$/;"	m	class:_ExtendsBlock
+__init__	.\template.py	/^    def __init__(self, name, body=None):$/;"	m	class:_NamedBlock
+__init__	.\template.py	/^    def __init__(self, name, reader):$/;"	m	class:_IncludeBlock
+__init__	.\template.py	/^    def __init__(self, name, text):$/;"	m	class:_TemplateReader
+__init__	.\template.py	/^    def __init__(self, root_directory):$/;"	m	class:Loader
+__init__	.\template.py	/^    def __init__(self, statement):$/;"	m	class:_IntermediateControlBlock
+__init__	.\template.py	/^    def __init__(self, statement):$/;"	m	class:_Statement
+__init__	.\template.py	/^    def __init__(self, statement, body=None):$/;"	m	class:_ControlBlock
+__init__	.\template.py	/^    def __init__(self, template_string, name="<string>", loader=None,$/;"	m	class:Template
+__init__	.\template.py	/^    def __init__(self, value):$/;"	m	class:_Text
+__init__	.\web.py	/^    def __init__(self, app, request, fallback):$/;"	m	class:FallbackHandler
+__init__	.\web.py	/^    def __init__(self, application, request, path):$/;"	m	class:StaticFileHandler
+__init__	.\web.py	/^    def __init__(self, application, request, status_code):$/;"	m	class:ErrorHandler
+__init__	.\web.py	/^    def __init__(self, application, request, transforms=None):$/;"	m	class:RequestHandler
+__init__	.\web.py	/^    def __init__(self, application, request, url, permanent=True):$/;"	m	class:RedirectHandler
+__init__	.\web.py	/^    def __init__(self, handler):$/;"	m	class:UIModule
+__init__	.\web.py	/^    def __init__(self, handlers=None, default_host="", transforms=None,$/;"	m	class:Application
+__init__	.\web.py	/^    def __init__(self, pattern, handler_class, kwargs={}, name=None):$/;"	m	class:URLSpec
+__init__	.\web.py	/^    def __init__(self, request):$/;"	m	class:ChunkedTransferEncoding
+__init__	.\web.py	/^    def __init__(self, request):$/;"	m	class:GZipContentEncoding
+__init__	.\web.py	/^    def __init__(self, request):$/;"	m	class:OutputTransform
+__init__	.\web.py	/^    def __init__(self, status_code, log_message=None, *args):$/;"	m	class:HTTPError
+__init__	.\win32_support.py	/^    def __init__(self):$/;"	m	class:Pipe
+__init__	.\wsgi.py	/^    def __init__(self, environ):$/;"	m	class:HTTPRequest
+__init__	.\wsgi.py	/^    def __init__(self, handlers=None, default_host="", **settings):$/;"	m	class:WSGIApplication
+__init__	.\wsgi.py	/^    def __init__(self, wsgi_application):$/;"	m	class:WSGIContainer
+__len__	.\template.py	/^    def __len__(self):$/;"	m	class:_TemplateReader	file:
+__new__	.\httpclient.py	/^    def __new__(cls, io_loop=None, max_clients=10,$/;"	m	class:AsyncHTTPClient	file:
+__new__	.\httpclient.py	/^    def __new__(cls, io_loop=None, max_clients=10,$/;"	m	class:AsyncHTTPClient2	file:
+__repr__	.\httpclient.py	/^    def __repr__(self):$/;"	m	class:HTTPResponse	file:
+__repr__	.\httpserver.py	/^    def __repr__(self):$/;"	m	class:HTTPRequest	file:
+__setattr__	.\web.py	/^    def __setattr__(self, name, value):$/;"	m	class:_O	file:
+__setitem__	.\httputil.py	/^    def __setitem__(self, name, value):$/;"	m	class:HTTPHeaders	file:
+__slots__	.\ioloop.py	/^    __slots__ = ['deadline', 'callback']$/;"	v	class:_Timeout
+__str__	.\template.py	/^    def __str__(self):$/;"	m	class:_TemplateReader	file:
+__str__	.\web.py	/^    def __str__(self):$/;"	m	class:HTTPError	file:
+_add_io_state	.\iostream.py	/^    def _add_io_state(self, state):$/;"	m	class:IOStream
+_add_perform_callback	.\httpclient.py	/^    def _add_perform_callback(self):$/;"	m	class:AsyncHTTPClient
+_build_unicode_map	.\escape.py	/^def _build_unicode_map():$/;"	f
+_callback	.\test\test_ioloop.py	/^    def _callback(self):$/;"	m	class:TestIOLoop
+_check_closed	.\iostream.py	/^    def _check_closed(self):$/;"	m	class:IOStream
+_consume	.\iostream.py	/^    def _consume(self, loc):$/;"	m	class:IOStream
+_control	.\ioloop.py	/^    def _control(self, fd, events, flags):$/;"	m	class:_KQueue
+_convert_entity	.\escape.py	/^def _convert_entity(m):$/;"	f
+_cookie_signature	.\web.py	/^    def _cookie_signature(self, *parts):$/;"	m	class:RequestHandler
+_curl_create	.\httpclient.py	/^def _curl_create(max_simultaneous_connections=None):$/;"	f
+_curl_debug	.\httpclient.py	/^def _curl_debug(debug_type, debug_msg):$/;"	f
+_curl_header_callback	.\httpclient.py	/^def _curl_header_callback(headers, header_line):$/;"	f
+_curl_setup_request	.\httpclient.py	/^def _curl_setup_request(curl, request, buffer, headers):$/;"	f
+_cursor	.\database.py	/^    def _cursor(self):$/;"	m	class:Connection
+_default_locale	.\locale.py	/^_default_locale = "en_US"$/;"	v
+_epoll_create	.\epoll.c	/^static PyObject* _epoll_create(void) {$/;"	f	file:
+_epoll_ctl	.\epoll.c	/^static PyObject* _epoll_ctl(PyObject* self, PyObject* args) {$/;"	f	file:
+_epoll_wait	.\epoll.c	/^static PyObject* _epoll_wait(PyObject* self, PyObject* args) {$/;"	f	file:
+_execute	.\database.py	/^    def _execute(self, cursor, query, parameters):$/;"	m	class:Connection
+_execute	.\web.py	/^    def _execute(self, transforms, *args, **kwargs):$/;"	m	class:RequestHandler
+_find_groups	.\web.py	/^    def _find_groups(self):$/;"	m	class:URLSpec
+_finish	.\httpclient.py	/^    def _finish(self, curl, curl_error=None, curl_message=None):$/;"	m	class:AsyncHTTPClient
+_finish	.\httpclient.py	/^    def _finish(self, curl, curl_error=None, curl_message=None):$/;"	m	class:AsyncHTTPClient2
+_finish_pending_requests	.\httpclient.py	/^    def _finish_pending_requests(self):$/;"	m	class:AsyncHTTPClient2
+_finish_request	.\httpserver.py	/^    def _finish_request(self):$/;"	m	class:HTTPConnection
+_format_code	.\template.py	/^def _format_code(code):$/;"	f
+_generate_headers	.\web.py	/^    def _generate_headers(self):$/;"	m	class:RequestHandler
+_generate_python	.\template.py	/^    def _generate_python(self, loader, compress_whitespace):$/;"	m	class:Template
+_get_ancestors	.\template.py	/^    def _get_ancestors(self, loader):$/;"	m	class:Template
+_get_body	.\httpclient.py	/^    def _get_body(self):$/;"	m	class:HTTPResponse
+_get_host_handlers	.\web.py	/^    def _get_host_handlers(self, request):$/;"	m	class:Application
+_handle_alarm	.\ioloop.py	/^    def _handle_alarm(self, signal, frame):$/;"	m	class:IOLoop
+_handle_events	.\httpclient.py	/^    def _handle_events(self, fd, events):$/;"	m	class:AsyncHTTPClient
+_handle_events	.\httpclient.py	/^    def _handle_events(self, fd, events):$/;"	m	class:AsyncHTTPClient2
+_handle_events	.\httpserver.py	/^    def _handle_events(self, fd, events):$/;"	m	class:HTTPServer
+_handle_events	.\iostream.py	/^    def _handle_events(self, fd, events):$/;"	m	class:IOStream
+_handle_read	.\iostream.py	/^    def _handle_read(self):$/;"	m	class:IOStream
+_handle_request_exception	.\web.py	/^    def _handle_request_exception(self, e):$/;"	m	class:RequestHandler
+_handle_socket	.\httpclient.py	/^    def _handle_socket(self, event, fd, multi, data):$/;"	m	class:AsyncHTTPClient2
+_handle_timeout	.\httpclient.py	/^    def _handle_timeout(self):$/;"	m	class:AsyncHTTPClient
+_handle_timeout	.\httpclient.py	/^    def _handle_timeout(self):$/;"	m	class:AsyncHTTPClient2
+_handle_write	.\iostream.py	/^    def _handle_write(self):$/;"	m	class:IOStream
+_json_decode	.\escape.py	/^            _json_decode = lambda s: simplejson.loads(_unicode(s))$/;"	v
+_json_decode	.\escape.py	/^            def _json_decode(s):$/;"	f
+_json_decode	.\escape.py	/^        _json_decode = lambda s: simplejson.loads(_unicode(s))$/;"	v
+_json_decode	.\escape.py	/^    _json_decode = lambda s: json.loads(s)$/;"	v
+_json_encode	.\escape.py	/^            _json_encode = _json_decode$/;"	v
+_json_encode	.\escape.py	/^            _json_encode = lambda v: simplejson.dumps(v)$/;"	v
+_json_encode	.\escape.py	/^        _json_encode = lambda v: simplejson.dumps(v)$/;"	v
+_json_encode	.\escape.py	/^    _json_encode = lambda v: json.dumps(v)$/;"	v
+_load_ui_methods	.\web.py	/^    def _load_ui_methods(self, methods):$/;"	m	class:Application
+_load_ui_modules	.\web.py	/^    def _load_ui_modules(self, modules):$/;"	m	class:Application
+_log	.\web.py	/^    def _log(self):$/;"	m	class:RequestHandler
+_log	.\wsgi.py	/^    def _log(self, status_code, request):$/;"	m	class:WSGIContainer
+_normalize_name	.\httputil.py	/^    def _normalize_name(name):$/;"	m	class:HTTPHeaders
+_oauth_access_token_url	.\auth.py	/^    def _oauth_access_token_url(self, request_token):$/;"	m	class:OAuthMixin
+_oauth_consumer_token	.\auth.py	/^    def _oauth_consumer_token(self):$/;"	m	class:FriendFeedMixin
+_oauth_consumer_token	.\auth.py	/^    def _oauth_consumer_token(self):$/;"	m	class:GoogleMixin
+_oauth_consumer_token	.\auth.py	/^    def _oauth_consumer_token(self):$/;"	m	class:TwitterMixin
+_oauth_escape	.\auth.py	/^def _oauth_escape(val):$/;"	f
+_oauth_get_user	.\auth.py	/^    def _oauth_get_user(self, access_token, callback):$/;"	m	class:FriendFeedMixin
+_oauth_get_user	.\auth.py	/^    def _oauth_get_user(self, access_token, callback):$/;"	m	class:GoogleMixin
+_oauth_get_user	.\auth.py	/^    def _oauth_get_user(self, access_token, callback):$/;"	m	class:OAuthMixin
+_oauth_get_user	.\auth.py	/^    def _oauth_get_user(self, access_token, callback):$/;"	m	class:TwitterMixin
+_oauth_parse_response	.\auth.py	/^def _oauth_parse_response(body):$/;"	f
+_oauth_request_parameters	.\auth.py	/^    def _oauth_request_parameters(self, url, access_token, parameters={},$/;"	m	class:OAuthMixin
+_oauth_request_token_url	.\auth.py	/^    def _oauth_request_token_url(self):$/;"	m	class:OAuthMixin
+_oauth_signature	.\auth.py	/^def _oauth_signature(consumer_token, method, url, parameters={}, token=None):$/;"	f
+_object_path	.\s3server.py	/^    def _object_path(self, bucket, object_name):$/;"	m	class:BaseRequestHandler
+_on_access_token	.\auth.py	/^    def _on_access_token(self, callback, response):$/;"	m	class:OAuthMixin
+_on_authentication_verified	.\auth.py	/^    def _on_authentication_verified(self, callback, response):$/;"	m	class:OpenIdMixin
+_on_friendfeed_request	.\auth.py	/^    def _on_friendfeed_request(self, callback, response):$/;"	m	class:FriendFeedMixin
+_on_get_user_info	.\auth.py	/^    def _on_get_user_info(self, callback, session, users):$/;"	m	class:FacebookMixin
+_on_headers	.\httpserver.py	/^    def _on_headers(self, data):$/;"	m	class:HTTPConnection
+_on_oauth_get_user	.\auth.py	/^    def _on_oauth_get_user(self, access_token, callback, user):$/;"	m	class:OAuthMixin
+_on_request_body	.\httpserver.py	/^    def _on_request_body(self, data):$/;"	m	class:HTTPConnection
+_on_request_token	.\auth.py	/^    def _on_request_token(self, authorize_url, callback_uri, response):$/;"	m	class:OAuthMixin
+_on_twitter_request	.\auth.py	/^    def _on_twitter_request(self, callback, response):$/;"	m	class:TwitterMixin
+_on_write_complete	.\httpserver.py	/^    def _on_write_complete(self):$/;"	m	class:HTTPConnection
+_openid_args	.\auth.py	/^    def _openid_args(self, callback_uri, ax_attrs=[], oauth_scope=None):$/;"	m	class:OpenIdMixin
+_parse	.\template.py	/^def _parse(reader, in_block=None):$/;"	f
+_parse_bool	.\options.py	/^    def _parse_bool(self, value):$/;"	m	class:_Option
+_parse_datetime	.\options.py	/^    def _parse_datetime(self, value):$/;"	m	class:_Option
+_parse_mime_body	.\httpserver.py	/^    def _parse_mime_body(self, boundary, data):$/;"	m	class:HTTPConnection
+_parse_mime_body	.\wsgi.py	/^    def _parse_mime_body(self, boundary):$/;"	m	class:HTTPRequest
+_parse_response	.\auth.py	/^    def _parse_response(self, callback, response):$/;"	m	class:FacebookMixin
+_parse_string	.\options.py	/^    def _parse_string(self, value):$/;"	m	class:_Option
+_parse_timedelta	.\options.py	/^    def _parse_timedelta(self, value):$/;"	m	class:_Option
+_parse_user_response	.\auth.py	/^    def _parse_user_response(self, callback, user):$/;"	m	class:FriendFeedMixin
+_parse_user_response	.\auth.py	/^    def _parse_user_response(self, callback, user):$/;"	m	class:TwitterMixin
+_perform	.\httpclient.py	/^    def _perform(self):$/;"	m	class:AsyncHTTPClient
+_poll	.\ioloop.py	/^    _poll = _KQueue$/;"	v
+_poll	.\ioloop.py	/^    _poll = select.epoll$/;"	v	class:_Select
+_process_queue	.\httpclient.py	/^    def _process_queue(self):$/;"	m	class:AsyncHTTPClient2
+_read_waker	.\ioloop.py	/^    def _read_waker(self, fd, events):$/;"	m	class:IOLoop
+_reload_attempted	.\autoreload.py	/^_reload_attempted = False$/;"	v
+_reload_on_update	.\autoreload.py	/^def _reload_on_update(io_loop, modify_times):$/;"	f
+_render_parts	.\s3server.py	/^    def _render_parts(self, value, parts=[]):$/;"	m	class:BaseRequestHandler
+_request_summary	.\web.py	/^    def _request_summary(self):$/;"	m	class:RequestHandler
+_run	.\ioloop.py	/^    def _run(self):$/;"	m	class:PeriodicCallback
+_run_callback	.\ioloop.py	/^    def _run_callback(self, callback):$/;"	m	class:IOLoop
+_run_callback	.\iostream.py	/^    def _run_callback(self, callback, *args, **kwargs):$/;"	m	class:IOStream
+_schedule_callback	.\test\test_ioloop.py	/^    def _schedule_callback(self):$/;"	m	class:TestIOLoop
+_set_close_exec	.\ioloop.py	/^    def _set_close_exec(self, fd):$/;"	m	class:IOLoop
+_set_nonblocking	.\ioloop.py	/^    def _set_nonblocking(self, fd):$/;"	m	class:IOLoop
+_set_timeout	.\httpclient.py	/^    def _set_timeout(self, msecs):$/;"	m	class:AsyncHTTPClient2
+_signature	.\auth.py	/^    def _signature(self, args):$/;"	m	class:FacebookMixin
+_supported_locales	.\locale.py	/^_supported_locales = frozenset([_default_locale])$/;"	v
+_time_independent_equals	.\web.py	/^def _time_independent_equals(a, b):$/;"	f
+_translations	.\locale.py	/^_translations = {}$/;"	v
+_ui_method	.\web.py	/^    def _ui_method(self, method):$/;"	m	class:RequestHandler
+_ui_module	.\web.py	/^    def _ui_module(self, name, module):$/;"	m	class:RequestHandler
+_unicode	.\escape.py	/^def _unicode(value):$/;"	f
+_unicode	.\web.py	/^def _unicode(s):$/;"	f
+_use_gettext	.\locale.py	/^_use_gettext = False$/;"	v
+_utf8	.\httpclient.py	/^def _utf8(value):$/;"	f
+_utf8	.\web.py	/^def _utf8(s):$/;"	f
+_wake	.\ioloop.py	/^    def _wake(self):$/;"	m	class:IOLoop
+add	.\httputil.py	/^    def add(self, name, value):$/;"	m	class:HTTPHeaders
+add_callback	.\ioloop.py	/^    def add_callback(self, callback):$/;"	m	class:IOLoop
+add_handler	.\ioloop.py	/^    def add_handler(self, fd, handler, events):$/;"	m	class:IOLoop
+add_handlers	.\web.py	/^    def add_handlers(self, host_pattern, host_handlers):$/;"	m	class:Application
+add_timeout	.\ioloop.py	/^    def add_timeout(self, deadline, callback):$/;"	m	class:IOLoop
+add_transform	.\web.py	/^    def add_transform(self, transform_class):$/;"	m	class:Application
+addslash	.\web.py	/^def addslash(method):$/;"	f
+async_callback	.\web.py	/^    def async_callback(self, callback, *args, **kwargs):$/;"	m	class:RequestHandler
+asynchronous	.\web.py	/^def asynchronous(method):$/;"	f
+authenticate_redirect	.\auth.py	/^    def authenticate_redirect(self):$/;"	m	class:TwitterMixin
+authenticate_redirect	.\auth.py	/^    def authenticate_redirect(self, callback_uri=None, cancel_uri=None,$/;"	m	class:FacebookMixin
+authenticate_redirect	.\auth.py	/^    def authenticate_redirect(self, callback_uri=None,$/;"	m	class:OpenIdMixin
+authenticated	.\web.py	/^def authenticated(method):$/;"	f
+authorize_redirect	.\auth.py	/^    def authorize_redirect(self, callback_uri=None):$/;"	m	class:OAuthMixin
+authorize_redirect	.\auth.py	/^    def authorize_redirect(self, extended_permissions, callback_uri=None,$/;"	m	class:FacebookMixin
+authorize_redirect	.\auth.py	/^    def authorize_redirect(self, oauth_scope, callback_uri=None,$/;"	m	class:GoogleMixin
+autoreload	.\web.py	/^            import autoreload$/;"	i
+base64	.\web.py	/^import base64$/;"	i
+binascii	.\auth.py	/^import binascii$/;"	i
+binascii	.\web.py	/^import binascii$/;"	i
+bind	.\httpserver.py	/^    def bind(self, port, address=""):$/;"	m	class:HTTPServer
+bisect	.\ioloop.py	/^import bisect$/;"	i
+bisect	.\s3server.py	/^import bisect$/;"	i
+body	.\httpclient.py	/^    body = property(_get_body)$/;"	v	class:HTTPResponse
+cStringIO	.\httpclient.py	/^import cStringIO$/;"	i
+cStringIO	.\template.py	/^import cStringIO$/;"	i
+cStringIO	.\web.py	/^import cStringIO$/;"	i
+cStringIO	.\wsgi.py	/^import cStringIO$/;"	i
+calendar	.\httpclient.py	/^import calendar$/;"	i
+calendar	.\web.py	/^import calendar$/;"	i
+cgi	.\auth.py	/^import cgi$/;"	i
+cgi	.\httpserver.py	/^import cgi$/;"	i
+cgi	.\wsgi.py	/^import cgi$/;"	i
+check_xsrf_cookie	.\web.py	/^    def check_xsrf_cookie(self):$/;"	m	class:RequestHandler
+clear	.\web.py	/^    def clear(self):$/;"	m	class:RequestHandler
+clear_all_cookies	.\web.py	/^    def clear_all_cookies(self):$/;"	m	class:RequestHandler
+clear_cookie	.\web.py	/^    def clear_cookie(self, name, path="\/", domain=None):$/;"	m	class:RequestHandler
+close	.\database.py	/^    def close(self):$/;"	m	class:Connection
+close	.\httpclient.py	/^    def close(self):$/;"	m	class:AsyncHTTPClient
+close	.\httpclient.py	/^    def close(self):$/;"	m	class:AsyncHTTPClient2
+close	.\iostream.py	/^    def close(self):$/;"	m	class:IOStream
+closed	.\iostream.py	/^    def closed(self):$/;"	m	class:IOStream
+collections	.\httpclient.py	/^import collections$/;"	i
+constants	.\database.py	/^import MySQLdb.constants$/;"	i
+consume	.\template.py	/^    def consume(self, count=None):$/;"	m	class:_TemplateReader
+converters	.\database.py	/^import MySQLdb.converters$/;"	i
+cookies	.\web.py	/^    def cookies(self):$/;"	m	class:RequestHandler
+copy	.\database.py	/^import copy$/;"	i
+css_files	.\web.py	/^    def css_files(self):$/;"	m	class:UIModule
+csv	.\locale.py	/^import csv$/;"	i
+ctypes	.\win32_support.py	/^import ctypes$/;"	i
+ctypes	.\win32_support.py	/^import ctypes.wintypes$/;"	i
+current_user	.\web.py	/^    def current_user(self):$/;"	m	class:RequestHandler
+curses	.\options.py	/^    curses = None$/;"	v
+curses	.\options.py	/^    import curses$/;"	i
+cursors	.\database.py	/^import MySQLdb.cursors$/;"	i
+d	.\template.py	/^                    raise ParseError("import missing statement on line %d" % line)$/;"	i
+datetime	.\locale.py	/^import datetime$/;"	i
+datetime	.\options.py	/^import datetime$/;"	i
+datetime	.\s3server.py	/^import datetime$/;"	i
+datetime	.\template.py	/^import datetime$/;"	i
+datetime	.\web.py	/^import datetime$/;"	i
+define	.\options.py	/^def define(name, default=None, type=str, help=None, metavar=None,$/;"	f
+delete	.\s3server.py	/^    def delete(self, bucket, object_name):$/;"	m	class:ObjectHandler
+delete	.\s3server.py	/^    def delete(self, bucket_name):$/;"	m	class:BucketHandler
+delete	.\web.py	/^    def delete(self, *args, **kwargs):$/;"	m	class:RequestHandler
+doctest	.\httputil.py	/^    import doctest$/;"	i
+each_child	.\template.py	/^    def each_child(self):$/;"	m	class:_ApplyBlock
+each_child	.\template.py	/^    def each_child(self):$/;"	m	class:_ChunkList
+each_child	.\template.py	/^    def each_child(self):$/;"	m	class:_ControlBlock
+each_child	.\template.py	/^    def each_child(self):$/;"	m	class:_File
+each_child	.\template.py	/^    def each_child(self):$/;"	m	class:_NamedBlock
+each_child	.\template.py	/^    def each_child(self):$/;"	m	class:_Node
+email	.\httpclient.py	/^import email.utils$/;"	i
+email	.\web.py	/^import email.utils$/;"	i
+embedded_css	.\web.py	/^    def embedded_css(self):$/;"	m	class:UIModule
+embedded_javascript	.\web.py	/^    def embedded_javascript(self):$/;"	m	class:UIModule
+enable_pretty_logging	.\options.py	/^def enable_pretty_logging():$/;"	f
+environ	.\wsgi.py	/^    def environ(request):$/;"	m	class:WSGIContainer
+epoll	.\ioloop.py	/^        import epoll$/;"	i
+errno	.\httpclient.py	/^import errno$/;"	i
+errno	.\httpserver.py	/^import errno$/;"	i
+errno	.\ioloop.py	/^import errno$/;"	i
+errno	.\iostream.py	/^import errno$/;"	i
+errno	.\win32_support.py	/^import errno$/;"	i
+escape	.\auth.py	/^import escape$/;"	i
+escape	.\httpclient.py	/^import escape$/;"	i
+escape	.\s3server.py	/^import escape$/;"	i
+escape	.\template.py	/^import escape$/;"	i
+escape	.\web.py	/^import escape$/;"	i
+escape	.\wsgi.py	/^import escape$/;"	i
+execute	.\database.py	/^    def execute(self, query, *parameters):$/;"	m	class:Connection
+executemany	.\database.py	/^    def executemany(self, query, parameters):$/;"	m	class:Connection
+facebook_request	.\auth.py	/^    def facebook_request(self, method, callback, **args):$/;"	m	class:FacebookMixin
+fcntl	.\httpserver.py	/^        import win32_support as fcntl$/;"	i
+fcntl	.\httpserver.py	/^    import fcntl$/;"	i
+fcntl	.\ioloop.py	/^        import win32_support as fcntl$/;"	i
+fcntl	.\ioloop.py	/^    import fcntl$/;"	i
+fcntl	.\win32_support.py	/^def fcntl(fd, op, arg=0):$/;"	f
+fetch	.\httpclient.py	/^    def fetch(self, request, **kwargs):$/;"	m	class:HTTPClient
+fetch	.\httpclient.py	/^    def fetch(self, request, callback, **kwargs):$/;"	m	class:AsyncHTTPClient
+fetch	.\httpclient.py	/^    def fetch(self, request, callback, **kwargs):$/;"	m	class:AsyncHTTPClient2
+field_types	.\database.py	/^field_types = [FIELD_TYPE.BLOB, FIELD_TYPE.STRING, FIELD_TYPE.VAR_STRING]$/;"	v
+fileno	.\ioloop.py	/^    def fileno(self):$/;"	m	class:_EPoll
+fileno	.\ioloop.py	/^    def fileno(self):$/;"	m	class:_KQueue
+find	.\template.py	/^    def find(self, needle, start=0, end=None):$/;"	m	class:_TemplateReader
+find_named_blocks	.\template.py	/^    def find_named_blocks(self, loader, named_blocks):$/;"	m	class:_IncludeBlock
+find_named_blocks	.\template.py	/^    def find_named_blocks(self, loader, named_blocks):$/;"	m	class:_NamedBlock
+find_named_blocks	.\template.py	/^    def find_named_blocks(self, loader, named_blocks):$/;"	m	class:_Node
+finish	.\httpserver.py	/^    def finish(self):$/;"	m	class:HTTPConnection
+finish	.\httpserver.py	/^    def finish(self):$/;"	m	class:HTTPRequest
+finish	.\web.py	/^    def finish(self, chunk=None):$/;"	m	class:RequestHandler
+flush	.\web.py	/^    def flush(self, include_footers=False):$/;"	m	class:RequestHandler
+format	.\options.py	/^    def format(self, record):$/;"	m	class:_LogFormatter
+format_date	.\locale.py	/^    def format_date(self, date, gmt_offset=0, relative=True, shorter=False,$/;"	m	class:Locale
+format_day	.\locale.py	/^    def format_day(self, date, gmt_offset=0, dow=True):$/;"	m	class:Locale
+friendfeed_request	.\auth.py	/^    def friendfeed_request(self, path, callback, access_token=None,$/;"	m	class:FriendFeedMixin
+friendly_number	.\locale.py	/^    def friendly_number(self, value):$/;"	m	class:Locale
+full_url	.\httpserver.py	/^    def full_url(self):$/;"	m	class:HTTPRequest
+full_url	.\wsgi.py	/^    def full_url(self):$/;"	m	class:HTTPRequest
+functools	.\autoreload.py	/^import functools$/;"	i
+functools	.\web.py	/^import functools$/;"	i
+generate	.\template.py	/^    def generate(self, **kwargs):$/;"	m	class:Template
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_ApplyBlock
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_ChunkList
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_ControlBlock
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_Expression
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_File
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_IncludeBlock
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_IntermediateControlBlock
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_NamedBlock
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_Node
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_Statement
+generate	.\template.py	/^    def generate(self, writer):$/;"	m	class:_Text
+get	.\database.py	/^    def get(self, query, *parameters):$/;"	m	class:Connection
+get	.\httputil.py	/^    def get(self, name, default=None):$/;"	m	class:HTTPHeaders
+get	.\locale.py	/^    def get(cls, code):$/;"	m	class:Locale
+get	.\locale.py	/^def get(*locale_codes):$/;"	f
+get	.\s3server.py	/^    def get(self):$/;"	m	class:RootHandler
+get	.\s3server.py	/^    def get(self, bucket, object_name):$/;"	m	class:ObjectHandler
+get	.\s3server.py	/^    def get(self, bucket_name):$/;"	m	class:BucketHandler
+get	.\web.py	/^    def get(self):$/;"	m	class:RedirectHandler
+get	.\web.py	/^    def get(self, *args, **kwargs):$/;"	m	class:RequestHandler
+get	.\web.py	/^    def get(self, path, include_body=True):$/;"	m	class:StaticFileHandler
+get_all	.\httputil.py	/^    def get_all(self):$/;"	m	class:HTTPHeaders
+get_argument	.\web.py	/^    def get_argument(self, name, default=_ARG_DEFAULT, strip=True):$/;"	m	class:RequestHandler
+get_arguments	.\web.py	/^    def get_arguments(self, name, strip=True):$/;"	m	class:RequestHandler
+get_authenticated_user	.\auth.py	/^    def get_authenticated_user(self, callback):$/;"	m	class:FacebookMixin
+get_authenticated_user	.\auth.py	/^    def get_authenticated_user(self, callback):$/;"	m	class:GoogleMixin
+get_authenticated_user	.\auth.py	/^    def get_authenticated_user(self, callback):$/;"	m	class:OAuthMixin
+get_authenticated_user	.\auth.py	/^    def get_authenticated_user(self, callback):$/;"	m	class:OpenIdMixin
+get_ax_arg	.\auth.py	/^        def get_ax_arg(uri):$/;"	f	function:OpenIdMixin._on_authentication_verified
+get_browser_locale	.\web.py	/^    def get_browser_locale(self, default="en_US"):$/;"	m	class:RequestHandler
+get_closest	.\locale.py	/^    def get_closest(cls, *locale_codes):$/;"	m	class:Locale
+get_cookie	.\web.py	/^    def get_cookie(self, name, default=None):$/;"	m	class:RequestHandler
+get_current_user	.\web.py	/^    def get_current_user(self):$/;"	m	class:RequestHandler
+get_error_html	.\web.py	/^    def get_error_html(self, status_code, **kwargs):$/;"	m	class:RequestHandler
+get_list	.\httputil.py	/^    def get_list(self, name):$/;"	m	class:HTTPHeaders
+get_login_url	.\web.py	/^    def get_login_url(self):$/;"	m	class:RequestHandler
+get_secure_cookie	.\web.py	/^    def get_secure_cookie(self, name, include_name=True, value=None):$/;"	m	class:RequestHandler
+get_supported_locales	.\locale.py	/^def get_supported_locales(cls):$/;"	f
+get_template_path	.\web.py	/^    def get_template_path(self):$/;"	m	class:RequestHandler
+get_user_locale	.\web.py	/^    def get_user_locale(self):$/;"	m	class:RequestHandler
+gettext	.\locale.py	/^    import gettext$/;"	i
+gzip	.\web.py	/^import gzip$/;"	i
+handle_callback_exception	.\ioloop.py	/^    def handle_callback_exception(self, callback):$/;"	m	class:IOLoop
+handlers	.\options.py	/^import logging.handlers$/;"	i
+hashlib	.\auth.py	/^import hashlib$/;"	i
+hashlib	.\s3server.py	/^import hashlib$/;"	i
+hashlib	.\web.py	/^import hashlib$/;"	i
+head	.\web.py	/^    def head(self, *args, **kwargs):$/;"	m	class:RequestHandler
+head	.\web.py	/^    def head(self, path):$/;"	m	class:StaticFileHandler
+hmac	.\auth.py	/^import hmac$/;"	i
+hmac	.\web.py	/^import hmac$/;"	i
+html_body	.\web.py	/^    def html_body(self):$/;"	m	class:UIModule
+html_head	.\web.py	/^    def html_head(self):$/;"	m	class:UIModule
+htmlentitydefs	.\escape.py	/^import htmlentitydefs$/;"	i
+httpclient	.\auth.py	/^import httpclient$/;"	i
+httplib	.\httpclient.py	/^import httplib$/;"	i
+httplib	.\web.py	/^import httplib$/;"	i
+httplib	.\wsgi.py	/^import httplib$/;"	i
+httpserver	.\s3server.py	/^import httpserver$/;"	i
+httputil	.\httpclient.py	/^import httputil$/;"	i
+httputil	.\httpserver.py	/^import httputil$/;"	i
+httputil	.\wsgi.py	/^import httputil$/;"	i
+indent	.\template.py	/^    def indent(self):$/;"	m	class:_CodeWriter
+indent_size	.\template.py	/^    def indent_size(self):$/;"	m	class:_CodeWriter
+initepoll	.\epoll.c	/^PyMODINIT_FUNC initepoll(void) {$/;"	f
+initialized	.\ioloop.py	/^    def initialized(cls):$/;"	m	class:IOLoop
+instance	.\ioloop.py	/^    def instance(cls):$/;"	m	class:IOLoop
+instance	.\options.py	/^    def instance(cls):$/;"	m	class:_Options
+ioctl	.\httpclient.py	/^            def ioctl(cmd):$/;"	f	function:_curl_setup_request
+ioctlsocket	.\win32_support.py	/^ioctlsocket = ctypes.windll.ws2_32.ioctlsocket$/;"	v
+ioloop	.\autoreload.py	/^import ioloop$/;"	i
+ioloop	.\httpclient.py	/^import ioloop$/;"	i
+ioloop	.\httpserver.py	/^import ioloop$/;"	i
+ioloop	.\iostream.py	/^import ioloop$/;"	i
+ioloop	.\s3server.py	/^import ioloop$/;"	i
+ioloop	.\test\test_ioloop.py	/^from tornado import ioloop$/;"	i
+iostream	.\httpserver.py	/^import iostream$/;"	i
+iter	.\database.py	/^    def iter(self, query, *parameters):$/;"	m	class:Connection
+itertools	.\database.py	/^import itertools$/;"	i
+javascript_files	.\web.py	/^    def javascript_files(self):$/;"	m	class:UIModule
+json	.\escape.py	/^    import json$/;"	i
+json_decode	.\escape.py	/^def json_decode(value):$/;"	f
+json_encode	.\escape.py	/^def json_encode(value):$/;"	f
+kEpollMethods	.\epoll.c	/^static PyMethodDef kEpollMethods[] = {$/;"	v	file:
+line	.\template.py	/^                    raise ParseError("import missing statement on line %d" % line)$/;"	i
+list	.\locale.py	/^    def list(self, parts):$/;"	m	class:Locale
+listen	.\httpserver.py	/^    def listen(self, port, address=""):$/;"	m	class:HTTPServer
+load	.\template.py	/^    def load(self, name, parent_path=None):$/;"	m	class:Loader
+load_gettext_translations	.\locale.py	/^def load_gettext_translations(directory, domain):$/;"	f
+load_translations	.\locale.py	/^def load_translations(directory):$/;"	f
+locale	.\web.py	/^    def locale(self):$/;"	m	class:RequestHandler
+locale	.\web.py	/^import locale$/;"	i
+logging	.\auth.py	/^import logging$/;"	i
+logging	.\autoreload.py	/^import logging$/;"	i
+logging	.\database.py	/^import logging$/;"	i
+logging	.\httpclient.py	/^import logging$/;"	i
+logging	.\httpserver.py	/^import logging$/;"	i
+logging	.\ioloop.py	/^import logging$/;"	i
+logging	.\iostream.py	/^import logging$/;"	i
+logging	.\locale.py	/^import logging$/;"	i
+logging	.\options.py	/^import logging$/;"	i
+logging	.\options.py	/^import logging.handlers$/;"	i
+logging	.\template.py	/^import logging$/;"	i
+logging	.\test\test_ioloop.py	/^    import logging$/;"	i
+logging	.\web.py	/^import logging$/;"	i
+logging	.\wsgi.py	/^import logging$/;"	i
+mimetypes	.\web.py	/^import mimetypes$/;"	i
+missing	.\template.py	/^                    raise ParseError("import missing statement on line %d" % line)$/;"	i
+modify	.\ioloop.py	/^    def modify(self, fd, events):$/;"	m	class:_EPoll
+modify	.\ioloop.py	/^    def modify(self, fd, events):$/;"	m	class:_KQueue
+modify	.\ioloop.py	/^    def modify(self, fd, events):$/;"	m	class:_Select
+on	.\template.py	/^                    raise ParseError("import missing statement on line %d" % line)$/;"	i
+on_connection_close	.\web.py	/^    def on_connection_close(self):$/;"	m	class:RequestHandler
+options	.\options.py	/^options = _Options.instance()$/;"	v
+os	.\autoreload.py	/^import os$/;"	i
+os	.\httpserver.py	/^import os$/;"	i
+os	.\ioloop.py	/^import os$/;"	i
+os	.\locale.py	/^import os$/;"	i
+os	.\s3server.py	/^import os$/;"	i
+os	.\s3server.py	/^import os.path$/;"	i
+os	.\template.py	/^import os.path$/;"	i
+os	.\web.py	/^import os.path$/;"	i
+os	.\win32_support.py	/^import os$/;"	i
+parse	.\httputil.py	/^    def parse(cls, headers):$/;"	m	class:HTTPHeaders
+parse	.\options.py	/^    def parse(self, value):$/;"	m	class:_Option
+parse_command_line	.\options.py	/^def parse_command_line(args=None):$/;"	f
+parse_config_file	.\options.py	/^def parse_config_file(path):$/;"	f
+parse_line	.\httputil.py	/^    def parse_line(self, line):$/;"	m	class:HTTPHeaders
+path	.\s3server.py	/^import os.path$/;"	i
+path	.\template.py	/^import os.path$/;"	i
+path	.\web.py	/^import os.path$/;"	i
+poll	.\ioloop.py	/^    def poll(self, timeout):$/;"	m	class:_EPoll
+poll	.\ioloop.py	/^    def poll(self, timeout):$/;"	m	class:_KQueue
+poll	.\ioloop.py	/^    def poll(self, timeout):$/;"	m	class:_Select
+post	.\web.py	/^    def post(self, *args, **kwargs):$/;"	m	class:RequestHandler
+prepare	.\web.py	/^    def prepare(self):$/;"	m	class:ErrorHandler
+prepare	.\web.py	/^    def prepare(self):$/;"	m	class:FallbackHandler
+prepare	.\web.py	/^    def prepare(self):$/;"	m	class:RequestHandler
+print_help	.\options.py	/^def print_help(file=sys.stdout):$/;"	f
+put	.\s3server.py	/^    def put(self, bucket, object_name):$/;"	m	class:ObjectHandler
+put	.\s3server.py	/^    def put(self, bucket_name):$/;"	m	class:BucketHandler
+put	.\web.py	/^    def put(self, *args, **kwargs):$/;"	m	class:RequestHandler
+pycurl	.\httpclient.py	/^import pycurl$/;"	i
+query	.\database.py	/^    def query(self, query, *parameters):$/;"	m	class:Connection
+re	.\escape.py	/^import re$/;"	i
+re	.\options.py	/^import re$/;"	i
+re	.\template.py	/^import re$/;"	i
+re	.\web.py	/^import re$/;"	i
+read	.\win32_support.py	/^    def read(self):$/;"	m	class:Pipe
+read_bytes	.\iostream.py	/^    def read_bytes(self, num_bytes, callback):$/;"	m	class:IOStream
+read_until	.\iostream.py	/^    def read_until(self, delimiter, callback):$/;"	m	class:IOStream
+reading	.\iostream.py	/^    def reading(self):$/;"	m	class:IOStream
+reconnect	.\database.py	/^    def reconnect(self):$/;"	m	class:Connection
+redirect	.\web.py	/^    def redirect(self, url, permanent=False):$/;"	m	class:RequestHandler
+register	.\ioloop.py	/^    def register(self, fd, events):$/;"	m	class:_EPoll
+register	.\ioloop.py	/^    def register(self, fd, events):$/;"	m	class:_KQueue
+register	.\ioloop.py	/^    def register(self, fd, events):$/;"	m	class:_Select
+remaining	.\template.py	/^    def remaining(self):$/;"	m	class:_TemplateReader
+remove_callback	.\ioloop.py	/^    def remove_callback(self, callback):$/;"	m	class:IOLoop
+remove_handler	.\ioloop.py	/^    def remove_handler(self, fd):$/;"	m	class:IOLoop
+remove_timeout	.\ioloop.py	/^    def remove_timeout(self, timeout):$/;"	m	class:IOLoop
+removeslash	.\web.py	/^def removeslash(method):$/;"	f
+render	.\web.py	/^        def render(*args, **kwargs):$/;"	f	function:RequestHandler._ui_module
+render	.\web.py	/^    def render(self, *args, **kwargs):$/;"	m	class:UIModule
+render	.\web.py	/^    def render(self, template_name, **kwargs):$/;"	m	class:RequestHandler
+render_string	.\web.py	/^    def render_string(self, path, **kwargs):$/;"	m	class:UIModule
+render_string	.\web.py	/^    def render_string(self, template_name, **kwargs):$/;"	m	class:RequestHandler
+render_xml	.\s3server.py	/^    def render_xml(self, value):$/;"	m	class:BaseRequestHandler
+request_time	.\httpserver.py	/^    def request_time(self):$/;"	m	class:HTTPRequest
+request_time	.\wsgi.py	/^    def request_time(self):$/;"	m	class:HTTPRequest
+require_setting	.\web.py	/^    def require_setting(self, name, feature="this feature"):$/;"	m	class:RequestHandler
+reset	.\template.py	/^    def reset(self):$/;"	m	class:Loader
+resolve_path	.\template.py	/^    def resolve_path(self, name, parent_path=None):$/;"	m	class:Loader
+rethrow	.\httpclient.py	/^    def rethrow(self):$/;"	m	class:HTTPResponse
+reverse	.\web.py	/^    def reverse(self, *args):$/;"	m	class:URLSpec
+reverse_url	.\web.py	/^    def reverse_url(self, name, *args):$/;"	m	class:Application
+reverse_url	.\web.py	/^    def reverse_url(self, name, *args):$/;"	m	class:RequestHandler
+running	.\ioloop.py	/^    def running(self):$/;"	m	class:IOLoop
+sax	.\escape.py	/^import xml.sax.saxutils$/;"	i
+saxutils	.\escape.py	/^import xml.sax.saxutils$/;"	i
+select	.\ioloop.py	/^import select$/;"	i
+send_error	.\web.py	/^    def send_error(self, status_code=500, **kwargs):$/;"	m	class:RequestHandler
+set	.\options.py	/^    def set(self, value):$/;"	m	class:_Option
+setUp	.\test\test_ioloop.py	/^    def setUp(self):$/;"	m	class:TestIOLoop
+set_blocking_log_threshold	.\ioloop.py	/^    def set_blocking_log_threshold(self, s):$/;"	m	class:IOLoop
+set_close_callback	.\iostream.py	/^    def set_close_callback(self, callback):$/;"	m	class:IOStream
+set_cookie	.\web.py	/^    def set_cookie(self, name, value, domain=None, expires=None, path="\/",$/;"	m	class:RequestHandler
+set_default_locale	.\locale.py	/^def set_default_locale(code):$/;"	f
+set_extra_headers	.\web.py	/^    def set_extra_headers(self, path):$/;"	m	class:StaticFileHandler
+set_header	.\web.py	/^    def set_header(self, name, value):$/;"	m	class:RequestHandler
+set_secure_cookie	.\web.py	/^    def set_secure_cookie(self, name, value, expires_days=30, **kwargs):$/;"	m	class:RequestHandler
+set_status	.\web.py	/^    def set_status(self, status_code):$/;"	m	class:RequestHandler
+settings	.\web.py	/^    def settings(self):$/;"	m	class:RequestHandler
+signal	.\autoreload.py	/^    import signal$/;"	i
+signal	.\autoreload.py	/^    signal = None$/;"	v
+signal	.\ioloop.py	/^    import signal$/;"	i
+signal	.\ioloop.py	/^    signal = None$/;"	v
+simplejson	.\escape.py	/^            from django.utils import simplejson$/;"	i
+simplejson	.\escape.py	/^        import simplejson$/;"	i
+socket	.\httpserver.py	/^import socket$/;"	i
+socket	.\iostream.py	/^import socket$/;"	i
+socket	.\win32_support.py	/^import socket$/;"	i
+squeeze	.\escape.py	/^def squeeze(value):$/;"	f
+ssl	.\httpserver.py	/^    import ssl # Python 2.6+$/;"	i
+ssl	.\httpserver.py	/^    ssl = None$/;"	v
+start	.\autoreload.py	/^def start(io_loop=None, check_time=500):$/;"	f
+start	.\httpserver.py	/^    def start(self, num_processes=1):$/;"	m	class:HTTPServer
+start	.\ioloop.py	/^    def start(self):$/;"	m	class:IOLoop
+start	.\ioloop.py	/^    def start(self):$/;"	m	class:PeriodicCallback
+start	.\s3server.py	/^def start(port, root_directory="\/tmp\/s3", bucket_depth=0):$/;"	f
+start_response	.\wsgi.py	/^        def start_response(status, response_headers, exc_info=None):$/;"	f	function:WSGIContainer.__call__
+stat	.\web.py	/^import stat$/;"	i
+statement	.\template.py	/^                    raise ParseError("import missing statement on line %d" % line)$/;"	i
+static_url	.\web.py	/^    def static_url(self, path):$/;"	m	class:RequestHandler
+stop	.\httpserver.py	/^    def stop(self):$/;"	m	class:HTTPServer
+stop	.\ioloop.py	/^    def stop(self):$/;"	m	class:IOLoop
+stop	.\ioloop.py	/^    def stop(self):$/;"	m	class:PeriodicCallback
+supports_http_1_1	.\httpserver.py	/^    def supports_http_1_1(self):$/;"	m	class:HTTPRequest
+supports_http_1_1	.\wsgi.py	/^    def supports_http_1_1(self):$/;"	m	class:HTTPRequest
+sys	.\autoreload.py	/^import sys$/;"	i
+sys	.\httpclient.py	/^import sys$/;"	i
+sys	.\ioloop.py	/^        import sys$/;"	i
+sys	.\options.py	/^import sys$/;"	i
+sys	.\web.py	/^import sys$/;"	i
+sys	.\wsgi.py	/^import sys$/;"	i
+tearDown	.\test\test_ioloop.py	/^    def tearDown(self):$/;"	m	class:TestIOLoop
+template	.\web.py	/^import template$/;"	i
+test_add_callback	.\test\test_ioloop.py	/^    def test_add_callback(self):$/;"	m	class:TestIOLoop
+time	.\auth.py	/^import time$/;"	i
+time	.\httpclient.py	/^import time$/;"	i
+time	.\httpserver.py	/^import time$/;"	i
+time	.\ioloop.py	/^import time$/;"	i
+time	.\options.py	/^import time$/;"	i
+time	.\test\test_ioloop.py	/^import time$/;"	i
+time	.\web.py	/^import time$/;"	i
+time	.\wsgi.py	/^import time$/;"	i
+traceback	.\ioloop.py	/^import traceback$/;"	i
+transform_chunk	.\web.py	/^    def transform_chunk(self, block, finishing):$/;"	m	class:ChunkedTransferEncoding
+transform_chunk	.\web.py	/^    def transform_chunk(self, chunk, finishing):$/;"	m	class:GZipContentEncoding
+transform_chunk	.\web.py	/^    def transform_chunk(self, chunk, finishing):$/;"	m	class:OutputTransform
+transform_first_chunk	.\web.py	/^    def transform_first_chunk(self, headers, chunk, finishing):$/;"	m	class:ChunkedTransferEncoding
+transform_first_chunk	.\web.py	/^    def transform_first_chunk(self, headers, chunk, finishing):$/;"	m	class:GZipContentEncoding
+transform_first_chunk	.\web.py	/^    def transform_first_chunk(self, headers, chunk, finishing):$/;"	m	class:OutputTransform
+translate	.\locale.py	/^    def translate(self, message, plural_message=None, count=None):$/;"	m	class:CSVLocale
+translate	.\locale.py	/^    def translate(self, message, plural_message=None, count=None):$/;"	m	class:GettextLocale
+translate	.\locale.py	/^    def translate(self, message, plural_message=None, count=None):$/;"	m	class:Locale
+twitter_request	.\auth.py	/^    def twitter_request(self, path, callback, access_token=None,$/;"	m	class:TwitterMixin
+types	.\autoreload.py	/^import types$/;"	i
+types	.\web.py	/^import types$/;"	i
+unittest	.\test\test_ioloop.py	/^import unittest$/;"	i
+unquote	.\web.py	/^                    def unquote(s):$/;"	f	function:Application.__call__
+unregister	.\ioloop.py	/^    def unregister(self, fd):$/;"	m	class:_EPoll
+unregister	.\ioloop.py	/^    def unregister(self, fd):$/;"	m	class:_KQueue
+unregister	.\ioloop.py	/^    def unregister(self, fd):$/;"	m	class:_Select
+update	.\httputil.py	/^    def update(self, *args, **kwargs):$/;"	m	class:HTTPHeaders
+update_handler	.\ioloop.py	/^    def update_handler(self, fd, events):$/;"	m	class:IOLoop
+url	.\web.py	/^url = URLSpec$/;"	v
+url_escape	.\escape.py	/^def url_escape(value):$/;"	f
+url_unescape	.\escape.py	/^def url_unescape(value):$/;"	f
+urllib	.\auth.py	/^import urllib$/;"	i
+urllib	.\escape.py	/^import urllib$/;"	i
+urllib	.\s3server.py	/^import urllib$/;"	i
+urllib	.\web.py	/^import urllib$/;"	i
+urllib	.\wsgi.py	/^import urllib$/;"	i
+urlparse	.\auth.py	/^import urlparse$/;"	i
+urlparse	.\httpserver.py	/^import urlparse$/;"	i
+urlparse	.\web.py	/^import urlparse$/;"	i
+utf8	.\escape.py	/^def utf8(value):$/;"	f
+utils	.\httpclient.py	/^import email.utils$/;"	i
+utils	.\web.py	/^import email.utils$/;"	i
+uuid	.\auth.py	/^import uuid$/;"	i
+uuid	.\web.py	/^import uuid$/;"	i
+value	.\options.py	/^    def value(self):$/;"	m	class:_Option
+weakref	.\httpclient.py	/^import weakref$/;"	i
+web	.\s3server.py	/^import web$/;"	i
+web	.\wsgi.py	/^import web$/;"	i
+win32_support	.\ioloop.py	/^        import win32_support$/;"	i
+wintypes	.\win32_support.py	/^import ctypes.wintypes$/;"	i
+with_statement	.\template.py	/^from __future__ import with_statement$/;"	i
+wrapper	.\web.py	/^        def wrapper(*args, **kwargs):$/;"	f	function:RequestHandler.async_callback
+wrapper	.\web.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:addslash
+wrapper	.\web.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:asynchronous
+wrapper	.\web.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:authenticated
+wrapper	.\web.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:removeslash
+write	.\httpserver.py	/^    def write(self, chunk):$/;"	m	class:HTTPConnection
+write	.\httpserver.py	/^    def write(self, chunk):$/;"	m	class:HTTPRequest
+write	.\iostream.py	/^    def write(self, data, callback=None):$/;"	m	class:IOStream
+write	.\web.py	/^    def write(self, chunk):$/;"	m	class:RequestHandler
+write	.\win32_support.py	/^    def write(self, data):$/;"	m	class:Pipe
+write_line	.\template.py	/^    def write_line(self, line, indent=None):$/;"	m	class:_CodeWriter
+writing	.\iostream.py	/^    def writing(self):$/;"	m	class:IOStream
+xhtml_escape	.\escape.py	/^def xhtml_escape(value):$/;"	f
+xhtml_unescape	.\escape.py	/^def xhtml_unescape(value):$/;"	f
+xml	.\escape.py	/^import xml.sax.saxutils$/;"	i
+xsrf_form_html	.\web.py	/^    def xsrf_form_html(self):$/;"	m	class:RequestHandler
+xsrf_token	.\web.py	/^    def xsrf_token(self):$/;"	m	class:RequestHandler
