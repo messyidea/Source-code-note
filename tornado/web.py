@@ -173,6 +173,7 @@ class RequestHandler(object):
             # If \n is allowed into the header, it is possible to inject
             # additional headers or split the request. Also cap length to
             # prevent obviously erroneous values.
+            #把某些特殊字符，然后切片取前4000个字符
             safe_value = re.sub(r"[\x00-\x1f]", " ", value)[:4000]
             if safe_value != value:
                 raise ValueError("Unsafe header value %r", value)
@@ -346,6 +347,7 @@ class RequestHandler(object):
         the Content-Type of the response to be text/javascript.
         """
         assert not self._finished
+        #如果是字典形式的，就改写为json
         if isinstance(chunk, dict):
             chunk = escape.json_encode(chunk)
             self.set_header("Content-Type", "text/javascript; charset=UTF-8")
