@@ -336,7 +336,7 @@ class Session(SessionRedirectMixin):
         #: may be any other ``cookielib.CookieJar`` compatible object.
         self.cookies = cookiejar_from_dict({})
 
-        # Default connection adapters.
+        # Default  adapters.
         self.adapters = OrderedDict()
         self.mount('https://', HTTPAdapter())
         self.mount('http://', HTTPAdapter())
