@@ -967,6 +967,7 @@ class Application(object):
                 (r"/(favicon\.ico)", StaticFileHandler, dict(path=path)),
                 (r"/(robots\.txt)", StaticFileHandler, dict(path=path)),
             ] + handlers
+        # 在什么情况下，handler为none?
         if handlers: self.add_handlers(".*$", handlers)
 
         # Automatically reload modified modules
@@ -1400,6 +1401,7 @@ class UIModule(object):
 class URLSpec(object):
     """Specifies mappings between URLs and handlers."""
     def __init__(self, pattern, handler_class, kwargs={}, name=None):
+        # name 是怎么传值的。
         """Creates a URLSpec.
 
         Parameters:

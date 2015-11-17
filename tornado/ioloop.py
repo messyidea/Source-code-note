@@ -71,6 +71,7 @@ class IOLoop(object):
         sock.listen(128)
 
         io_loop = ioloop.IOLoop.instance()
+        # 创建了一个可以callback的对象, sock 为 connection_ready 的第一个 parm
         callback = functools.partial(connection_ready, sock)
         io_loop.add_handler(sock.fileno(), callback, io_loop.READ)
         io_loop.start()
@@ -291,6 +292,7 @@ class IOLoop(object):
     def add_timeout(self, deadline, callback):
         """Calls the given callback at the time deadline from the I/O loop."""
         timeout = _Timeout(deadline, callback)
+        # insert sort, timeout 重写了cmp函数
         bisect.insort(self._timeouts, timeout)
         return timeout
 
