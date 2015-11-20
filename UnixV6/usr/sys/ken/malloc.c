@@ -15,8 +15,8 @@
  */
 struct map
 {
-	char *m_size;
-	char *m_addr;
+	char *m_size;   //未使用区域长度
+	char *m_addr;   //未使用区域地质
 };
 
 /*
@@ -52,7 +52,7 @@ struct map *mp;
  * Sort aa into map and combine on
  * one or both ends if possible.
  */
-mfree(mp, size, aa)
+mfree(mp, size, aa)     //aa 为释放内存地址
 struct map *mp;
 {
 	register struct map *bp;
@@ -61,9 +61,9 @@ struct map *mp;
 
 	a = aa;
 	for (bp = mp; bp->m_addr<=a && bp->m_size!=0; bp++);
-	if (bp>mp && (bp-1)->m_addr+(bp-1)->m_size == a) {
+	if (bp>mp && (bp-1)->m_addr+(bp-1)->m_size == a) {  //两块刚好可以合并为一块
 		(bp-1)->m_size =+ size;
-		if (a+size == bp->m_addr) {
+		if (a+size == bp->m_addr) {     // 可以和后面合并
 			(bp-1)->m_size =+ bp->m_size;
 			while (bp->m_size) {
 				bp++;
