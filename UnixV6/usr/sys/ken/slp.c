@@ -364,14 +364,14 @@ newproc()
 	 */
 retry:
 	mpid++;
-	if(mpid < 0) {
+	if(mpid < 0) {      //一直加小于0溢出
 		mpid = 0;
 		goto retry;
 	}
 	for(rpp = &proc[0]; rpp < &proc[NPROC]; rpp++) {
 		if(rpp->p_stat == NULL && p==NULL)
 			p = rpp;
-		if (rpp->p_pid==mpid)
+		if (rpp->p_pid==mpid)   //是否存在一个pid是已存在的。这样的话要重新分配pid
 			goto retry;
 	}
 	if ((rpp = p)==NULL)
@@ -381,10 +381,10 @@ retry:
 	 * make proc entry for new proc
 	 */
 
-	rip = u.u_procp;
+	rip = u.u_procp;        //u就是那个全局变量，可以获取当前进程。当前进程在生成新进程的时候就是父进程
 	up = rip;
-	rpp->p_stat = SRUN;
-	rpp->p_flag = SLOAD;
+	rpp->p_stat = SRUN;     //可执行
+	rpp->p_flag = SLOAD;    //位于内存中
 	rpp->p_uid = rip->p_uid;
 	rpp->p_ttyp = rip->p_ttyp;
 	rpp->p_nice = rip->p_nice;
@@ -397,11 +397,11 @@ retry:
 	 * make duplicate entries
 	 * where needed
 	 */
-
+    // 参照计数器加1
 	for(rip = &u.u_ofile[0]; rip < &u.u_ofile[NOFILE];)
 		if((rpp = *rip++) != NULL)
 			rpp->f_count++;
-	if((rpp=up->p_textp) != NULL) {
+	if((rpp=up->p_textp) != NULL) {     //代码段的参照寄存器加1
 		rpp->x_count++;
 		rpp->x_ccount++;
 	}
@@ -411,10 +411,10 @@ retry:
 	 * of the new process so that when it is actually
 	 * created (by copying) it will look right.
 	 */
-	savu(u.u_rsav);
-	rpp = p;
-	u.u_procp = rpp;
-	rip = up;
+	savu(u.u_rsav);         //u目前是父进程，将r5和r6暂存到父进程中（为什么要存？进程切换用）
+	rpp = p;    //p是自己
+	u.u_procp = rpp;        //此时复制出来的数据段中的proc指向的是子进程的proc
+	rip = up;   //up是当前进程，是父亲。（和u的关系？）
 	n = rip->p_size;
 	a1 = rip->p_addr;
 	rpp->p_size = n;
@@ -424,11 +424,11 @@ retry:
 	 * new process, swap out the current process to generate the
 	 * copy.
 	 */
-	if(a2 == NULL) {
-		rip->p_stat = SIDL;
+	if(a2 == NULL) {    //没有足够内存，父进程数据段会换出swap，作为子进程数据段（休眠）。最后父进程数据段改为可运行。
+		rip->p_stat = SIDL;     //这样父进程不会变成可执行进程，所以不会被换出交换空间。
 		rpp->p_addr = a1;
-		savu(u.u_ssav);
-		xswap(rpp, 0, 0);
+		savu(u.u_ssav);     //r5,r6为帧指针和栈指针，这样的话子进程保存了父进程的状态。（u_ssav和u_rsav都存放着r5和r6）。换出交换空间时，u_rsav不再有效，保存r5和r6
+		xswap(rpp, 0, 0);   //第二个参数为0表示内存中的数据段不会被释放
 		rpp->p_flag =| SSWAP;
 		rip->p_stat = SRUN;
 	} else {
