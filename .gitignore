@@ -1,0 +1,7 @@
+*.o
+*.exe
+*.bin
+*.lst
+*.obj
+*.map
+*.swp
