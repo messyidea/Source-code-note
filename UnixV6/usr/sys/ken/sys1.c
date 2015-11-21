@@ -35,14 +35,14 @@ exec()
 	 * for execute permission
 	 */
 
-	ip = namei(&uchar, 0);
+	ip = namei(&uchar, 0);      //对路径进行检查
 	if(ip == NULL)
 		return;
-	while(execnt >= NEXEC)
+	while(execnt >= NEXEC)      //最大exec数位NEXEC
 		sleep(&execnt, EXPRI);
-	execnt++;
-	bp = getblk(NODEV);
-	if(access(ip, IEXEC) || (ip->i_mode&IFMT)!=0)
+	execnt++;   //exec的数量
+	bp = getblk(NODEV);     //取得尚未分配给其它块设备的块设备缓冲区
+	if(access(ip, IEXEC) || (ip->i_mode&IFMT)!=0)   //该文件是否可执行
 		goto bad;
 
 	/*
@@ -72,7 +72,7 @@ exec()
 				break;
 		}
 	}
-	if((nc&1) != 0) {
+	if((nc&1) != 0) {       //系统希望以字单位进行处理，要求偶数
 		*cp++ = 0;
 		nc++;
 	}
@@ -92,7 +92,7 @@ exec()
 	u.u_offset[1] = 0;
 	u.u_offset[0] = 0;
 	u.u_segflg = 1;
-	readi(ip);
+	readi(ip);  //读取文件头
 	u.u_segflg = 0;
 	if(u.u_error)
 		goto bad;

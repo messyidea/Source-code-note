@@ -22,21 +22,22 @@
  * premature return, and check that the reason for
  * sleeping has gone away.
  */
-sleep(chan, pri)
+sleep(chan, pri)        //pri 进程被唤醒时的执行优先级
 {
 	register *rp, s;
 
-	s = PS->integ;
+	s = PS->integ;      //保存PSW
 	rp = u.u_procp;
 	if(pri >= 0) {
-		if(issig())
+		if(issig())     //是否收到信号
 			goto psig;
 		spl6();
-		rp->p_wchan = chan;
+        /* 设定优先级6这些防止中断的时候wakeup修改这些值 */
+		rp->p_wchan = chan;     //进程正在等待的资源
 		rp->p_stat = SWAIT;
 		rp->p_pri = pri;
 		spl0();
-		if(runin != 0) {
+		if(runin != 0) {    //为1表示不存在需要被换出至交换空间的对象
 			runin = 0;
 			wakeup(&runin);
 		}
@@ -51,7 +52,7 @@ sleep(chan, pri)
 		spl0();
 		swtch();
 	}
-	PS->integ = s;
+	PS->integ = s;      //恢复psw
 	return;
 
 	/*
@@ -62,7 +63,7 @@ sleep(chan, pri)
 	 * (see trap1/trap.c)
 	 */
 psig:
-	aretu(u.u_qsav);
+	aretu(u.u_qsav);        //?
 }
 
 /*
@@ -114,12 +115,12 @@ setpri(up)
 	register *pp, p;
 
 	pp = up;
-	p = (pp->p_cpu & 0377)/16;
+	p = (pp->p_cpu & 0377)/16;      //p_cpu 指占用cpu的时间
 	p =+ PUSER + pp->p_nice;
 	if(p > 127)
 		p = 127;
 	if(p > curpri)
-		runrun++;
+		runrun++;       //存在优先级大于当前进程的其它进程
 	pp->p_pri = p;
 }
 
@@ -307,13 +308,13 @@ loop:
 		goto loop;
 	}
 	rp = p;
-	curpri = n;
+	curpri = n;     //全局变量，当前执行进程的优先级
 	/*
 	 * Switch to stack of the new process and set up
 	 * his segmentation registers.
 	 */
-	retu(rp->p_addr);
-	sureg();
+	retu(rp->p_addr);       //切换
+	sureg();        //被选择进程的user结构体恢复到硬件的用户APR,切换用户空间
 	/*
 	 * If the new process paused because it was
 	 * swapped out, set the stack level to the last call
