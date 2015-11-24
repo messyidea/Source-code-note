@@ -204,24 +204,24 @@ ssig()
 	register a;
 
 	a = u.u_arg[0];
-	if(a<=0 || a>=NSIG || a ==SIGKIL) {
+	if(a<=0 || a>=NSIG || a ==SIGKIL) { //信号要在范围内，且不能是强制终止信号。
 		u.u_error = EINVAL;
 		return;
 	}
 	u.u_ar0[R0] = u.u_signal[a];
-	u.u_signal[a] = u.u_arg[1];
-	if(u.u_procp->p_sig == a)
+	u.u_signal[a] = u.u_arg[1];     //设定指向的值
+	if(u.u_procp->p_sig == a)       //如果设置的值和之前的值一样，则需要重置
 		u.u_procp->p_sig = 0;
 }
 
-kill()
+kill()  //参数是进程id和信号的种类
 {
 	register struct proc *p, *q;
 	register a;
 	int f;
 
 	f = 0;
-	a = u.u_ar0[R0];
+	a = u.u_ar0[R0];        //进程pid
 	q = u.u_procp;
 	for(p = &proc[0]; p < &proc[NPROC]; p++) {
 		if(p == q)
@@ -233,7 +233,7 @@ kill()
 		if(u.u_uid != 0 && u.u_uid != p->p_uid)
 			continue;
 		f++;
-		psignal(p, u.u_arg[0]);
+		psignal(p, u.u_arg[0]);     //u.u_arg[0]指信号种类
 	}
 	if(f == 0)
 		u.u_error = ESRCH;

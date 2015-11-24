@@ -160,9 +160,9 @@ sloop:
 	sleep(&runin, PSWP);
 
 loop:
-	spl6();
+	spl6();     //防止中断
 	n = -1;
-	for(rp = &proc[0]; rp < &proc[NPROC]; rp++)
+	for(rp = &proc[0]; rp < &proc[NPROC]; rp++)     //寻找滞留在交换空间时间最长的进程
 	if(rp->p_stat==SRUN && (rp->p_flag&SLOAD)==0 &&
 	    rp->p_time > n) {
 		p1 = rp;
@@ -205,7 +205,7 @@ loop:
 	 * oldest process in core
 	 */
 
-	if(n < 3)
+	if(n < 3)       //n代表距离上次被换入的时间
 		goto sloop;
 	n = -1;
 	for(rp = &proc[0]; rp < &proc[NPROC]; rp++)

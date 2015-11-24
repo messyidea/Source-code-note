@@ -45,7 +45,7 @@ struct
  * Called by tty.c for quits and
  * interrupts.
  */
-signal(tp, sig)
+signal(tp, sig)     //向同一中断的进程发送信号。
 {
 	register struct proc *p;
 
@@ -58,7 +58,7 @@ signal(tp, sig)
  * Send the specified signal to
  * the specified process.
  */
-psignal(p, sig)
+psignal(p, sig)     //向指定的进程发送信号
 int *p;
 {
 	register *rp;
@@ -70,7 +70,7 @@ int *p;
 		rp->p_sig = sig;
 	if(rp->p_stat > PUSER)
 		rp->p_stat = PUSER;
-	if(rp->p_stat == SWAIT)
+	if(rp->p_stat == SWAIT)     //如果进程状态为swait且处于睡眠，则将其唤醒并进行处理
 		setrun(rp);
 }
 
@@ -85,7 +85,7 @@ int *p;
  * a flag that asks the process to
  * do something to itself.
  */
-issig()
+issig()     //检测是否存在该信号。
 {
 	register n;
 	register struct proc *p;
@@ -143,12 +143,12 @@ psig()
 	rp = u.u_procp;
 	n = rp->p_sig;
 	rp->p_sig = 0;
-	if((p=u.u_signal[n]) != 0) {
+	if((p=u.u_signal[n]) != 0) {        //设定为独立信号
 		u.u_error = 0;
 		if(n != SIGINS && n != SIGTRC)
 			u.u_signal[n] = 0;
 		n = u.u_ar0[R6] - 4;
-		grow(n);
+		grow(n);        //扩展栈
 		suword(n+2, u.u_ar0[RPS]);
 		suword(n, u.u_ar0[R7]);
 		u.u_ar0[R6] = n;
@@ -168,7 +168,7 @@ psig()
 	case SIGSEG:
 	case SIGSYS:
 		u.u_arg[0] = n;
-		if(core())
+		if(core())      //core() 内核转储？用户可以根据该文件调试程序
 			n =+ 0200;
 	}
 	u.u_arg[0] = (u.u_ar0[R0]<<8) | n;
@@ -185,7 +185,7 @@ psig()
  * user.h area followed by the entire
  * data+stack segments.
  */
-core()
+core()              //在当前目录创建名为core的文件，文件包括数据段的全部内容
 {
 	register s, *ip;
 	extern schar;

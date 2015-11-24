@@ -31,12 +31,12 @@ int *p;
 	a = malloc(swapmap, (rp->p_size+7)/8);
 	if(a == NULL)
 		panic("out of swap space");
-	xccdec(rp->p_textp);
+	xccdec(rp->p_textp);    //递减进程所参照代码段的参照计数器，当变为0，代码段可换出内存
 	rp->p_flag =| SLOCK;
 	if(swap(a, rp->p_addr, os, 0))
 		panic("swap error");
 	if(ff)
-		mfree(coremap, os, rp->p_addr);
+		mfree(coremap, os, rp->p_addr);     //是否释放数据段
 	rp->p_addr = a;
 	rp->p_flag =& ~(SLOAD|SLOCK);
 	rp->p_time = 0;
